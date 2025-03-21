@@ -1,0 +1,404 @@
+#include <cjson/cJSON.h>
+#include <curl/curl.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+// personal files
+#include "../include/pokemon.h"
+#include "../include/parser.h"
+
+/**
+ * @struct Memory
+ * @brief A structure representing a memory space.
+ *
+ * This structure is used to store response from a HTTP request.
+ */
+struct Memory {
+  char *response; /**< Response to save in the memory */
+  size_t size;    /**< Size of the response */
+};
+
+/**
+ * @brief Callback function for handling HTTP response data.
+ *
+ * This function is used with `libcurl` to process incoming HTTP response data
+ * and dynamically store it in a `Memory` struct.
+ *
+ * @param contents Pointer to the received data chunk
+ * @param size Size of each data element (typically 1)
+ * @param nmemb Number of elements in the data chunk
+ * @param userp Pointer to a `Memory` struct where the response is stored
+ * @return The total number of bytes successfully written
+ *
+ * @see Memory
+ */
+size_t write_callback(void *contents, size_t size, size_t nmemb, void *userp) {
+  size_t total_size = size * nmemb;
+  struct Memory *mem = (struct Memory *)userp;
+
+  char *ptr = realloc(mem->response, mem->size + total_size + 1);
+  if (ptr == NULL)
+    return 0; // Memory allocation failed
+
+  mem->response = ptr;
+  memcpy(&(mem->response[mem->size]), contents, total_size);
+  mem->size += total_size;
+  mem->response[mem->size] = '\0';
+
+  return total_size;
+}
+
+/**
+ * @brief Function used for fetching from a HTTP response data.
+ *
+ * This function sends an HTTP GET request to the PokéAPI to retrieve Pokémon
+ * data in JSON format based on the given Pokémon ID.
+ *
+ * @param id ID of the pokémon to fetch (e.g., 25 for Pikachu)
+ * @param data Where the data are fetched in the PokéAPI (e.g., 'pokemon' for
+ * basic information)
+ * @return A dynamically allocated string containing the API response (JSON
+ * format), or `NULL` if the request fails
+ *
+ * @see write_callback()
+ * @see Memory
+ */
+char *fetch_pokemon(char *data, int id) {
+  curl_global_init(CURL_GLOBAL_DEFAULT);
+  // Curl variables
+  CURL *curl;
+  CURLcode res;
+  struct Memory chunk = {NULL, 0};
+
+  // Initialize curl
+  curl = curl_easy_init();
+  if (!curl) {
+    fprintf(stderr, "Curl initialization failed\n");
+    curl_global_cleanup();
+    return NULL;
+  }
+
+  // Build API URL
+  char url[100];
+  if (id == 0) {
+    snprintf(url, sizeof(url), "https://pokeapi.co/api/v2/%s", data);
+  } else {
+    snprintf(url, sizeof(url), "https://pokeapi.co/api/v2/%s/%d", data, id);
+  }
+
+  // Setup curl_easy_setopt() options
+  curl_easy_setopt(curl, CURLOPT_URL, url);
+  curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_callback);
+  curl_easy_setopt(curl, CURLOPT_WRITEDATA, (void *)&chunk);
+
+  // Perform a HTTP request
+  res = curl_easy_perform(curl);
+  // Error handling
+  if (res != CURLE_OK) {
+    fprintf(stderr, "curl_easy_perform() failed: %s\n",
+            curl_easy_strerror(res));
+    free(chunk.response);
+    curl_easy_cleanup(curl);
+    curl_global_cleanup();
+    return NULL;
+  }
+
+  // Clean up resources
+  curl_easy_cleanup(curl);
+  curl_global_cleanup();
+  // Return response
+  return chunk.response;
+}
+
+/**
+ * @brief Retrieve the total number of pokémon in pokéAPI
+ *
+ * This function calls the `fetch_pokemon()` function to retrieve Pokémon data
+ * in JSON format, parses the JSON, and extracts the "count" field, which
+ * represents the number of Pokémon.
+ * If the JSON parsing fails or the "count" field is not found or is not a
+ * number, the function will return `0`.
+ *
+ * @return The number of Pokémon as an integer. If an error occurs or the
+ * "count" field is missing or invalid, it returns `0`
+ *
+ * @see fetch_pokemon()
+ */
+int pokemon_count() {
+  cJSON *json = cJSON_Parse(fetch_pokemon("pokemon-species", 0));
+  if (!json) {
+    fprintf(stderr, "pokemon JSON parsing failed\n");
+    return 0;
+  }
+
+  cJSON *data = cJSON_GetObjectItem(json, "count");
+  if (cJSON_IsNumber(data)) {
+    return data->valueint;
+  } else {
+    return 0;
+  }
+  cJSON_Delete(json);
+}
+
+/**
+ * @brief Retrieve a string value from a cJSON object.
+ *
+ * This function extracts a string from a given cJSON object by key name.
+ * If the key is does not exist or is not a string, it returns "Not Found".
+ *
+ * @param json Pointer to a cJSON object
+ * @param name The key name to search for in the cJSON object
+ * @return The corresponding string value if found, otherwise "Not Found"
+ */
+char *get_str(cJSON *json, char *name) {
+  cJSON *data = cJSON_GetObjectItem(json, name);
+  if (cJSON_IsString(data)) {
+    return strdup(data->valuestring);
+  }
+  return strdup(NOT_FOUND);
+}
+
+/**
+ * @brief Retrieve an int value from a cJSON object.
+ *
+ * This function extracts an int from a given cJSON object by key name.
+ * If the key is does not exist or is not a string, it returns "Not Found".
+ *
+ * @param json Pointer to a cJSON object
+ * @param name The key name to search for in the cJSON object
+ * @return The corresponding int value if found, otherwise "Not Found"
+ */
+int get_int(cJSON *json, char *name) {
+  cJSON *json_int = cJSON_GetObjectItem(json, name);
+  if (cJSON_IsNumber(json_int)) {
+    return json_int->valueint;
+  }
+  return 0;
+}
+
+/**
+ * @brief Retrieve the types from a cJSON object.
+ *
+ * This function extracts either one or two string value from a given cJSON
+ * object that represents the types of the pokémon. For each types not found the
+ * result is "Not Found".
+ *
+ * @param json Pointer to a cJSON object
+ * @param types An array of two strings to store the result
+ */
+void get_types(cJSON *json, char *types[2]) {
+  cJSON *data = cJSON_GetObjectItem(json, "types");
+  if (cJSON_IsArray(data)) {
+    int size = cJSON_GetArraySize(data);
+    for (int i = 0; i < size; i++) {
+      cJSON *type_json = cJSON_GetArrayItem(data, i);
+      if (type_json) {
+        cJSON *type = cJSON_GetObjectItem(type_json, "type");
+        cJSON *name = cJSON_GetObjectItem(type, "name");
+
+        types[i] = strdup(name->valuestring);
+      }
+    }
+  }
+}
+
+char *read_json_file(const char *filename) {
+  FILE *file = fopen(filename, "r");
+  if (!file) {
+    perror("Error opening file");
+    return NULL;
+  }
+
+  fseek(file, 0, SEEK_END);
+  long length = ftell(file);
+  rewind(file);
+
+  char *json_data = (char *)malloc(length + 1);
+  if (!json_data) {
+    perror("Memory allocation failed");
+    fclose(file);
+    return NULL;
+  }
+
+  fread(json_data, 1, length, file);
+  fclose(file);
+
+  json_data[length] = '\0'; // Null-terminate the string
+  return json_data;
+}
+
+void convert_types(char *types[2]) {
+  char *json_str = read_json_file("assets/types.json");
+
+  cJSON *json = cJSON_Parse(json_str);
+  if (!json) {
+    fprintf(stderr, "Type JSON parsing failed\n");
+    return;
+  }
+
+  if (cJSON_IsArray(json)) {
+    int size = cJSON_GetArraySize(json);
+    for (int i = 0; i < size; i++) {
+      cJSON *types_json = cJSON_GetArrayItem(json, i);
+      cJSON *en_lang = cJSON_GetObjectItem(types_json, "en");
+
+      char *type = en_lang->valuestring;
+      if (strcmp(types[0], type) == 0) {
+        types[0] = strdup(type);
+      } else if (strcmp(types[1], type) == 0) {
+        types[1] = strdup(type);
+      }
+    }
+  }
+  cJSON_Delete(json);
+}
+
+/**
+ * @brief Retrieve the description from a cJSON object.
+ *
+ * This function extracts the description as a string value from a given
+ * cJSON object and returns it, if it does not exists returns "Not Found".
+ *
+ * @param json Pointer to a cJSON object
+ * @param version Version of the description (e.g. "omega-ruby" by default)
+ * @param lang Language of the description (e.g. "fr" by default)
+ * @return The description as a string value if found, otherwise "Not Found"
+ */
+char *get_desc(cJSON *json, char *version, char *lang) {
+  if (version == NULL)
+    version = "omega-ruby";
+  if (lang == NULL)
+    lang = "fr";
+
+  cJSON *flavor_text_entries = cJSON_GetObjectItem(json, "flavor_text_entries");
+  if (cJSON_IsArray(flavor_text_entries)) {
+    int size = cJSON_GetArraySize(flavor_text_entries);
+    for (int i = 0; i < size; i++) {
+      cJSON *poke_json = cJSON_GetArrayItem(flavor_text_entries, i);
+      if (poke_json) {
+        // Get the version name
+        cJSON *version_data = cJSON_GetObjectItem(poke_json, "version");
+        cJSON *version_name = cJSON_GetObjectItem(version_data, "name");
+
+        // Get the language name
+        cJSON *lang_data = cJSON_GetObjectItem(poke_json, "language");
+        cJSON *lang_name = cJSON_GetObjectItem(lang_data, "name");
+
+        // Check if the language and the version is the one we ask for
+        if (cJSON_IsString(lang_name) && cJSON_IsString(version_name)) {
+          if (strcmp(lang_name->valuestring, lang) == 0 &&
+              strcmp(version_name->valuestring, version) == 0) {
+            cJSON *flavor_text = cJSON_GetObjectItem(poke_json, "flavor_text");
+            return strdup(flavor_text->valuestring);
+          }
+        }
+      }
+    }
+  }
+  return strdup(NOT_FOUND);
+}
+
+/**
+ * @brief Retrieve the genus from a cJSON object.
+ *
+ * This function extracts the genus as a string value from a given
+ * cJSON object and returns it, if it does not exists returns "Not Found".
+ *
+ * @param json Pointer to a cJSON object
+ * @param lang Language of the genus (e.g. "fr" by default)
+ * @return The genus as a string value if found, otherwise "Not Found"
+ */
+char *get_genus(cJSON *json, char *lang) {
+  if (lang == NULL)
+    lang = "fr";
+
+  cJSON *data = cJSON_GetObjectItem(json, "genera");
+  if (cJSON_IsArray(data)) {
+    int size = cJSON_GetArraySize(data);
+    for (int i = 0; i < size; i++) {
+      cJSON *genus_json = cJSON_GetArrayItem(data, i);
+      if (genus_json) {
+        // Get the language name
+        cJSON *lang_data = cJSON_GetObjectItem(genus_json, "language");
+        cJSON *lang_name = cJSON_GetObjectItem(lang_data, "name");
+
+        // Check if the language and the version is the one we ask for
+        if (cJSON_IsString(lang_name)) {
+          if (strcmp(lang_name->valuestring, lang) == 0) {
+            return strdup(
+                cJSON_GetObjectItem(genus_json, "genus")->valuestring);
+          }
+        }
+      }
+    }
+  }
+  return strdup(NOT_FOUND);
+}
+
+/**
+ * @brief Parse the pokemon from two json data.
+ *
+ * This function creates a typedef Pokemon where is stored all of its
+ * information including: name, id, types, height, weight, description and
+ * genus.
+ *
+ * @param json_str Json data as a string where we can find the name, id, types,
+ * height and weight
+ * @param json_spe_str Json data as a string where we can find the description
+ * and the genus
+ * @return A typedef Pokemon that contains information about it, with "Not
+ * Found" or 0 as a result for each not found information
+ *
+ * @see Pokemon
+ * @see get_str()
+ * @see get_int()
+ * @see get_types()
+ * @see get_desc()
+ * @see get_genus()
+ */
+int parse_pokemon_json(struct Pokemon *pokemon, const char *json_str,
+                       const char *json_spe_str, char *version, char *lang) {
+  cJSON *json = cJSON_Parse(json_str);
+  if (!json) {
+    fprintf(stderr, "pokemon JSON parsing failed\n");
+    return 1;
+  }
+
+  // Extract "name" field
+  pokemon->name = get_str(json, "name");
+  // Extract "id" field
+  pokemon->id = get_int(json, "id");
+  // Extract "types" field
+  get_types(json, pokemon->types);
+  convert_types(pokemon->types);
+  // Extract "height" field
+  pokemon->height = get_int(json, "height");
+  // Extract "weight" field
+  pokemon->weight = get_int(json, "weight");
+
+  cJSON_Delete(json);
+
+  cJSON *json_spe = cJSON_Parse(json_spe_str);
+  if (!json_spe) {
+    fprintf(stderr, "pokemon-species JSON parsing failed\n");
+    return 1;
+  }
+
+  // Extract "desc" field
+  pokemon->desc = get_desc(json_spe, version, lang);
+  // Extract "genus" field
+  pokemon->genus = get_genus(json_spe, lang);
+
+  cJSON_Delete(json_spe);
+  return 0;
+}
+
+void free_pokemon(struct Pokemon *pokemon) {
+  free(pokemon->name);
+  free(pokemon->desc);
+  free(pokemon->genus);
+  if (pokemon->types[0])
+    free(pokemon->types[0]);
+  if (pokemon->types[1])
+    free(pokemon->types[1]);
+}

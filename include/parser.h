@@ -1,0 +1,87 @@
+#ifndef DISPLAY_H
+#define DISPLAY_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <curl/curl.h>
+
+/**
+ * @brief Callback function for handling HTTP response data.
+ *
+ * This function is used with `libcurl` to process incoming HTTP response data
+ * and dynamically store it in a `Memory` struct.
+ *
+ * @param contents Pointer to the received data chunk
+ * @param size Size of each data element (typically 1)
+ * @param nmemb Number of elements in the data chunk
+ * @param userp Pointer to a `Memory` struct where the response is stored
+ * @return The total number of bytes successfully written
+ *
+ * @see Memory
+ */
+size_t write_callback(void *contents, size_t size, size_t nmemb, void *userp);
+
+/**
+ * @brief Function used for fetching from a HTTP response data.
+ *
+ * This function sends an HTTP GET request to the PokéAPI to retrieve Pokémon
+ * data in JSON format based on the given Pokémon ID.
+ *
+ * @param id ID of the pokémon to fetch (e.g., 25 for Pikachu)
+ * @param data Where the data is fetched in the PokéAPI (e.g., 'pokemon' for
+ * basic information)
+ * @return A dynamically allocated string containing the API response (JSON
+ * format), or `NULL` if the request fails
+ *
+ * @see write_callback()
+ * @see Memory
+ */
+char *fetch_pokemon(char *data, int id);
+
+/**
+ * @brief Retrieve the total number of pokémon in PokéAPI.
+ *
+ * This function calls the `fetch_pokemon()` function to retrieve Pokémon data
+ * in JSON format, parses the JSON, and extracts the "count" field, which
+ * represents the number of Pokémon.
+ * If the JSON parsing fails or the "count" field is not found or is not a
+ * number, the function will return `0`.
+ *
+ * @return The number of Pokémon as an integer. If an error occurs or the
+ * "count" field is missing or invalid, it returns `0`
+ *
+ * @see fetch_pokemon()
+ */
+int pokemon_count(void);
+
+/**
+ * @brief Parse the pokemon from two JSON data.
+ *
+ * This function creates a typedef Pokemon structure that stores all of its
+ * information including: name, id, types, height, weight, description, and
+ * genus.
+ *
+ * @param json_str JSON data as a string where we can find the name, id, types,
+ * height, and weight
+ * @param json_spe_str JSON data as a string where we can find the description
+ * and the genus
+ * @param version Version of the description (e.g., "omega-ruby" by default)
+ * @param lang Language of the description and genus (e.g., "fr" by default)
+ * @return A typedef Pokemon that contains information about it, with "Not
+ * Found" or 0 as the result for each not found information
+ *
+ * @see Pokemon
+ * @see get_str()
+ * @see get_int()
+ * @see get_types()
+ * @see get_desc()
+ * @see get_genus()
+ */
+int parse_pokemon_json(struct Pokemon *pokemon, const char *json_str, const char *json_spe_str,
+                           char *version, char *lang);
+
+void free_pokemon(struct Pokemon *pokemon);
+
+#endif /* DISPLAY_H */
+
