@@ -1,0 +1,5127 @@
+[
+  {
+    "id": 1,
+    "fr": { "name": "Bulbizarre", "genus": "Pokémon Graine" },
+    "en": { "name": "Bulbasaur", "genus": "Seed Pokémon" }
+  },
+  {
+    "id": 2,
+    "fr": { "name": "Herbizarre", "genus": "Pokémon Graine" },
+    "en": { "name": "Ivysaur", "genus": "Seed Pokémon" }
+  },
+  {
+    "id": 3,
+    "fr": { "name": "Florizarre", "genus": "Pokémon Graine" },
+    "en": { "name": "Venusaur", "genus": "Seed Pokémon" }
+  },
+  {
+    "id": 4,
+    "fr": { "name": "Salamèche", "genus": "Pokémon Lézard" },
+    "en": { "name": "Charmander", "genus": "Lizard Pokémon" }
+  },
+  {
+    "id": 5,
+    "fr": { "name": "Reptincel", "genus": "Pokémon Flamme" },
+    "en": { "name": "Charmeleon", "genus": "Flame Pokémon" }
+  },
+  {
+    "id": 6,
+    "fr": { "name": "Dracaufeu", "genus": "Pokémon Flamme" },
+    "en": { "name": "Charizard", "genus": "Flame Pokémon" }
+  },
+  {
+    "id": 7,
+    "fr": { "name": "Carapuce", "genus": "Pokémon Minitortue" },
+    "en": { "name": "Squirtle", "genus": "Tiny Turtle Pokémon" }
+  },
+  {
+    "id": 8,
+    "fr": { "name": "Carabaffe", "genus": "Pokémon Tortue" },
+    "en": { "name": "Wartortle", "genus": "Turtle Pokémon" }
+  },
+  {
+    "id": 9,
+    "fr": { "name": "Tortank", "genus": "Pokémon Carapace" },
+    "en": { "name": "Blastoise", "genus": "Shellfish Pokémon" }
+  },
+  {
+    "id": 10,
+    "fr": { "name": "Chenipan", "genus": "Pokémon Ver" },
+    "en": { "name": "Caterpie", "genus": "Worm Pokémon" }
+  },
+  {
+    "id": 11,
+    "fr": { "name": "Chrysacier", "genus": "Pokémon Cocon" },
+    "en": { "name": "Metapod", "genus": "Cocoon Pokémon" }
+  },
+  {
+    "id": 12,
+    "fr": { "name": "Papilusion", "genus": "Pokémon Papillon" },
+    "en": { "name": "Butterfree", "genus": "Butterfly Pokémon" }
+  },
+  {
+    "id": 13,
+    "fr": { "name": "Aspicot", "genus": "Pokémon Insectopic" },
+    "en": { "name": "Weedle", "genus": "Hairy Bug Pokémon" }
+  },
+  {
+    "id": 14,
+    "fr": { "name": "Coconfort", "genus": "Pokémon Cocon" },
+    "en": { "name": "Kakuna", "genus": "Cocoon Pokémon" }
+  },
+  {
+    "id": 15,
+    "fr": { "name": "Dardargnan", "genus": "Pokémon Guêpoison" },
+    "en": { "name": "Beedrill", "genus": "Poison Bee Pokémon" }
+  },
+  {
+    "id": 16,
+    "fr": { "name": "Roucool", "genus": "Pokémon Minoiseau" },
+    "en": { "name": "Pidgey", "genus": "Tiny Bird Pokémon" }
+  },
+  {
+    "id": 17,
+    "fr": { "name": "Roucoups", "genus": "Pokémon Oiseau" },
+    "en": { "name": "Pidgeotto", "genus": "Bird Pokémon" }
+  },
+  {
+    "id": 18,
+    "fr": { "name": "Roucarnage", "genus": "Pokémon Oiseau" },
+    "en": { "name": "Pidgeot", "genus": "Bird Pokémon" }
+  },
+  {
+    "id": 19,
+    "fr": { "name": "Rattata", "genus": "Pokémon Souris" },
+    "en": { "name": "Rattata", "genus": "Mouse Pokémon" }
+  },
+  {
+    "id": 20,
+    "fr": { "name": "Rattatac", "genus": "Pokémon Souris" },
+    "en": { "name": "Raticate", "genus": "Mouse Pokémon" }
+  },
+  {
+    "id": 21,
+    "fr": { "name": "Piafabec", "genus": "Pokémon Minoiseau" },
+    "en": { "name": "Spearow", "genus": "Tiny Bird Pokémon" }
+  },
+  {
+    "id": 22,
+    "fr": { "name": "Rapasdepic", "genus": "Pokémon Bec-Oiseau" },
+    "en": { "name": "Fearow", "genus": "Beak Pokémon" }
+  },
+  {
+    "id": 23,
+    "fr": { "name": "Abo", "genus": "Pokémon Serpent" },
+    "en": { "name": "Ekans", "genus": "Snake Pokémon" }
+  },
+  {
+    "id": 24,
+    "fr": { "name": "Arbok", "genus": "Pokémon Cobra" },
+    "en": { "name": "Arbok", "genus": "Cobra Pokémon" }
+  },
+  {
+    "id": 25,
+    "fr": { "name": "Pikachu", "genus": "Pokémon Souris" },
+    "en": { "name": "Pikachu", "genus": "Mouse Pokémon" }
+  },
+  {
+    "id": 26,
+    "fr": { "name": "Raichu", "genus": "Pokémon Souris" },
+    "en": { "name": "Raichu", "genus": "Mouse Pokémon" }
+  },
+  {
+    "id": 27,
+    "fr": { "name": "Sabelette", "genus": "Pokémon Souris" },
+    "en": { "name": "Sandshrew", "genus": "Mouse Pokémon" }
+  },
+  {
+    "id": 28,
+    "fr": { "name": "Sablaireau", "genus": "Pokémon Souris" },
+    "en": { "name": "Sandslash", "genus": "Mouse Pokémon" }
+  },
+  {
+    "id": 29,
+    "fr": { "name": "Nidoran♀", "genus": "Pokémon Vénépic" },
+    "en": { "name": "Nidoran♀", "genus": "Poison Pin Pokémon" }
+  },
+  {
+    "id": 30,
+    "fr": { "name": "Nidorina", "genus": "Pokémon Vénépic" },
+    "en": { "name": "Nidorina", "genus": "Poison Pin Pokémon" }
+  },
+  {
+    "id": 31,
+    "fr": { "name": "Nidoqueen", "genus": "Pokémon Perceur" },
+    "en": { "name": "Nidoqueen", "genus": "Drill Pokémon" }
+  },
+  {
+    "id": 32,
+    "fr": { "name": "Nidoran♂", "genus": "Pokémon Vénépic" },
+    "en": { "name": "Nidoran♂", "genus": "Poison Pin Pokémon" }
+  },
+  {
+    "id": 33,
+    "fr": { "name": "Nidorino", "genus": "Pokémon Vénépic" },
+    "en": { "name": "Nidorino", "genus": "Poison Pin Pokémon" }
+  },
+  {
+    "id": 34,
+    "fr": { "name": "Nidoking", "genus": "Pokémon Perceur" },
+    "en": { "name": "Nidoking", "genus": "Drill Pokémon" }
+  },
+  {
+    "id": 35,
+    "fr": { "name": "Mélofée", "genus": "Pokémon Fée" },
+    "en": { "name": "Clefairy", "genus": "Fairy Pokémon" }
+  },
+  {
+    "id": 36,
+    "fr": { "name": "Mélodelfe", "genus": "Pokémon Fée" },
+    "en": { "name": "Clefable", "genus": "Fairy Pokémon" }
+  },
+  {
+    "id": 37,
+    "fr": { "name": "Goupix", "genus": "Pokémon Renard" },
+    "en": { "name": "Vulpix", "genus": "Fox Pokémon" }
+  },
+  {
+    "id": 38,
+    "fr": { "name": "Feunard", "genus": "Pokémon Renard" },
+    "en": { "name": "Ninetales", "genus": "Fox Pokémon" }
+  },
+  {
+    "id": 39,
+    "fr": { "name": "Rondoudou", "genus": "Pokémon Bouboule" },
+    "en": { "name": "Jigglypuff", "genus": "Balloon Pokémon" }
+  },
+  {
+    "id": 40,
+    "fr": { "name": "Grodoudou", "genus": "Pokémon Bouboule" },
+    "en": { "name": "Wigglytuff", "genus": "Balloon Pokémon" }
+  },
+  {
+    "id": 41,
+    "fr": { "name": "Nosferapti", "genus": "Pokémon Chovsouris" },
+    "en": { "name": "Zubat", "genus": "Bat Pokémon" }
+  },
+  {
+    "id": 42,
+    "fr": { "name": "Nosferalto", "genus": "Pokémon Chovsouris" },
+    "en": { "name": "Golbat", "genus": "Bat Pokémon" }
+  },
+  {
+    "id": 43,
+    "fr": { "name": "Mystherbe", "genus": "Pokémon Racine" },
+    "en": { "name": "Oddish", "genus": "Weed Pokémon" }
+  },
+  {
+    "id": 44,
+    "fr": { "name": "Ortide", "genus": "Pokémon Racine" },
+    "en": { "name": "Gloom", "genus": "Weed Pokémon" }
+  },
+  {
+    "id": 45,
+    "fr": { "name": "Rafflesia", "genus": "Pokémon Fleur" },
+    "en": { "name": "Vileplume", "genus": "Flower Pokémon" }
+  },
+  {
+    "id": 46,
+    "fr": { "name": "Paras", "genus": "Pokémon Champignon" },
+    "en": { "name": "Paras", "genus": "Mushroom Pokémon" }
+  },
+  {
+    "id": 47,
+    "fr": { "name": "Parasect", "genus": "Pokémon Champignon" },
+    "en": { "name": "Parasect", "genus": "Mushroom Pokémon" }
+  },
+  {
+    "id": 48,
+    "fr": { "name": "Mimitoss", "genus": "Pokémon Vermine" },
+    "en": { "name": "Venonat", "genus": "Insect Pokémon" }
+  },
+  {
+    "id": 49,
+    "fr": { "name": "Aéromite", "genus": "Pokémon Papipoison" },
+    "en": { "name": "Venomoth", "genus": "Poison Moth Pokémon" }
+  },
+  {
+    "id": 50,
+    "fr": { "name": "Taupiqueur", "genus": "Pokémon Taupe" },
+    "en": { "name": "Diglett", "genus": "Mole Pokémon" }
+  },
+  {
+    "id": 51,
+    "fr": { "name": "Triopikeur", "genus": "Pokémon Taupe" },
+    "en": { "name": "Dugtrio", "genus": "Mole Pokémon" }
+  },
+  {
+    "id": 52,
+    "fr": { "name": "Miaouss", "genus": "Pokémon Chadégout" },
+    "en": { "name": "Meowth", "genus": "Scratch Cat Pokémon" }
+  },
+  {
+    "id": 53,
+    "fr": { "name": "Persian", "genus": "Pokémon Chadeville" },
+    "en": { "name": "Persian", "genus": "Classy Cat Pokémon" }
+  },
+  {
+    "id": 54,
+    "fr": { "name": "Psykokwak", "genus": "Pokémon Canard" },
+    "en": { "name": "Psyduck", "genus": "Duck Pokémon" }
+  },
+  {
+    "id": 55,
+    "fr": { "name": "Akwakwak", "genus": "Pokémon Canard" },
+    "en": { "name": "Golduck", "genus": "Duck Pokémon" }
+  },
+  {
+    "id": 56,
+    "fr": { "name": "Férosinge", "genus": "Pokémon Porsinge" },
+    "en": { "name": "Mankey", "genus": "Pig Monkey Pokémon" }
+  },
+  {
+    "id": 57,
+    "fr": { "name": "Colossinge", "genus": "Pokémon Porsinge" },
+    "en": { "name": "Primeape", "genus": "Pig Monkey Pokémon" }
+  },
+  {
+    "id": 58,
+    "fr": { "name": "Caninos", "genus": "Pokémon Chiot" },
+    "en": { "name": "Growlithe", "genus": "Puppy Pokémon" }
+  },
+  {
+    "id": 59,
+    "fr": { "name": "Arcanin", "genus": "Pokémon Légendaire" },
+    "en": { "name": "Arcanine", "genus": "Legendary Pokémon" }
+  },
+  {
+    "id": 60,
+    "fr": { "name": "Ptitard", "genus": "Pokémon Têtard" },
+    "en": { "name": "Poliwag", "genus": "Tadpole Pokémon" }
+  },
+  {
+    "id": 61,
+    "fr": { "name": "Têtarte", "genus": "Pokémon Têtard" },
+    "en": { "name": "Poliwhirl", "genus": "Tadpole Pokémon" }
+  },
+  {
+    "id": 62,
+    "fr": { "name": "Tartard", "genus": "Pokémon Têtard" },
+    "en": { "name": "Poliwrath", "genus": "Tadpole Pokémon" }
+  },
+  {
+    "id": 63,
+    "fr": { "name": "Abra", "genus": "Pokémon Psy" },
+    "en": { "name": "Abra", "genus": "Psi Pokémon" }
+  },
+  {
+    "id": 64,
+    "fr": { "name": "Kadabra", "genus": "Pokémon Psy" },
+    "en": { "name": "Kadabra", "genus": "Psi Pokémon" }
+  },
+  {
+    "id": 65,
+    "fr": { "name": "Alakazam", "genus": "Pokémon Psy" },
+    "en": { "name": "Alakazam", "genus": "Psi Pokémon" }
+  },
+  {
+    "id": 66,
+    "fr": { "name": "Machoc", "genus": "Pokémon Colosse" },
+    "en": { "name": "Machop", "genus": "Superpower Pokémon" }
+  },
+  {
+    "id": 67,
+    "fr": { "name": "Machopeur", "genus": "Pokémon Colosse" },
+    "en": { "name": "Machoke", "genus": "Superpower Pokémon" }
+  },
+  {
+    "id": 68,
+    "fr": { "name": "Mackogneur", "genus": "Pokémon Colosse" },
+    "en": { "name": "Machamp", "genus": "Superpower Pokémon" }
+  },
+  {
+    "id": 69,
+    "fr": { "name": "Chétiflor", "genus": "Pokémon Fleur" },
+    "en": { "name": "Bellsprout", "genus": "Flower Pokémon" }
+  },
+  {
+    "id": 70,
+    "fr": { "name": "Boustiflor", "genus": "Pokémon Carnivore" },
+    "en": { "name": "Weepinbell", "genus": "Flycatcher Pokémon" }
+  },
+  {
+    "id": 71,
+    "fr": { "name": "Empiflor", "genus": "Pokémon Carnivore" },
+    "en": { "name": "Victreebel", "genus": "Flycatcher Pokémon" }
+  },
+  {
+    "id": 72,
+    "fr": { "name": "Tentacool", "genus": "Pokémon Mollusque" },
+    "en": { "name": "Tentacool", "genus": "Jellyfish Pokémon" }
+  },
+  {
+    "id": 73,
+    "fr": { "name": "Tentacruel", "genus": "Pokémon Mollusque" },
+    "en": { "name": "Tentacruel", "genus": "Jellyfish Pokémon" }
+  },
+  {
+    "id": 74,
+    "fr": { "name": "Racaillou", "genus": "Pokémon Roche" },
+    "en": { "name": "Geodude", "genus": "Rock Pokémon" }
+  },
+  {
+    "id": 75,
+    "fr": { "name": "Gravalanch", "genus": "Pokémon Roche" },
+    "en": { "name": "Graveler", "genus": "Rock Pokémon" }
+  },
+  {
+    "id": 76,
+    "fr": { "name": "Grolem", "genus": "Pokémon Titanesque" },
+    "en": { "name": "Golem", "genus": "Megaton Pokémon" }
+  },
+  {
+    "id": 77,
+    "fr": { "name": "Ponyta", "genus": "Pokémon Cheval Feu" },
+    "en": { "name": "Ponyta", "genus": "Fire Horse Pokémon" }
+  },
+  {
+    "id": 78,
+    "fr": { "name": "Galopa", "genus": "Pokémon Cheval Feu" },
+    "en": { "name": "Rapidash", "genus": "Fire Horse Pokémon" }
+  },
+  {
+    "id": 79,
+    "fr": { "name": "Ramoloss", "genus": "Pokémon Crétin" },
+    "en": { "name": "Slowpoke", "genus": "Dopey Pokémon" }
+  },
+  {
+    "id": 80,
+    "fr": { "name": "Flagadoss", "genus": "Pokémon Symbiose" },
+    "en": { "name": "Slowbro", "genus": "Hermit Crab Pokémon" }
+  },
+  {
+    "id": 81,
+    "fr": { "name": "Magnéti", "genus": "Pokémon Magnétique" },
+    "en": { "name": "Magnemite", "genus": "Magnet Pokémon" }
+  },
+  {
+    "id": 82,
+    "fr": { "name": "Magnéton", "genus": "Pokémon Magnétique" },
+    "en": { "name": "Magneton", "genus": "Magnet Pokémon" }
+  },
+  {
+    "id": 83,
+    "fr": { "name": "Canarticho", "genus": "Pokémon Canard Fou" },
+    "en": { "name": "Farfetch’d", "genus": "Wild Duck Pokémon" }
+  },
+  {
+    "id": 84,
+    "fr": { "name": "Doduo", "genus": "Pokémon Duoiseau" },
+    "en": { "name": "Doduo", "genus": "Twin Bird Pokémon" }
+  },
+  {
+    "id": 85,
+    "fr": { "name": "Dodrio", "genus": "Pokémon Trioiseau" },
+    "en": { "name": "Dodrio", "genus": "Triple Bird Pokémon" }
+  },
+  {
+    "id": 86,
+    "fr": { "name": "Otaria", "genus": "Pokémon Otarie" },
+    "en": { "name": "Seel", "genus": "Sea Lion Pokémon" }
+  },
+  {
+    "id": 87,
+    "fr": { "name": "Lamantine", "genus": "Pokémon Otarie" },
+    "en": { "name": "Dewgong", "genus": "Sea Lion Pokémon" }
+  },
+  {
+    "id": 88,
+    "fr": { "name": "Tadmorv", "genus": "Pokémon Dégueu" },
+    "en": { "name": "Grimer", "genus": "Sludge Pokémon" }
+  },
+  {
+    "id": 89,
+    "fr": { "name": "Grotadmorv", "genus": "Pokémon Dégueu" },
+    "en": { "name": "Muk", "genus": "Sludge Pokémon" }
+  },
+  {
+    "id": 90,
+    "fr": { "name": "Kokiyas", "genus": "Pokémon Bivalve" },
+    "en": { "name": "Shellder", "genus": "Bivalve Pokémon" }
+  },
+  {
+    "id": 91,
+    "fr": { "name": "Crustabri", "genus": "Pokémon Bivalve" },
+    "en": { "name": "Cloyster", "genus": "Bivalve Pokémon" }
+  },
+  {
+    "id": 92,
+    "fr": { "name": "Fantominus", "genus": "Pokémon Gaz" },
+    "en": { "name": "Gastly", "genus": "Gas Pokémon" }
+  },
+  {
+    "id": 93,
+    "fr": { "name": "Spectrum", "genus": "Pokémon Gaz" },
+    "en": { "name": "Haunter", "genus": "Gas Pokémon" }
+  },
+  {
+    "id": 94,
+    "fr": { "name": "Ectoplasma", "genus": "Pokémon Ombre" },
+    "en": { "name": "Gengar", "genus": "Shadow Pokémon" }
+  },
+  {
+    "id": 95,
+    "fr": { "name": "Onix", "genus": "Pokémon Serpenroc" },
+    "en": { "name": "Onix", "genus": "Rock Snake Pokémon" }
+  },
+  {
+    "id": 96,
+    "fr": { "name": "Soporifik", "genus": "Pokémon Hypnose" },
+    "en": { "name": "Drowzee", "genus": "Hypnosis Pokémon" }
+  },
+  {
+    "id": 97,
+    "fr": { "name": "Hypnomade", "genus": "Pokémon Hypnose" },
+    "en": { "name": "Hypno", "genus": "Hypnosis Pokémon" }
+  },
+  {
+    "id": 98,
+    "fr": { "name": "Krabby", "genus": "Pokémon Doux Crabe" },
+    "en": { "name": "Krabby", "genus": "River Crab Pokémon" }
+  },
+  {
+    "id": 99,
+    "fr": { "name": "Krabboss", "genus": "Pokémon Pince" },
+    "en": { "name": "Kingler", "genus": "Pincer Pokémon" }
+  },
+  {
+    "id": 100,
+    "fr": { "name": "Voltorbe", "genus": "Pokémon Balle" },
+    "en": { "name": "Voltorb", "genus": "Ball Pokémon" }
+  },
+  {
+    "id": 101,
+    "fr": { "name": "Électrode", "genus": "Pokémon Balle" },
+    "en": { "name": "Electrode", "genus": "Ball Pokémon" }
+  },
+  {
+    "id": 102,
+    "fr": { "name": "Noeunoeuf", "genus": "Pokémon Œuf" },
+    "en": { "name": "Exeggcute", "genus": "Egg Pokémon" }
+  },
+  {
+    "id": 103,
+    "fr": { "name": "Noadkoko", "genus": "Pokémon Fruitpalme" },
+    "en": { "name": "Exeggutor", "genus": "Coconut Pokémon" }
+  },
+  {
+    "id": 104,
+    "fr": { "name": "Osselait", "genus": "Pokémon Solitaire" },
+    "en": { "name": "Cubone", "genus": "Lonely Pokémon" }
+  },
+  {
+    "id": 105,
+    "fr": { "name": "Ossatueur", "genus": "Pokémon Gard’Os" },
+    "en": { "name": "Marowak", "genus": "Bone Keeper Pokémon" }
+  },
+  {
+    "id": 106,
+    "fr": { "name": "Kicklee", "genus": "Pokémon Latteur" },
+    "en": { "name": "Hitmonlee", "genus": "Kicking Pokémon" }
+  },
+  {
+    "id": 107,
+    "fr": { "name": "Tygnon", "genus": "Pokémon Puncheur" },
+    "en": { "name": "Hitmonchan", "genus": "Punching Pokémon" }
+  },
+  {
+    "id": 108,
+    "fr": { "name": "Excelangue", "genus": "Pokémon Lécheur" },
+    "en": { "name": "Lickitung", "genus": "Licking Pokémon" }
+  },
+  {
+    "id": 109,
+    "fr": { "name": "Smogo", "genus": "Pokémon Gaz Mortel" },
+    "en": { "name": "Koffing", "genus": "Poison Gas Pokémon" }
+  },
+  {
+    "id": 110,
+    "fr": { "name": "Smogogo", "genus": "Pokémon Gaz Mortel" },
+    "en": { "name": "Weezing", "genus": "Poison Gas Pokémon" }
+  },
+  {
+    "id": 111,
+    "fr": { "name": "Rhinocorne", "genus": "Pokémon Piquant" },
+    "en": { "name": "Rhyhorn", "genus": "Spikes Pokémon" }
+  },
+  {
+    "id": 112,
+    "fr": { "name": "Rhinoféros", "genus": "Pokémon Perceur" },
+    "en": { "name": "Rhydon", "genus": "Drill Pokémon" }
+  },
+  {
+    "id": 113,
+    "fr": { "name": "Leveinard", "genus": "Pokémon Œuf" },
+    "en": { "name": "Chansey", "genus": "Egg Pokémon" }
+  },
+  {
+    "id": 114,
+    "fr": { "name": "Saquedeneu", "genus": "Pokémon Vigne" },
+    "en": { "name": "Tangela", "genus": "Vine Pokémon" }
+  },
+  {
+    "id": 115,
+    "fr": { "name": "Kangourex", "genus": "Pokémon Maternel" },
+    "en": { "name": "Kangaskhan", "genus": "Parent Pokémon" }
+  },
+  {
+    "id": 116,
+    "fr": { "name": "Hypotrempe", "genus": "Pokémon Dragon" },
+    "en": { "name": "Horsea", "genus": "Dragon Pokémon" }
+  },
+  {
+    "id": 117,
+    "fr": { "name": "Hypocéan", "genus": "Pokémon Dragon" },
+    "en": { "name": "Seadra", "genus": "Dragon Pokémon" }
+  },
+  {
+    "id": 118,
+    "fr": { "name": "Poissirène", "genus": "Pokémon Poisson" },
+    "en": { "name": "Goldeen", "genus": "Goldfish Pokémon" }
+  },
+  {
+    "id": 119,
+    "fr": { "name": "Poissoroy", "genus": "Pokémon Poisson" },
+    "en": { "name": "Seaking", "genus": "Goldfish Pokémon" }
+  },
+  {
+    "id": 120,
+    "fr": { "name": "Stari", "genus": "Pokémon Étoile" },
+    "en": { "name": "Staryu", "genus": "Star Shape Pokémon" }
+  },
+  {
+    "id": 121,
+    "fr": { "name": "Staross", "genus": "Pokémon Mystérieux" },
+    "en": { "name": "Starmie", "genus": "Mysterious Pokémon" }
+  },
+  {
+    "id": 122,
+    "fr": { "name": "M. Mime", "genus": "Pokémon Bloqueur" },
+    "en": { "name": "Mr. Mime", "genus": "Barrier Pokémon" }
+  },
+  {
+    "id": 123,
+    "fr": { "name": "Insécateur", "genus": "Pokémon Mante" },
+    "en": { "name": "Scyther", "genus": "Mantis Pokémon" }
+  },
+  {
+    "id": 124,
+    "fr": { "name": "Lippoutou", "genus": "Pokémon Humanoïde" },
+    "en": { "name": "Jynx", "genus": "Human Shape Pokémon" }
+  },
+  {
+    "id": 125,
+    "fr": { "name": "Élektek", "genus": "Pokémon Électrique" },
+    "en": { "name": "Electabuzz", "genus": "Electric Pokémon" }
+  },
+  {
+    "id": 126,
+    "fr": { "name": "Magmar", "genus": "Pokémon Crache-Feu" },
+    "en": { "name": "Magmar", "genus": "Spitfire Pokémon" }
+  },
+  {
+    "id": 127,
+    "fr": { "name": "Scarabrute", "genus": "Pokémon Scarabée" },
+    "en": { "name": "Pinsir", "genus": "Stag Beetle Pokémon" }
+  },
+  {
+    "id": 128,
+    "fr": { "name": "Tauros", "genus": "Pokémon Buffle" },
+    "en": { "name": "Tauros", "genus": "Wild Bull Pokémon" }
+  },
+  {
+    "id": 129,
+    "fr": { "name": "Magicarpe", "genus": "Pokémon Poisson" },
+    "en": { "name": "Magikarp", "genus": "Fish Pokémon" }
+  },
+  {
+    "id": 130,
+    "fr": { "name": "Léviator", "genus": "Pokémon Terrifiant" },
+    "en": { "name": "Gyarados", "genus": "Atrocious Pokémon" }
+  },
+  {
+    "id": 131,
+    "fr": { "name": "Lokhlass", "genus": "Pokémon Transport" },
+    "en": { "name": "Lapras", "genus": "Transport Pokémon" }
+  },
+  {
+    "id": 132,
+    "fr": { "name": "Métamorph", "genus": "Pokémon Morphing" },
+    "en": { "name": "Ditto", "genus": "Transform Pokémon" }
+  },
+  {
+    "id": 133,
+    "fr": { "name": "Évoli", "genus": "Pokémon Évolutif" },
+    "en": { "name": "Eevee", "genus": "Evolution Pokémon" }
+  },
+  {
+    "id": 134,
+    "fr": { "name": "Aquali", "genus": "Pokémon Bulleur" },
+    "en": { "name": "Vaporeon", "genus": "Bubble Jet Pokémon" }
+  },
+  {
+    "id": 135,
+    "fr": { "name": "Voltali", "genus": "Pokémon Orage" },
+    "en": { "name": "Jolteon", "genus": "Lightning Pokémon" }
+  },
+  {
+    "id": 136,
+    "fr": { "name": "Pyroli", "genus": "Pokémon Flamme" },
+    "en": { "name": "Flareon", "genus": "Flame Pokémon" }
+  },
+  {
+    "id": 137,
+    "fr": { "name": "Porygon", "genus": "Pokémon Virtuel" },
+    "en": { "name": "Porygon", "genus": "Virtual Pokémon" }
+  },
+  {
+    "id": 138,
+    "fr": { "name": "Amonita", "genus": "Pokémon Spirale" },
+    "en": { "name": "Omanyte", "genus": "Spiral Pokémon" }
+  },
+  {
+    "id": 139,
+    "fr": { "name": "Amonistar", "genus": "Pokémon Spirale" },
+    "en": { "name": "Omastar", "genus": "Spiral Pokémon" }
+  },
+  {
+    "id": 140,
+    "fr": { "name": "Kabuto", "genus": "Pokémon Carapace" },
+    "en": { "name": "Kabuto", "genus": "Shellfish Pokémon" }
+  },
+  {
+    "id": 141,
+    "fr": { "name": "Kabutops", "genus": "Pokémon Carapace" },
+    "en": { "name": "Kabutops", "genus": "Shellfish Pokémon" }
+  },
+  {
+    "id": 142,
+    "fr": { "name": "Ptéra", "genus": "Pokémon Fossile" },
+    "en": { "name": "Aerodactyl", "genus": "Fossil Pokémon" }
+  },
+  {
+    "id": 143,
+    "fr": { "name": "Ronflex", "genus": "Pokémon Pionceur" },
+    "en": { "name": "Snorlax", "genus": "Sleeping Pokémon" }
+  },
+  {
+    "id": 144,
+    "fr": { "name": "Artikodin", "genus": "Pokémon Glaciaire" },
+    "en": { "name": "Articuno", "genus": "Freeze Pokémon" }
+  },
+  {
+    "id": 145,
+    "fr": { "name": "Électhor", "genus": "Pokémon Électrique" },
+    "en": { "name": "Zapdos", "genus": "Electric Pokémon" }
+  },
+  {
+    "id": 146,
+    "fr": { "name": "Sulfura", "genus": "Pokémon Flamme" },
+    "en": { "name": "Moltres", "genus": "Flame Pokémon" }
+  },
+  {
+    "id": 147,
+    "fr": { "name": "Minidraco", "genus": "Pokémon Dragon" },
+    "en": { "name": "Dratini", "genus": "Dragon Pokémon" }
+  },
+  {
+    "id": 148,
+    "fr": { "name": "Draco", "genus": "Pokémon Dragon" },
+    "en": { "name": "Dragonair", "genus": "Dragon Pokémon" }
+  },
+  {
+    "id": 149,
+    "fr": { "name": "Dracolosse", "genus": "Pokémon Dragon" },
+    "en": { "name": "Dragonite", "genus": "Dragon Pokémon" }
+  },
+  {
+    "id": 150,
+    "fr": { "name": "Mewtwo", "genus": "Pokémon Génétique" },
+    "en": { "name": "Mewtwo", "genus": "Genetic Pokémon" }
+  },
+  {
+    "id": 151,
+    "fr": { "name": "Mew", "genus": "Pokémon Nouveau" },
+    "en": { "name": "Mew", "genus": "New Species Pokémon" }
+  },
+  {
+    "id": 152,
+    "fr": { "name": "Germignon", "genus": "Pokémon Feuille" },
+    "en": { "name": "Chikorita", "genus": "Leaf Pokémon" }
+  },
+  {
+    "id": 153,
+    "fr": { "name": "Macronium", "genus": "Pokémon Feuille" },
+    "en": { "name": "Bayleef", "genus": "Leaf Pokémon" }
+  },
+  {
+    "id": 154,
+    "fr": { "name": "Méganium", "genus": "Pokémon Herbe" },
+    "en": { "name": "Meganium", "genus": "Herb Pokémon" }
+  },
+  {
+    "id": 155,
+    "fr": { "name": "Héricendre", "genus": "Pokémon Souris Feu" },
+    "en": { "name": "Cyndaquil", "genus": "Fire Mouse Pokémon" }
+  },
+  {
+    "id": 156,
+    "fr": { "name": "Feurisson", "genus": "Pokémon Volcan" },
+    "en": { "name": "Quilava", "genus": "Volcano Pokémon" }
+  },
+  {
+    "id": 157,
+    "fr": { "name": "Typhlosion", "genus": "Pokémon Volcan" },
+    "en": { "name": "Typhlosion", "genus": "Volcano Pokémon" }
+  },
+  {
+    "id": 158,
+    "fr": { "name": "Kaiminus", "genus": "Pokémon Mâchoire" },
+    "en": { "name": "Totodile", "genus": "Big Jaw Pokémon" }
+  },
+  {
+    "id": 159,
+    "fr": { "name": "Crocrodil", "genus": "Pokémon Mâchoire" },
+    "en": { "name": "Croconaw", "genus": "Big Jaw Pokémon" }
+  },
+  {
+    "id": 160,
+    "fr": { "name": "Aligatueur", "genus": "Pokémon Mâchoire" },
+    "en": { "name": "Feraligatr", "genus": "Big Jaw Pokémon" }
+  },
+  {
+    "id": 161,
+    "fr": { "name": "Fouinette", "genus": "Pokémon Espion" },
+    "en": { "name": "Sentret", "genus": "Scout Pokémon" }
+  },
+  {
+    "id": 162,
+    "fr": { "name": "Fouinar", "genus": "Pokémon Allongé" },
+    "en": { "name": "Furret", "genus": "Long Body Pokémon" }
+  },
+  {
+    "id": 163,
+    "fr": { "name": "Hoothoot", "genus": "Pokémon Hibou" },
+    "en": { "name": "Hoothoot", "genus": "Owl Pokémon" }
+  },
+  {
+    "id": 164,
+    "fr": { "name": "Noarfang", "genus": "Pokémon Hibou" },
+    "en": { "name": "Noctowl", "genus": "Owl Pokémon" }
+  },
+  {
+    "id": 165,
+    "fr": { "name": "Coxy", "genus": "Pokémon 5 Étoiles" },
+    "en": { "name": "Ledyba", "genus": "Five Star Pokémon" }
+  },
+  {
+    "id": 166,
+    "fr": { "name": "Coxyclaque", "genus": "Pokémon 5 Étoiles" },
+    "en": { "name": "Ledian", "genus": "Five Star Pokémon" }
+  },
+  {
+    "id": 167,
+    "fr": { "name": "Mimigal", "genus": "Pokémon Crache Fil" },
+    "en": { "name": "Spinarak", "genus": "String Spit Pokémon" }
+  },
+  {
+    "id": 168,
+    "fr": { "name": "Migalos", "genus": "Pokémon Long-Patte" },
+    "en": { "name": "Ariados", "genus": "Long Leg Pokémon" }
+  },
+  {
+    "id": 169,
+    "fr": { "name": "Nostenfer", "genus": "Pokémon Chovsouris" },
+    "en": { "name": "Crobat", "genus": "Bat Pokémon" }
+  },
+  {
+    "id": 170,
+    "fr": { "name": "Loupio", "genus": "Pokémon Poisson" },
+    "en": { "name": "Chinchou", "genus": "Angler Pokémon" }
+  },
+  {
+    "id": 171,
+    "fr": { "name": "Lanturn", "genus": "Pokémon Lumière" },
+    "en": { "name": "Lanturn", "genus": "Light Pokémon" }
+  },
+  {
+    "id": 172,
+    "fr": { "name": "Pichu", "genus": "Pokémon Minisouris" },
+    "en": { "name": "Pichu", "genus": "Tiny Mouse Pokémon" }
+  },
+  {
+    "id": 173,
+    "fr": { "name": "Mélo", "genus": "Pokémon Étoile" },
+    "en": { "name": "Cleffa", "genus": "Star Shape Pokémon" }
+  },
+  {
+    "id": 174,
+    "fr": { "name": "Toudoudou", "genus": "Pokémon Bouboule" },
+    "en": { "name": "Igglybuff", "genus": "Balloon Pokémon" }
+  },
+  {
+    "id": 175,
+    "fr": { "name": "Togepi", "genus": "Pokémon Balle Pic" },
+    "en": { "name": "Togepi", "genus": "Spike Ball Pokémon" }
+  },
+  {
+    "id": 176,
+    "fr": { "name": "Togetic", "genus": "Pokémon Bonheur" },
+    "en": { "name": "Togetic", "genus": "Happiness Pokémon" }
+  },
+  {
+    "id": 177,
+    "fr": { "name": "Natu", "genus": "Pokémon Minoiseau" },
+    "en": { "name": "Natu", "genus": "Tiny Bird Pokémon" }
+  },
+  {
+    "id": 178,
+    "fr": { "name": "Xatu", "genus": "Pokémon Mystique" },
+    "en": { "name": "Xatu", "genus": "Mystic Pokémon" }
+  },
+  {
+    "id": 179,
+    "fr": { "name": "Wattouat", "genus": "Pokémon Laine" },
+    "en": { "name": "Mareep", "genus": "Wool Pokémon" }
+  },
+  {
+    "id": 180,
+    "fr": { "name": "Lainergie", "genus": "Pokémon Laine" },
+    "en": { "name": "Flaaffy", "genus": "Wool Pokémon" }
+  },
+  {
+    "id": 181,
+    "fr": { "name": "Pharamp", "genus": "Pokémon Lumière" },
+    "en": { "name": "Ampharos", "genus": "Light Pokémon" }
+  },
+  {
+    "id": 182,
+    "fr": { "name": "Joliflor", "genus": "Pokémon Fleur" },
+    "en": { "name": "Bellossom", "genus": "Flower Pokémon" }
+  },
+  {
+    "id": 183,
+    "fr": { "name": "Marill", "genus": "Pokémon Aquasouris" },
+    "en": { "name": "Marill", "genus": "Aqua Mouse Pokémon" }
+  },
+  {
+    "id": 184,
+    "fr": { "name": "Azumarill", "genus": "Pokémon Aqualapin" },
+    "en": { "name": "Azumarill", "genus": "Aqua Rabbit Pokémon" }
+  },
+  {
+    "id": 185,
+    "fr": { "name": "Simularbre", "genus": "Pokémon Imitation" },
+    "en": { "name": "Sudowoodo", "genus": "Imitation Pokémon" }
+  },
+  {
+    "id": 186,
+    "fr": { "name": "Tarpaud", "genus": "Pokémon Grenouille" },
+    "en": { "name": "Politoed", "genus": "Frog Pokémon" }
+  },
+  {
+    "id": 187,
+    "fr": { "name": "Granivol", "genus": "Pokémon Pissenlit" },
+    "en": { "name": "Hoppip", "genus": "Cottonweed Pokémon" }
+  },
+  {
+    "id": 188,
+    "fr": { "name": "Floravol", "genus": "Pokémon Pissenlit" },
+    "en": { "name": "Skiploom", "genus": "Cottonweed Pokémon" }
+  },
+  {
+    "id": 189,
+    "fr": { "name": "Cotovol", "genus": "Pokémon Pissenlit" },
+    "en": { "name": "Jumpluff", "genus": "Cottonweed Pokémon" }
+  },
+  {
+    "id": 190,
+    "fr": { "name": "Capumain", "genus": "Pokémon Longqueue" },
+    "en": { "name": "Aipom", "genus": "Long Tail Pokémon" }
+  },
+  {
+    "id": 191,
+    "fr": { "name": "Tournegrin", "genus": "Pokémon Graine" },
+    "en": { "name": "Sunkern", "genus": "Seed Pokémon" }
+  },
+  {
+    "id": 192,
+    "fr": { "name": "Héliatronc", "genus": "Pokémon Soleil" },
+    "en": { "name": "Sunflora", "genus": "Sun Pokémon" }
+  },
+  {
+    "id": 193,
+    "fr": { "name": "Yanma", "genus": "Pokémon Translaile" },
+    "en": { "name": "Yanma", "genus": "Clear Wing Pokémon" }
+  },
+  {
+    "id": 194,
+    "fr": { "name": "Axoloto", "genus": "Pokémon Poisson" },
+    "en": { "name": "Wooper", "genus": "Water Fish Pokémon" }
+  },
+  {
+    "id": 195,
+    "fr": { "name": "Maraiste", "genus": "Pokémon Poisson" },
+    "en": { "name": "Quagsire", "genus": "Water Fish Pokémon" }
+  },
+  {
+    "id": 196,
+    "fr": { "name": "Mentali", "genus": "Pokémon Soleil" },
+    "en": { "name": "Espeon", "genus": "Sun Pokémon" }
+  },
+  {
+    "id": 197,
+    "fr": { "name": "Noctali", "genus": "Pokémon Lune" },
+    "en": { "name": "Umbreon", "genus": "Moonlight Pokémon" }
+  },
+  {
+    "id": 198,
+    "fr": { "name": "Cornèbre", "genus": "Pokémon Obscurité" },
+    "en": { "name": "Murkrow", "genus": "Darkness Pokémon" }
+  },
+  {
+    "id": 199,
+    "fr": { "name": "Roigada", "genus": "Pokémon Royal" },
+    "en": { "name": "Slowking", "genus": "Royal Pokémon" }
+  },
+  {
+    "id": 200,
+    "fr": { "name": "Feuforêve", "genus": "Pokémon Strident" },
+    "en": { "name": "Misdreavus", "genus": "Screech Pokémon" }
+  },
+  {
+    "id": 201,
+    "fr": { "name": "Zarbi", "genus": "Pokémon Symbolique" },
+    "en": { "name": "Unown", "genus": "Symbol Pokémon" }
+  },
+  {
+    "id": 202,
+    "fr": { "name": "Qulbutoké", "genus": "Pokémon Patient" },
+    "en": { "name": "Wobbuffet", "genus": "Patient Pokémon" }
+  },
+  {
+    "id": 203,
+    "fr": { "name": "Girafarig", "genus": "Pokémon Long-Cou" },
+    "en": { "name": "Girafarig", "genus": "Long Neck Pokémon" }
+  },
+  {
+    "id": 204,
+    "fr": { "name": "Pomdepik", "genus": "Pokémon Ver Caché" },
+    "en": { "name": "Pineco", "genus": "Bagworm Pokémon" }
+  },
+  {
+    "id": 205,
+    "fr": { "name": "Foretress", "genus": "Pokémon Ver Caché" },
+    "en": { "name": "Forretress", "genus": "Bagworm Pokémon" }
+  },
+  {
+    "id": 206,
+    "fr": { "name": "Insolourdo", "genus": "Pokémon Serpent" },
+    "en": { "name": "Dunsparce", "genus": "Land Snake Pokémon" }
+  },
+  {
+    "id": 207,
+    "fr": { "name": "Scorplane", "genus": "Pokémon Scorpivol" },
+    "en": { "name": "Gligar", "genus": "Fly Scorpion Pokémon" }
+  },
+  {
+    "id": 208,
+    "fr": { "name": "Steelix", "genus": "Pokémon Serpenfer" },
+    "en": { "name": "Steelix", "genus": "Iron Snake Pokémon" }
+  },
+  {
+    "id": 209,
+    "fr": { "name": "Snubbull", "genus": "Pokémon Fée" },
+    "en": { "name": "Snubbull", "genus": "Fairy Pokémon" }
+  },
+  {
+    "id": 210,
+    "fr": { "name": "Granbull", "genus": "Pokémon Fée" },
+    "en": { "name": "Granbull", "genus": "Fairy Pokémon" }
+  },
+  {
+    "id": 211,
+    "fr": { "name": "Qwilfish", "genus": "Pokémon Bouboule" },
+    "en": { "name": "Qwilfish", "genus": "Balloon Pokémon" }
+  },
+  {
+    "id": 212,
+    "fr": { "name": "Cizayox", "genus": "Pokémon Pince" },
+    "en": { "name": "Scizor", "genus": "Pincer Pokémon" }
+  },
+  {
+    "id": 213,
+    "fr": { "name": "Caratroc", "genus": "Pokémon Pourri" },
+    "en": { "name": "Shuckle", "genus": "Mold Pokémon" }
+  },
+  {
+    "id": 214,
+    "fr": { "name": "Scarhino", "genus": "Pokémon Unicorne" },
+    "en": { "name": "Heracross", "genus": "Single Horn Pokémon" }
+  },
+  {
+    "id": 215,
+    "fr": { "name": "Farfuret", "genus": "Pokémon Grifacérée" },
+    "en": { "name": "Sneasel", "genus": "Sharp Claw Pokémon" }
+  },
+  {
+    "id": 216,
+    "fr": { "name": "Teddiursa", "genus": "Pokémon Mini Ours" },
+    "en": { "name": "Teddiursa", "genus": "Little Bear Pokémon" }
+  },
+  {
+    "id": 217,
+    "fr": { "name": "Ursaring", "genus": "Pokémon Hibernant" },
+    "en": { "name": "Ursaring", "genus": "Hibernator Pokémon" }
+  },
+  {
+    "id": 218,
+    "fr": { "name": "Limagma", "genus": "Pokémon Lave" },
+    "en": { "name": "Slugma", "genus": "Lava Pokémon" }
+  },
+  {
+    "id": 219,
+    "fr": { "name": "Volcaropod", "genus": "Pokémon Lave" },
+    "en": { "name": "Magcargo", "genus": "Lava Pokémon" }
+  },
+  {
+    "id": 220,
+    "fr": { "name": "Marcacrin", "genus": "Pokémon Cochon" },
+    "en": { "name": "Swinub", "genus": "Pig Pokémon" }
+  },
+  {
+    "id": 221,
+    "fr": { "name": "Cochignon", "genus": "Pokémon Porc" },
+    "en": { "name": "Piloswine", "genus": "Swine Pokémon" }
+  },
+  {
+    "id": 222,
+    "fr": { "name": "Corayon", "genus": "Pokémon Corail" },
+    "en": { "name": "Corsola", "genus": "Coral Pokémon" }
+  },
+  {
+    "id": 223,
+    "fr": { "name": "Rémoraid", "genus": "Pokémon Jet" },
+    "en": { "name": "Remoraid", "genus": "Jet Pokémon" }
+  },
+  {
+    "id": 224,
+    "fr": { "name": "Octillery", "genus": "Pokémon Jet" },
+    "en": { "name": "Octillery", "genus": "Jet Pokémon" }
+  },
+  {
+    "id": 225,
+    "fr": { "name": "Cadoizo", "genus": "Pokémon Livraison" },
+    "en": { "name": "Delibird", "genus": "Delivery Pokémon" }
+  },
+  {
+    "id": 226,
+    "fr": { "name": "Démanta", "genus": "Pokémon Cervolant" },
+    "en": { "name": "Mantine", "genus": "Kite Pokémon" }
+  },
+  {
+    "id": 227,
+    "fr": { "name": "Airmure", "genus": "Pokémon Armoiseau" },
+    "en": { "name": "Skarmory", "genus": "Armor Bird Pokémon" }
+  },
+  {
+    "id": 228,
+    "fr": { "name": "Malosse", "genus": "Pokémon Sombre" },
+    "en": { "name": "Houndour", "genus": "Dark Pokémon" }
+  },
+  {
+    "id": 229,
+    "fr": { "name": "Démolosse", "genus": "Pokémon Sombre" },
+    "en": { "name": "Houndoom", "genus": "Dark Pokémon" }
+  },
+  {
+    "id": 230,
+    "fr": { "name": "Hyporoi", "genus": "Pokémon Dragon" },
+    "en": { "name": "Kingdra", "genus": "Dragon Pokémon" }
+  },
+  {
+    "id": 231,
+    "fr": { "name": "Phanpy", "genus": "Pokémon Long-Nez" },
+    "en": { "name": "Phanpy", "genus": "Long Nose Pokémon" }
+  },
+  {
+    "id": 232,
+    "fr": { "name": "Donphan", "genus": "Pokémon Armure" },
+    "en": { "name": "Donphan", "genus": "Armor Pokémon" }
+  },
+  {
+    "id": 233,
+    "fr": { "name": "Porygon2", "genus": "Pokémon Virtuel" },
+    "en": { "name": "Porygon2", "genus": "Virtual Pokémon" }
+  },
+  {
+    "id": 234,
+    "fr": { "name": "Cerfrousse", "genus": "Pokémon Maxi Corne" },
+    "en": { "name": "Stantler", "genus": "Big Horn Pokémon" }
+  },
+  {
+    "id": 235,
+    "fr": { "name": "Queulorior", "genus": "Pokémon Peintre" },
+    "en": { "name": "Smeargle", "genus": "Painter Pokémon" }
+  },
+  {
+    "id": 236,
+    "fr": { "name": "Debugant", "genus": "Pokémon Bagarreur" },
+    "en": { "name": "Tyrogue", "genus": "Scuffle Pokémon" }
+  },
+  {
+    "id": 237,
+    "fr": { "name": "Kapoera", "genus": "Pokémon Poirier" },
+    "en": { "name": "Hitmontop", "genus": "Handstand Pokémon" }
+  },
+  {
+    "id": 238,
+    "fr": { "name": "Lippouti", "genus": "Pokémon Bisou" },
+    "en": { "name": "Smoochum", "genus": "Kiss Pokémon" }
+  },
+  {
+    "id": 239,
+    "fr": { "name": "Élekid", "genus": "Pokémon Électrique" },
+    "en": { "name": "Elekid", "genus": "Electric Pokémon" }
+  },
+  {
+    "id": 240,
+    "fr": { "name": "Magby", "genus": "Pokémon Charbon" },
+    "en": { "name": "Magby", "genus": "Live Coal Pokémon" }
+  },
+  {
+    "id": 241,
+    "fr": { "name": "Écrémeuh", "genus": "Pokémon Vachalait" },
+    "en": { "name": "Miltank", "genus": "Milk Cow Pokémon" }
+  },
+  {
+    "id": 242,
+    "fr": { "name": "Leuphorie", "genus": "Pokémon Bonheur" },
+    "en": { "name": "Blissey", "genus": "Happiness Pokémon" }
+  },
+  {
+    "id": 243,
+    "fr": { "name": "Raikou", "genus": "Pokémon Foudre" },
+    "en": { "name": "Raikou", "genus": "Thunder Pokémon" }
+  },
+  {
+    "id": 244,
+    "fr": { "name": "Entei", "genus": "Pokémon Volcan" },
+    "en": { "name": "Entei", "genus": "Volcano Pokémon" }
+  },
+  {
+    "id": 245,
+    "fr": { "name": "Suicune", "genus": "Pokémon Aurore" },
+    "en": { "name": "Suicune", "genus": "Aurora Pokémon" }
+  },
+  {
+    "id": 246,
+    "fr": { "name": "Embrylex", "genus": "Pokémon Peaupierre" },
+    "en": { "name": "Larvitar", "genus": "Rock Skin Pokémon" }
+  },
+  {
+    "id": 247,
+    "fr": { "name": "Ymphect", "genus": "Pokémon Carapadure" },
+    "en": { "name": "Pupitar", "genus": "Hard Shell Pokémon" }
+  },
+  {
+    "id": 248,
+    "fr": { "name": "Tyranocif", "genus": "Pokémon Armure" },
+    "en": { "name": "Tyranitar", "genus": "Armor Pokémon" }
+  },
+  {
+    "id": 249,
+    "fr": { "name": "Lugia", "genus": "Pokémon Plongeon" },
+    "en": { "name": "Lugia", "genus": "Diving Pokémon" }
+  },
+  {
+    "id": 250,
+    "fr": { "name": "Ho-Oh", "genus": "Pokémon Arcenciel" },
+    "en": { "name": "Ho-Oh", "genus": "Rainbow Pokémon" }
+  },
+  {
+    "id": 251,
+    "fr": { "name": "Celebi", "genus": "Pokémon Temporel" },
+    "en": { "name": "Celebi", "genus": "Time Travel Pokémon" }
+  },
+  {
+    "id": 252,
+    "fr": { "name": "Arcko", "genus": "Pokémon Bois Gecko" },
+    "en": { "name": "Treecko", "genus": "Wood Gecko Pokémon" }
+  },
+  {
+    "id": 253,
+    "fr": { "name": "Massko", "genus": "Pokémon Bois Gecko" },
+    "en": { "name": "Grovyle", "genus": "Wood Gecko Pokémon" }
+  },
+  {
+    "id": 254,
+    "fr": { "name": "Jungko", "genus": "Pokémon Forêt" },
+    "en": { "name": "Sceptile", "genus": "Forest Pokémon" }
+  },
+  {
+    "id": 255,
+    "fr": { "name": "Poussifeu", "genus": "Pokémon Poussin" },
+    "en": { "name": "Torchic", "genus": "Chick Pokémon" }
+  },
+  {
+    "id": 256,
+    "fr": { "name": "Galifeu", "genus": "Pokémon Poulet" },
+    "en": { "name": "Combusken", "genus": "Young Fowl Pokémon" }
+  },
+  {
+    "id": 257,
+    "fr": { "name": "Braségali", "genus": "Pokémon Ardent" },
+    "en": { "name": "Blaziken", "genus": "Blaze Pokémon" }
+  },
+  {
+    "id": 258,
+    "fr": { "name": "Gobou", "genus": "Pokémon Poissonboue" },
+    "en": { "name": "Mudkip", "genus": "Mud Fish Pokémon" }
+  },
+  {
+    "id": 259,
+    "fr": { "name": "Flobio", "genus": "Pokémon Poissonboue" },
+    "en": { "name": "Marshtomp", "genus": "Mud Fish Pokémon" }
+  },
+  {
+    "id": 260,
+    "fr": { "name": "Laggron", "genus": "Pokémon Poissonboue" },
+    "en": { "name": "Swampert", "genus": "Mud Fish Pokémon" }
+  },
+  {
+    "id": 261,
+    "fr": { "name": "Medhyèna", "genus": "Pokémon Morsure" },
+    "en": { "name": "Poochyena", "genus": "Bite Pokémon" }
+  },
+  {
+    "id": 262,
+    "fr": { "name": "Grahyèna", "genus": "Pokémon Morsure" },
+    "en": { "name": "Mightyena", "genus": "Bite Pokémon" }
+  },
+  {
+    "id": 263,
+    "fr": { "name": "Zigzaton", "genus": "Pokémon Petit Raton" },
+    "en": { "name": "Zigzagoon", "genus": "Tiny Raccoon Pokémon" }
+  },
+  {
+    "id": 264,
+    "fr": { "name": "Linéon", "genus": "Pokémon Fonceur" },
+    "en": { "name": "Linoone", "genus": "Rushing Pokémon" }
+  },
+  {
+    "id": 265,
+    "fr": { "name": "Chenipotte", "genus": "Pokémon Ver" },
+    "en": { "name": "Wurmple", "genus": "Worm Pokémon" }
+  },
+  {
+    "id": 266,
+    "fr": { "name": "Armulys", "genus": "Pokémon Cocon" },
+    "en": { "name": "Silcoon", "genus": "Cocoon Pokémon" }
+  },
+  {
+    "id": 267,
+    "fr": { "name": "Charmillon", "genus": "Pokémon Papillon" },
+    "en": { "name": "Beautifly", "genus": "Butterfly Pokémon" }
+  },
+  {
+    "id": 268,
+    "fr": { "name": "Blindalys", "genus": "Pokémon Cocon" },
+    "en": { "name": "Cascoon", "genus": "Cocoon Pokémon" }
+  },
+  {
+    "id": 269,
+    "fr": { "name": "Papinox", "genus": "Pokémon Papipoison" },
+    "en": { "name": "Dustox", "genus": "Poison Moth Pokémon" }
+  },
+  {
+    "id": 270,
+    "fr": { "name": "Nénupiot", "genus": "Pokémon Aquaplante" },
+    "en": { "name": "Lotad", "genus": "Water Weed Pokémon" }
+  },
+  {
+    "id": 271,
+    "fr": { "name": "Lombre", "genus": "Pokémon Jovial" },
+    "en": { "name": "Lombre", "genus": "Jolly Pokémon" }
+  },
+  {
+    "id": 272,
+    "fr": { "name": "Ludicolo", "genus": "Pokémon Insouciant" },
+    "en": { "name": "Ludicolo", "genus": "Carefree Pokémon" }
+  },
+  {
+    "id": 273,
+    "fr": { "name": "Grainipiot", "genus": "Pokémon Gland" },
+    "en": { "name": "Seedot", "genus": "Acorn Pokémon" }
+  },
+  {
+    "id": 274,
+    "fr": { "name": "Pifeuil", "genus": "Pokémon Malin" },
+    "en": { "name": "Nuzleaf", "genus": "Wily Pokémon" }
+  },
+  {
+    "id": 275,
+    "fr": { "name": "Tengalice", "genus": "Pokémon Malveillant" },
+    "en": { "name": "Shiftry", "genus": "Wicked Pokémon" }
+  },
+  {
+    "id": 276,
+    "fr": { "name": "Nirondelle", "genus": "Pokémon Minirondel" },
+    "en": { "name": "Taillow", "genus": "Tiny Swallow Pokémon" }
+  },
+  {
+    "id": 277,
+    "fr": { "name": "Hélédelle", "genus": "Pokémon Hirondelle" },
+    "en": { "name": "Swellow", "genus": "Swallow Pokémon" }
+  },
+  {
+    "id": 278,
+    "fr": { "name": "Goélise", "genus": "Pokémon Mouette" },
+    "en": { "name": "Wingull", "genus": "Seagull Pokémon" }
+  },
+  {
+    "id": 279,
+    "fr": { "name": "Bekipan", "genus": "Pokémon Oiseaudo" },
+    "en": { "name": "Pelipper", "genus": "Water Bird Pokémon" }
+  },
+  {
+    "id": 280,
+    "fr": { "name": "Tarsal", "genus": "Pokémon Sentiment" },
+    "en": { "name": "Ralts", "genus": "Feeling Pokémon" }
+  },
+  {
+    "id": 281,
+    "fr": { "name": "Kirlia", "genus": "Pokémon Émotion" },
+    "en": { "name": "Kirlia", "genus": "Emotion Pokémon" }
+  },
+  {
+    "id": 282,
+    "fr": { "name": "Gardevoir", "genus": "Pokémon Étreinte" },
+    "en": { "name": "Gardevoir", "genus": "Embrace Pokémon" }
+  },
+  {
+    "id": 283,
+    "fr": { "name": "Arakdo", "genus": "Pokémon Maresurfeur" },
+    "en": { "name": "Surskit", "genus": "Pond Skater Pokémon" }
+  },
+  {
+    "id": 284,
+    "fr": { "name": "Maskadra", "genus": "Pokémon Boule Œil" },
+    "en": { "name": "Masquerain", "genus": "Eyeball Pokémon" }
+  },
+  {
+    "id": 285,
+    "fr": { "name": "Balignon", "genus": "Pokémon Champignon" },
+    "en": { "name": "Shroomish", "genus": "Mushroom Pokémon" }
+  },
+  {
+    "id": 286,
+    "fr": { "name": "Chapignon", "genus": "Pokémon Champignon" },
+    "en": { "name": "Breloom", "genus": "Mushroom Pokémon" }
+  },
+  {
+    "id": 287,
+    "fr": { "name": "Parecool", "genus": "Pokémon Flâneur" },
+    "en": { "name": "Slakoth", "genus": "Slacker Pokémon" }
+  },
+  {
+    "id": 288,
+    "fr": { "name": "Vigoroth", "genus": "Pokémon Turbusinge" },
+    "en": { "name": "Vigoroth", "genus": "Wild Monkey Pokémon" }
+  },
+  {
+    "id": 289,
+    "fr": { "name": "Monaflèmit", "genus": "Pokémon Fainéant" },
+    "en": { "name": "Slaking", "genus": "Lazy Pokémon" }
+  },
+  {
+    "id": 290,
+    "fr": { "name": "Ningale", "genus": "Pokémon Apprenti" },
+    "en": { "name": "Nincada", "genus": "Trainee Pokémon" }
+  },
+  {
+    "id": 291,
+    "fr": { "name": "Ninjask", "genus": "Pokémon Ninja" },
+    "en": { "name": "Ninjask", "genus": "Ninja Pokémon" }
+  },
+  {
+    "id": 292,
+    "fr": { "name": "Munja", "genus": "Pokémon Exuvie" },
+    "en": { "name": "Shedinja", "genus": "Shed Pokémon" }
+  },
+  {
+    "id": 293,
+    "fr": { "name": "Chuchmur", "genus": "Pokémon Chuchoteur" },
+    "en": { "name": "Whismur", "genus": "Whisper Pokémon" }
+  },
+  {
+    "id": 294,
+    "fr": { "name": "Ramboum", "genus": "Pokémon Grosse Voix" },
+    "en": { "name": "Loudred", "genus": "Big Voice Pokémon" }
+  },
+  {
+    "id": 295,
+    "fr": { "name": "Brouhabam", "genus": "Pokémon Bruit Sourd" },
+    "en": { "name": "Exploud", "genus": "Loud Noise Pokémon" }
+  },
+  {
+    "id": 296,
+    "fr": { "name": "Makuhita", "genus": "Pokémon Tenace" },
+    "en": { "name": "Makuhita", "genus": "Guts Pokémon" }
+  },
+  {
+    "id": 297,
+    "fr": { "name": "Hariyama", "genus": "Pokémon Cogneur" },
+    "en": { "name": "Hariyama", "genus": "Arm Thrust Pokémon" }
+  },
+  {
+    "id": 298,
+    "fr": { "name": "Azurill", "genus": "Pokémon Point Polka" },
+    "en": { "name": "Azurill", "genus": "Polka Dot Pokémon" }
+  },
+  {
+    "id": 299,
+    "fr": { "name": "Tarinor", "genus": "Pokémon Boussole" },
+    "en": { "name": "Nosepass", "genus": "Compass Pokémon" }
+  },
+  {
+    "id": 300,
+    "fr": { "name": "Skitty", "genus": "Pokémon Chaton" },
+    "en": { "name": "Skitty", "genus": "Kitten Pokémon" }
+  },
+  {
+    "id": 301,
+    "fr": { "name": "Delcatty", "genus": "Pokémon Guindé" },
+    "en": { "name": "Delcatty", "genus": "Prim Pokémon" }
+  },
+  {
+    "id": 302,
+    "fr": { "name": "Ténéfix", "genus": "Pokémon Obscurité" },
+    "en": { "name": "Sableye", "genus": "Darkness Pokémon" }
+  },
+  {
+    "id": 303,
+    "fr": { "name": "Mysdibule", "genus": "Pokémon Trompeur" },
+    "en": { "name": "Mawile", "genus": "Deceiver Pokémon" }
+  },
+  {
+    "id": 304,
+    "fr": { "name": "Galekid", "genus": "Pokémon Armurfer" },
+    "en": { "name": "Aron", "genus": "Iron Armor Pokémon" }
+  },
+  {
+    "id": 305,
+    "fr": { "name": "Galegon", "genus": "Pokémon Armurfer" },
+    "en": { "name": "Lairon", "genus": "Iron Armor Pokémon" }
+  },
+  {
+    "id": 306,
+    "fr": { "name": "Galeking", "genus": "Pokémon Armurfer" },
+    "en": { "name": "Aggron", "genus": "Iron Armor Pokémon" }
+  },
+  {
+    "id": 307,
+    "fr": { "name": "Méditikka", "genus": "Pokémon Méditation" },
+    "en": { "name": "Meditite", "genus": "Meditate Pokémon" }
+  },
+  {
+    "id": 308,
+    "fr": { "name": "Charmina", "genus": "Pokémon Méditation" },
+    "en": { "name": "Medicham", "genus": "Meditate Pokémon" }
+  },
+  {
+    "id": 309,
+    "fr": { "name": "Dynavolt", "genus": "Pokémon Orage" },
+    "en": { "name": "Electrike", "genus": "Lightning Pokémon" }
+  },
+  {
+    "id": 310,
+    "fr": { "name": "Élecsprint", "genus": "Pokémon Décharge" },
+    "en": { "name": "Manectric", "genus": "Discharge Pokémon" }
+  },
+  {
+    "id": 311,
+    "fr": { "name": "Posipi", "genus": "Pokémon Acclameur" },
+    "en": { "name": "Plusle", "genus": "Cheering Pokémon" }
+  },
+  {
+    "id": 312,
+    "fr": { "name": "Négapi", "genus": "Pokémon Acclameur" },
+    "en": { "name": "Minun", "genus": "Cheering Pokémon" }
+  },
+  {
+    "id": 313,
+    "fr": { "name": "Muciole", "genus": "Pokémon Luciole" },
+    "en": { "name": "Volbeat", "genus": "Firefly Pokémon" }
+  },
+  {
+    "id": 314,
+    "fr": { "name": "Lumivole", "genus": "Pokémon Luciole" },
+    "en": { "name": "Illumise", "genus": "Firefly Pokémon" }
+  },
+  {
+    "id": 315,
+    "fr": { "name": "Rosélia", "genus": "Pokémon Épine" },
+    "en": { "name": "Roselia", "genus": "Thorn Pokémon" }
+  },
+  {
+    "id": 316,
+    "fr": { "name": "Gloupti", "genus": "Pokémon Estomac" },
+    "en": { "name": "Gulpin", "genus": "Stomach Pokémon" }
+  },
+  {
+    "id": 317,
+    "fr": { "name": "Avaltout", "genus": "Pokémon Sac Poison" },
+    "en": { "name": "Swalot", "genus": "Poison Bag Pokémon" }
+  },
+  {
+    "id": 318,
+    "fr": { "name": "Carvanha", "genus": "Pokémon Féroce" },
+    "en": { "name": "Carvanha", "genus": "Savage Pokémon" }
+  },
+  {
+    "id": 319,
+    "fr": { "name": "Sharpedo", "genus": "Pokémon Brutal" },
+    "en": { "name": "Sharpedo", "genus": "Brutal Pokémon" }
+  },
+  {
+    "id": 320,
+    "fr": { "name": "Wailmer", "genus": "Pokémon Baleinboule" },
+    "en": { "name": "Wailmer", "genus": "Ball Whale Pokémon" }
+  },
+  {
+    "id": 321,
+    "fr": { "name": "Wailord", "genus": "Pokémon Cachabouée" },
+    "en": { "name": "Wailord", "genus": "Float Whale Pokémon" }
+  },
+  {
+    "id": 322,
+    "fr": { "name": "Chamallot", "genus": "Pokémon Engourdi" },
+    "en": { "name": "Numel", "genus": "Numb Pokémon" }
+  },
+  {
+    "id": 323,
+    "fr": { "name": "Camérupt", "genus": "Pokémon Éruption" },
+    "en": { "name": "Camerupt", "genus": "Eruption Pokémon" }
+  },
+  {
+    "id": 324,
+    "fr": { "name": "Chartor", "genus": "Pokémon Charbon" },
+    "en": { "name": "Torkoal", "genus": "Coal Pokémon" }
+  },
+  {
+    "id": 325,
+    "fr": { "name": "Spoink", "genus": "Pokémon Rebond" },
+    "en": { "name": "Spoink", "genus": "Bounce Pokémon" }
+  },
+  {
+    "id": 326,
+    "fr": { "name": "Groret", "genus": "Pokémon Magouilleur" },
+    "en": { "name": "Grumpig", "genus": "Manipulate Pokémon" }
+  },
+  {
+    "id": 327,
+    "fr": { "name": "Spinda", "genus": "Pokémon Panda Tache" },
+    "en": { "name": "Spinda", "genus": "Spot Panda Pokémon" }
+  },
+  {
+    "id": 328,
+    "fr": { "name": "Kraknoix", "genus": "Pokémon Piégeur" },
+    "en": { "name": "Trapinch", "genus": "Ant Pit Pokémon" }
+  },
+  {
+    "id": 329,
+    "fr": { "name": "Vibraninf", "genus": "Pokémon Vibration" },
+    "en": { "name": "Vibrava", "genus": "Vibration Pokémon" }
+  },
+  {
+    "id": 330,
+    "fr": { "name": "Libégon", "genus": "Pokémon Mystique" },
+    "en": { "name": "Flygon", "genus": "Mystic Pokémon" }
+  },
+  {
+    "id": 331,
+    "fr": { "name": "Cacnea", "genus": "Pokémon Cactus" },
+    "en": { "name": "Cacnea", "genus": "Cactus Pokémon" }
+  },
+  {
+    "id": 332,
+    "fr": { "name": "Cacturne", "genus": "Pokémon Épouvantail" },
+    "en": { "name": "Cacturne", "genus": "Scarecrow Pokémon" }
+  },
+  {
+    "id": 333,
+    "fr": { "name": "Tylton", "genus": "Pokémon Oiseaucoton" },
+    "en": { "name": "Swablu", "genus": "Cotton Bird Pokémon" }
+  },
+  {
+    "id": 334,
+    "fr": { "name": "Altaria", "genus": "Pokémon Virevolteur" },
+    "en": { "name": "Altaria", "genus": "Humming Pokémon" }
+  },
+  {
+    "id": 335,
+    "fr": { "name": "Mangriff", "genus": "Pokémon Chat Furet" },
+    "en": { "name": "Zangoose", "genus": "Cat Ferret Pokémon" }
+  },
+  {
+    "id": 336,
+    "fr": { "name": "Séviper", "genus": "Pokémon Serpacroc" },
+    "en": { "name": "Seviper", "genus": "Fang Snake Pokémon" }
+  },
+  {
+    "id": 337,
+    "fr": { "name": "Séléroc", "genus": "Pokémon Météorite" },
+    "en": { "name": "Lunatone", "genus": "Meteorite Pokémon" }
+  },
+  {
+    "id": 338,
+    "fr": { "name": "Solaroc", "genus": "Pokémon Météorite" },
+    "en": { "name": "Solrock", "genus": "Meteorite Pokémon" }
+  },
+  {
+    "id": 339,
+    "fr": { "name": "Barloche", "genus": "Pokémon Barbillon" },
+    "en": { "name": "Barboach", "genus": "Whiskers Pokémon" }
+  },
+  {
+    "id": 340,
+    "fr": { "name": "Barbicha", "genus": "Pokémon Barbillon" },
+    "en": { "name": "Whiscash", "genus": "Whiskers Pokémon" }
+  },
+  {
+    "id": 341,
+    "fr": { "name": "Écrapince", "genus": "Pokémon Brute" },
+    "en": { "name": "Corphish", "genus": "Ruffian Pokémon" }
+  },
+  {
+    "id": 342,
+    "fr": { "name": "Colhomard", "genus": "Pokémon Crapule" },
+    "en": { "name": "Crawdaunt", "genus": "Rogue Pokémon" }
+  },
+  {
+    "id": 343,
+    "fr": { "name": "Balbuto", "genus": "Pokémon Poupargile" },
+    "en": { "name": "Baltoy", "genus": "Clay Doll Pokémon" }
+  },
+  {
+    "id": 344,
+    "fr": { "name": "Kaorine", "genus": "Pokémon Poupargile" },
+    "en": { "name": "Claydol", "genus": "Clay Doll Pokémon" }
+  },
+  {
+    "id": 345,
+    "fr": { "name": "Lilia", "genus": "Pokémon Lis d’Eau" },
+    "en": { "name": "Lileep", "genus": "Sea Lily Pokémon" }
+  },
+  {
+    "id": 346,
+    "fr": { "name": "Vacilys", "genus": "Pokémon Bernacle" },
+    "en": { "name": "Cradily", "genus": "Barnacle Pokémon" }
+  },
+  {
+    "id": 347,
+    "fr": { "name": "Anorith", "genus": "Pokémon Crustage" },
+    "en": { "name": "Anorith", "genus": "Old Shrimp Pokémon" }
+  },
+  {
+    "id": 348,
+    "fr": { "name": "Armaldo", "genus": "Pokémon Blindage" },
+    "en": { "name": "Armaldo", "genus": "Plate Pokémon" }
+  },
+  {
+    "id": 349,
+    "fr": { "name": "Barpau", "genus": "Pokémon Poisson" },
+    "en": { "name": "Feebas", "genus": "Fish Pokémon" }
+  },
+  {
+    "id": 350,
+    "fr": { "name": "Milobellus", "genus": "Pokémon Tendre" },
+    "en": { "name": "Milotic", "genus": "Tender Pokémon" }
+  },
+  {
+    "id": 351,
+    "fr": { "name": "Morphéo", "genus": "Pokémon Climat" },
+    "en": { "name": "Castform", "genus": "Weather Pokémon" }
+  },
+  {
+    "id": 352,
+    "fr": { "name": "Kecleon", "genus": "Pokémon Multicolor" },
+    "en": { "name": "Kecleon", "genus": "Color Swap Pokémon" }
+  },
+  {
+    "id": 353,
+    "fr": { "name": "Polichombr", "genus": "Pokémon Poupée" },
+    "en": { "name": "Shuppet", "genus": "Puppet Pokémon" }
+  },
+  {
+    "id": 354,
+    "fr": { "name": "Branette", "genus": "Pokémon Marionnette" },
+    "en": { "name": "Banette", "genus": "Marionette Pokémon" }
+  },
+  {
+    "id": 355,
+    "fr": { "name": "Skelénox", "genus": "Pokémon Requiem" },
+    "en": { "name": "Duskull", "genus": "Requiem Pokémon" }
+  },
+  {
+    "id": 356,
+    "fr": { "name": "Téraclope", "genus": "Pokémon Appel" },
+    "en": { "name": "Dusclops", "genus": "Beckon Pokémon" }
+  },
+  {
+    "id": 357,
+    "fr": { "name": "Tropius", "genus": "Pokémon Fruit" },
+    "en": { "name": "Tropius", "genus": "Fruit Pokémon" }
+  },
+  {
+    "id": 358,
+    "fr": { "name": "Éoko", "genus": "Pokémon Carillon" },
+    "en": { "name": "Chimecho", "genus": "Wind Chime Pokémon" }
+  },
+  {
+    "id": 359,
+    "fr": { "name": "Absol", "genus": "Pokémon Désastre" },
+    "en": { "name": "Absol", "genus": "Disaster Pokémon" }
+  },
+  {
+    "id": 360,
+    "fr": { "name": "Okéoké", "genus": "Pokémon Ravi" },
+    "en": { "name": "Wynaut", "genus": "Bright Pokémon" }
+  },
+  {
+    "id": 361,
+    "fr": { "name": "Stalgamin", "genus": "Pokémon Capuche" },
+    "en": { "name": "Snorunt", "genus": "Snow Hat Pokémon" }
+  },
+  {
+    "id": 362,
+    "fr": { "name": "Oniglali", "genus": "Pokémon Face" },
+    "en": { "name": "Glalie", "genus": "Face Pokémon" }
+  },
+  {
+    "id": 363,
+    "fr": { "name": "Obalie", "genus": "Pokémon Clap Clap" },
+    "en": { "name": "Spheal", "genus": "Clap Pokémon" }
+  },
+  {
+    "id": 364,
+    "fr": { "name": "Phogleur", "genus": "Pokémon Roule Boule" },
+    "en": { "name": "Sealeo", "genus": "Ball Roll Pokémon" }
+  },
+  {
+    "id": 365,
+    "fr": { "name": "Kaimorse", "genus": "Pokémon Brise Glace" },
+    "en": { "name": "Walrein", "genus": "Ice Break Pokémon" }
+  },
+  {
+    "id": 366,
+    "fr": { "name": "Coquiperl", "genus": "Pokémon Bivalve" },
+    "en": { "name": "Clamperl", "genus": "Bivalve Pokémon" }
+  },
+  {
+    "id": 367,
+    "fr": { "name": "Serpang", "genus": "Pokémon Abysse" },
+    "en": { "name": "Huntail", "genus": "Deep Sea Pokémon" }
+  },
+  {
+    "id": 368,
+    "fr": { "name": "Rosabyss", "genus": "Pokémon Mer du Sud" },
+    "en": { "name": "Gorebyss", "genus": "South Sea Pokémon" }
+  },
+  {
+    "id": 369,
+    "fr": { "name": "Relicanth", "genus": "Pokémon Longévité" },
+    "en": { "name": "Relicanth", "genus": "Longevity Pokémon" }
+  },
+  {
+    "id": 370,
+    "fr": { "name": "Lovdisc", "genus": "Pokémon Rendezvous" },
+    "en": { "name": "Luvdisc", "genus": "Rendezvous Pokémon" }
+  },
+  {
+    "id": 371,
+    "fr": { "name": "Draby", "genus": "Pokémon Tête de Roc" },
+    "en": { "name": "Bagon", "genus": "Rock Head Pokémon" }
+  },
+  {
+    "id": 372,
+    "fr": { "name": "Drackhaus", "genus": "Pokémon Endurant" },
+    "en": { "name": "Shelgon", "genus": "Endurance Pokémon" }
+  },
+  {
+    "id": 373,
+    "fr": { "name": "Drattak", "genus": "Pokémon Dragon" },
+    "en": { "name": "Salamence", "genus": "Dragon Pokémon" }
+  },
+  {
+    "id": 374,
+    "fr": { "name": "Terhal", "genus": "Pokémon Boulefer" },
+    "en": { "name": "Beldum", "genus": "Iron Ball Pokémon" }
+  },
+  {
+    "id": 375,
+    "fr": { "name": "Métang", "genus": "Pokémon Pincefer" },
+    "en": { "name": "Metang", "genus": "Iron Claw Pokémon" }
+  },
+  {
+    "id": 376,
+    "fr": { "name": "Métalosse", "genus": "Pokémon Pattefer" },
+    "en": { "name": "Metagross", "genus": "Iron Leg Pokémon" }
+  },
+  {
+    "id": 377,
+    "fr": { "name": "Regirock", "genus": "Pokémon Pic Rocheux" },
+    "en": { "name": "Regirock", "genus": "Rock Peak Pokémon" }
+  },
+  {
+    "id": 378,
+    "fr": { "name": "Regice", "genus": "Pokémon Iceberg" },
+    "en": { "name": "Regice", "genus": "Iceberg Pokémon" }
+  },
+  {
+    "id": 379,
+    "fr": { "name": "Registeel", "genus": "Pokémon Fer" },
+    "en": { "name": "Registeel", "genus": "Iron Pokémon" }
+  },
+  {
+    "id": 380,
+    "fr": { "name": "Latias", "genus": "Pokémon Éon" },
+    "en": { "name": "Latias", "genus": "Eon Pokémon" }
+  },
+  {
+    "id": 381,
+    "fr": { "name": "Latios", "genus": "Pokémon Éon" },
+    "en": { "name": "Latios", "genus": "Eon Pokémon" }
+  },
+  {
+    "id": 382,
+    "fr": { "name": "Kyogre", "genus": "Pokémon Bassinmarin" },
+    "en": { "name": "Kyogre", "genus": "Sea Basin Pokémon" }
+  },
+  {
+    "id": 383,
+    "fr": { "name": "Groudon", "genus": "Pokémon Continent" },
+    "en": { "name": "Groudon", "genus": "Continent Pokémon" }
+  },
+  {
+    "id": 384,
+    "fr": { "name": "Rayquaza", "genus": "Pokémon Cieux" },
+    "en": { "name": "Rayquaza", "genus": "Sky High Pokémon" }
+  },
+  {
+    "id": 385,
+    "fr": { "name": "Jirachi", "genus": "Pokémon Souhait" },
+    "en": { "name": "Jirachi", "genus": "Wish Pokémon" }
+  },
+  {
+    "id": 386,
+    "fr": { "name": "Deoxys", "genus": "Pokémon ADN" },
+    "en": { "name": "Deoxys", "genus": "DNA Pokémon" }
+  },
+  {
+    "id": 387,
+    "fr": { "name": "Tortipouss", "genus": "Pokémon Minifeuille" },
+    "en": { "name": "Turtwig", "genus": "Tiny Leaf Pokémon" }
+  },
+  {
+    "id": 388,
+    "fr": { "name": "Boskara", "genus": "Pokémon Bosquet" },
+    "en": { "name": "Grotle", "genus": "Grove Pokémon" }
+  },
+  {
+    "id": 389,
+    "fr": { "name": "Torterra", "genus": "Pokémon Continent" },
+    "en": { "name": "Torterra", "genus": "Continent Pokémon" }
+  },
+  {
+    "id": 390,
+    "fr": { "name": "Ouisticram", "genus": "Pokémon Chimpanzé" },
+    "en": { "name": "Chimchar", "genus": "Chimp Pokémon" }
+  },
+  {
+    "id": 391,
+    "fr": { "name": "Chimpenfeu", "genus": "Pokémon Garnement" },
+    "en": { "name": "Monferno", "genus": "Playful Pokémon" }
+  },
+  {
+    "id": 392,
+    "fr": { "name": "Simiabraz", "genus": "Pokémon Flamme" },
+    "en": { "name": "Infernape", "genus": "Flame Pokémon" }
+  },
+  {
+    "id": 393,
+    "fr": { "name": "Tiplouf", "genus": "Pokémon Pingouin" },
+    "en": { "name": "Piplup", "genus": "Penguin Pokémon" }
+  },
+  {
+    "id": 394,
+    "fr": { "name": "Prinplouf", "genus": "Pokémon Pingouin" },
+    "en": { "name": "Prinplup", "genus": "Penguin Pokémon" }
+  },
+  {
+    "id": 395,
+    "fr": { "name": "Pingoléon", "genus": "Pokémon Empereur" },
+    "en": { "name": "Empoleon", "genus": "Emperor Pokémon" }
+  },
+  {
+    "id": 396,
+    "fr": { "name": "Étourmi", "genus": "Pokémon Étourneau" },
+    "en": { "name": "Starly", "genus": "Starling Pokémon" }
+  },
+  {
+    "id": 397,
+    "fr": { "name": "Étourvol", "genus": "Pokémon Étourneau" },
+    "en": { "name": "Staravia", "genus": "Starling Pokémon" }
+  },
+  {
+    "id": 398,
+    "fr": { "name": "Étouraptor", "genus": "Pokémon Rapace" },
+    "en": { "name": "Staraptor", "genus": "Predator Pokémon" }
+  },
+  {
+    "id": 399,
+    "fr": { "name": "Keunotor", "genus": "Pokémon Souridodue" },
+    "en": { "name": "Bidoof", "genus": "Plump Mouse Pokémon" }
+  },
+  {
+    "id": 400,
+    "fr": { "name": "Castorno", "genus": "Pokémon Castor" },
+    "en": { "name": "Bibarel", "genus": "Beaver Pokémon" }
+  },
+  {
+    "id": 401,
+    "fr": { "name": "Crikzik", "genus": "Pokémon Criquet" },
+    "en": { "name": "Kricketot", "genus": "Cricket Pokémon" }
+  },
+  {
+    "id": 402,
+    "fr": { "name": "Mélokrik", "genus": "Pokémon Criquet" },
+    "en": { "name": "Kricketune", "genus": "Cricket Pokémon" }
+  },
+  {
+    "id": 403,
+    "fr": { "name": "Lixy", "genus": "Pokémon Flash" },
+    "en": { "name": "Shinx", "genus": "Flash Pokémon" }
+  },
+  {
+    "id": 404,
+    "fr": { "name": "Luxio", "genus": "Pokémon Étincelle" },
+    "en": { "name": "Luxio", "genus": "Spark Pokémon" }
+  },
+  {
+    "id": 405,
+    "fr": { "name": "Luxray", "genus": "Pokémon Brillœil" },
+    "en": { "name": "Luxray", "genus": "Gleam Eyes Pokémon" }
+  },
+  {
+    "id": 406,
+    "fr": { "name": "Rozbouton", "genus": "Pokémon Bourgeon" },
+    "en": { "name": "Budew", "genus": "Bud Pokémon" }
+  },
+  {
+    "id": 407,
+    "fr": { "name": "Roserade", "genus": "Pokémon Bouquet" },
+    "en": { "name": "Roserade", "genus": "Bouquet Pokémon" }
+  },
+  {
+    "id": 408,
+    "fr": { "name": "Kranidos", "genus": "Pokémon Coud’Boule" },
+    "en": { "name": "Cranidos", "genus": "Head Butt Pokémon" }
+  },
+  {
+    "id": 409,
+    "fr": { "name": "Charkos", "genus": "Pokémon Coud’Boule" },
+    "en": { "name": "Rampardos", "genus": "Head Butt Pokémon" }
+  },
+  {
+    "id": 410,
+    "fr": { "name": "Dinoclier", "genus": "Pokémon Bouclier" },
+    "en": { "name": "Shieldon", "genus": "Shield Pokémon" }
+  },
+  {
+    "id": 411,
+    "fr": { "name": "Bastiodon", "genus": "Pokémon Bouclier" },
+    "en": { "name": "Bastiodon", "genus": "Shield Pokémon" }
+  },
+  {
+    "id": 412,
+    "fr": { "name": "Cheniti", "genus": "Pokémon Ver Caché" },
+    "en": { "name": "Burmy", "genus": "Bagworm Pokémon" }
+  },
+  {
+    "id": 413,
+    "fr": { "name": "Cheniselle", "genus": "Pokémon Ver Caché" },
+    "en": { "name": "Wormadam", "genus": "Bagworm Pokémon" }
+  },
+  {
+    "id": 414,
+    "fr": { "name": "Papilord", "genus": "Pokémon Phalène" },
+    "en": { "name": "Mothim", "genus": "Moth Pokémon" }
+  },
+  {
+    "id": 415,
+    "fr": { "name": "Apitrini", "genus": "Pokémon Miniabeille" },
+    "en": { "name": "Combee", "genus": "Tiny Bee Pokémon" }
+  },
+  {
+    "id": 416,
+    "fr": { "name": "Apireine", "genus": "Pokémon Ruche" },
+    "en": { "name": "Vespiquen", "genus": "Beehive Pokémon" }
+  },
+  {
+    "id": 417,
+    "fr": { "name": "Pachirisu", "genus": "Pokémon Écurélec" },
+    "en": { "name": "Pachirisu", "genus": "EleSquirrel Pokémon" }
+  },
+  {
+    "id": 418,
+    "fr": { "name": "Mustébouée", "genus": "Pokémon Aquabelette" },
+    "en": { "name": "Buizel", "genus": "Sea Weasel Pokémon" }
+  },
+  {
+    "id": 419,
+    "fr": { "name": "Mustéflott", "genus": "Pokémon Aquabelette" },
+    "en": { "name": "Floatzel", "genus": "Sea Weasel Pokémon" }
+  },
+  {
+    "id": 420,
+    "fr": { "name": "Ceribou", "genus": "Pokémon Cerise" },
+    "en": { "name": "Cherubi", "genus": "Cherry Pokémon" }
+  },
+  {
+    "id": 421,
+    "fr": { "name": "Ceriflor", "genus": "Pokémon Floraison" },
+    "en": { "name": "Cherrim", "genus": "Blossom Pokémon" }
+  },
+  {
+    "id": 422,
+    "fr": { "name": "Sancoki", "genus": "Pokémon Aqualimace" },
+    "en": { "name": "Shellos", "genus": "Sea Slug Pokémon" }
+  },
+  {
+    "id": 423,
+    "fr": { "name": "Tritosor", "genus": "Pokémon Aqualimace" },
+    "en": { "name": "Gastrodon", "genus": "Sea Slug Pokémon" }
+  },
+  {
+    "id": 424,
+    "fr": { "name": "Capidextre", "genus": "Pokémon Longqueue" },
+    "en": { "name": "Ambipom", "genus": "Long Tail Pokémon" }
+  },
+  {
+    "id": 425,
+    "fr": { "name": "Baudrive", "genus": "Pokémon Bouboule" },
+    "en": { "name": "Drifloon", "genus": "Balloon Pokémon" }
+  },
+  {
+    "id": 426,
+    "fr": { "name": "Grodrive", "genus": "Pokémon Ballon" },
+    "en": { "name": "Drifblim", "genus": "Blimp Pokémon" }
+  },
+  {
+    "id": 427,
+    "fr": { "name": "Laporeille", "genus": "Pokémon Lapin" },
+    "en": { "name": "Buneary", "genus": "Rabbit Pokémon" }
+  },
+  {
+    "id": 428,
+    "fr": { "name": "Lockpin", "genus": "Pokémon Lapin" },
+    "en": { "name": "Lopunny", "genus": "Rabbit Pokémon" }
+  },
+  {
+    "id": 429,
+    "fr": { "name": "Magirêve", "genus": "Pokémon Magique" },
+    "en": { "name": "Mismagius", "genus": "Magical Pokémon" }
+  },
+  {
+    "id": 430,
+    "fr": { "name": "Corboss", "genus": "Pokémon Big Boss" },
+    "en": { "name": "Honchkrow", "genus": "Big Boss Pokémon" }
+  },
+  {
+    "id": 431,
+    "fr": { "name": "Chaglam", "genus": "Pokémon Chafouin" },
+    "en": { "name": "Glameow", "genus": "Catty Pokémon" }
+  },
+  {
+    "id": 432,
+    "fr": { "name": "Chaffreux", "genus": "Pokémon Chatigre" },
+    "en": { "name": "Purugly", "genus": "Tiger Cat Pokémon" }
+  },
+  {
+    "id": 433,
+    "fr": { "name": "Korillon", "genus": "Pokémon Clochette" },
+    "en": { "name": "Chingling", "genus": "Bell Pokémon" }
+  },
+  {
+    "id": 434,
+    "fr": { "name": "Moufouette", "genus": "Pokémon Moufette" },
+    "en": { "name": "Stunky", "genus": "Skunk Pokémon" }
+  },
+  {
+    "id": 435,
+    "fr": { "name": "Moufflair", "genus": "Pokémon Moufette" },
+    "en": { "name": "Skuntank", "genus": "Skunk Pokémon" }
+  },
+  {
+    "id": 436,
+    "fr": { "name": "Archéomire", "genus": "Pokémon Bronze" },
+    "en": { "name": "Bronzor", "genus": "Bronze Pokémon" }
+  },
+  {
+    "id": 437,
+    "fr": { "name": "Archéodong", "genus": "Pokémon Clochebronze" },
+    "en": { "name": "Bronzong", "genus": "Bronze Bell Pokémon" }
+  },
+  {
+    "id": 438,
+    "fr": { "name": "Manzaï", "genus": "Pokémon Bonsaï" },
+    "en": { "name": "Bonsly", "genus": "Bonsai Pokémon" }
+  },
+  {
+    "id": 439,
+    "fr": { "name": "Mime Jr.", "genus": "Pokémon Mime" },
+    "en": { "name": "Mime Jr.", "genus": "Mime Pokémon" }
+  },
+  {
+    "id": 440,
+    "fr": { "name": "Ptiravi", "genus": "Pokémon Maisonjouet" },
+    "en": { "name": "Happiny", "genus": "Playhouse Pokémon" }
+  },
+  {
+    "id": 441,
+    "fr": { "name": "Pijako", "genus": "Pokémon Note Musique" },
+    "en": { "name": "Chatot", "genus": "Music Note Pokémon" }
+  },
+  {
+    "id": 442,
+    "fr": { "name": "Spiritomb", "genus": "Pokémon Interdit" },
+    "en": { "name": "Spiritomb", "genus": "Forbidden Pokémon" }
+  },
+  {
+    "id": 443,
+    "fr": { "name": "Griknot", "genus": "Pokémon Terrequin" },
+    "en": { "name": "Gible", "genus": "Land Shark Pokémon" }
+  },
+  {
+    "id": 444,
+    "fr": { "name": "Carmache", "genus": "Pokémon Caverne" },
+    "en": { "name": "Gabite", "genus": "Cave Pokémon" }
+  },
+  {
+    "id": 445,
+    "fr": { "name": "Carchacrok", "genus": "Pokémon Supersonic" },
+    "en": { "name": "Garchomp", "genus": "Mach Pokémon" }
+  },
+  {
+    "id": 446,
+    "fr": { "name": "Goinfrex", "genus": "Pokémon Goinfre" },
+    "en": { "name": "Munchlax", "genus": "Big Eater Pokémon" }
+  },
+  {
+    "id": 447,
+    "fr": { "name": "Riolu", "genus": "Pokémon Émanation" },
+    "en": { "name": "Riolu", "genus": "Emanation Pokémon" }
+  },
+  {
+    "id": 448,
+    "fr": { "name": "Lucario", "genus": "Pokémon Aura" },
+    "en": { "name": "Lucario", "genus": "Aura Pokémon" }
+  },
+  {
+    "id": 449,
+    "fr": { "name": "Hippopotas", "genus": "Pokémon Hippo" },
+    "en": { "name": "Hippopotas", "genus": "Hippo Pokémon" }
+  },
+  {
+    "id": 450,
+    "fr": { "name": "Hippodocus", "genus": "Pokémon Poids Lourd" },
+    "en": { "name": "Hippowdon", "genus": "Heavyweight Pokémon" }
+  },
+  {
+    "id": 451,
+    "fr": { "name": "Rapion", "genus": "Pokémon Scorpion" },
+    "en": { "name": "Skorupi", "genus": "Scorpion Pokémon" }
+  },
+  {
+    "id": 452,
+    "fr": { "name": "Drascore", "genus": "Pokémon Scorpogre" },
+    "en": { "name": "Drapion", "genus": "Ogre Scorpion Pokémon" }
+  },
+  {
+    "id": 453,
+    "fr": { "name": "Cradopaud", "genus": "Pokémon Toxique" },
+    "en": { "name": "Croagunk", "genus": "Toxic Mouth Pokémon" }
+  },
+  {
+    "id": 454,
+    "fr": { "name": "Coatox", "genus": "Pokémon Toxique" },
+    "en": { "name": "Toxicroak", "genus": "Toxic Mouth Pokémon" }
+  },
+  {
+    "id": 455,
+    "fr": { "name": "Vortente", "genus": "Pokémon Chopinsecte" },
+    "en": { "name": "Carnivine", "genus": "Bug Catcher Pokémon" }
+  },
+  {
+    "id": 456,
+    "fr": { "name": "Écayon", "genus": "Pokémon Poisson Ailé" },
+    "en": { "name": "Finneon", "genus": "Wing Fish Pokémon" }
+  },
+  {
+    "id": 457,
+    "fr": { "name": "Luminéon", "genus": "Pokémon Néon" },
+    "en": { "name": "Lumineon", "genus": "Neon Pokémon" }
+  },
+  {
+    "id": 458,
+    "fr": { "name": "Babimanta", "genus": "Pokémon Cervolant" },
+    "en": { "name": "Mantyke", "genus": "Kite Pokémon" }
+  },
+  {
+    "id": 459,
+    "fr": { "name": "Blizzi", "genus": "Pokémon Arbregelé" },
+    "en": { "name": "Snover", "genus": "Frost Tree Pokémon" }
+  },
+  {
+    "id": 460,
+    "fr": { "name": "Blizzaroi", "genus": "Pokémon Arbregelé" },
+    "en": { "name": "Abomasnow", "genus": "Frost Tree Pokémon" }
+  },
+  {
+    "id": 461,
+    "fr": { "name": "Dimoret", "genus": "Pokémon Grifacérée" },
+    "en": { "name": "Weavile", "genus": "Sharp Claw Pokémon" }
+  },
+  {
+    "id": 462,
+    "fr": { "name": "Magnézone", "genus": "Pokémon Aimant" },
+    "en": { "name": "Magnezone", "genus": "Magnet Area Pokémon" }
+  },
+  {
+    "id": 463,
+    "fr": { "name": "Coudlangue", "genus": "Pokémon Lécheur" },
+    "en": { "name": "Lickilicky", "genus": "Licking Pokémon" }
+  },
+  {
+    "id": 464,
+    "fr": { "name": "Rhinastoc", "genus": "Pokémon Perceur" },
+    "en": { "name": "Rhyperior", "genus": "Drill Pokémon" }
+  },
+  {
+    "id": 465,
+    "fr": { "name": "Bouldeneu", "genus": "Pokémon Vigne" },
+    "en": { "name": "Tangrowth", "genus": "Vine Pokémon" }
+  },
+  {
+    "id": 466,
+    "fr": { "name": "Élekable", "genus": "Pokémon Foudrélec" },
+    "en": { "name": "Electivire", "genus": "Thunderbolt Pokémon" }
+  },
+  {
+    "id": 467,
+    "fr": { "name": "Maganon", "genus": "Pokémon Explosion" },
+    "en": { "name": "Magmortar", "genus": "Blast Pokémon" }
+  },
+  {
+    "id": 468,
+    "fr": { "name": "Togekiss", "genus": "Pokémon Célébration" },
+    "en": { "name": "Togekiss", "genus": "Jubilee Pokémon" }
+  },
+  {
+    "id": 469,
+    "fr": { "name": "Yanmega", "genus": "Pokémon Libellogre" },
+    "en": { "name": "Yanmega", "genus": "Ogre Darner Pokémon" }
+  },
+  {
+    "id": 470,
+    "fr": { "name": "Phyllali", "genus": "Pokémon Verdoyant" },
+    "en": { "name": "Leafeon", "genus": "Verdant Pokémon" }
+  },
+  {
+    "id": 471,
+    "fr": { "name": "Givrali", "genus": "Pokémon Poudreuse" },
+    "en": { "name": "Glaceon", "genus": "Fresh Snow Pokémon" }
+  },
+  {
+    "id": 472,
+    "fr": { "name": "Scorvol", "genus": "Pokémon Scorpicroc" },
+    "en": { "name": "Gliscor", "genus": "Fang Scorpion Pokémon" }
+  },
+  {
+    "id": 473,
+    "fr": { "name": "Mammochon", "genus": "Pokémon Deudéfenses" },
+    "en": { "name": "Mamoswine", "genus": "Twin Tusk Pokémon" }
+  },
+  {
+    "id": 474,
+    "fr": { "name": "Porygon-Z", "genus": "Pokémon Virtuel" },
+    "en": { "name": "Porygon-Z", "genus": "Virtual Pokémon" }
+  },
+  {
+    "id": 475,
+    "fr": { "name": "Gallame", "genus": "Pokémon Lame" },
+    "en": { "name": "Gallade", "genus": "Blade Pokémon" }
+  },
+  {
+    "id": 476,
+    "fr": { "name": "Tarinorme", "genus": "Pokémon Boussole" },
+    "en": { "name": "Probopass", "genus": "Compass Pokémon" }
+  },
+  {
+    "id": 477,
+    "fr": { "name": "Noctunoir", "genus": "Pokémon Mainpince" },
+    "en": { "name": "Dusknoir", "genus": "Gripper Pokémon" }
+  },
+  {
+    "id": 478,
+    "fr": { "name": "Momartik", "genus": "Pokémon Enneigement" },
+    "en": { "name": "Froslass", "genus": "Snow Land Pokémon" }
+  },
+  {
+    "id": 479,
+    "fr": { "name": "Motisma", "genus": "Pokémon Plasma" },
+    "en": { "name": "Rotom", "genus": "Plasma Pokémon" }
+  },
+  {
+    "id": 480,
+    "fr": { "name": "Créhelf", "genus": "Pokémon Savoir" },
+    "en": { "name": "Uxie", "genus": "Knowledge Pokémon" }
+  },
+  {
+    "id": 481,
+    "fr": { "name": "Créfollet", "genus": "Pokémon Émotion" },
+    "en": { "name": "Mesprit", "genus": "Emotion Pokémon" }
+  },
+  {
+    "id": 482,
+    "fr": { "name": "Créfadet", "genus": "Pokémon Volonté" },
+    "en": { "name": "Azelf", "genus": "Willpower Pokémon" }
+  },
+  {
+    "id": 483,
+    "fr": { "name": "Dialga", "genus": "Pokémon Temps" },
+    "en": { "name": "Dialga", "genus": "Temporal Pokémon" }
+  },
+  {
+    "id": 484,
+    "fr": { "name": "Palkia", "genus": "Pokémon Espace" },
+    "en": { "name": "Palkia", "genus": "Spatial Pokémon" }
+  },
+  {
+    "id": 485,
+    "fr": { "name": "Heatran", "genus": "Pokémon Caldeira" },
+    "en": { "name": "Heatran", "genus": "Lava Dome Pokémon" }
+  },
+  {
+    "id": 486,
+    "fr": { "name": "Regigigas", "genus": "Pokémon Prodigieux" },
+    "en": { "name": "Regigigas", "genus": "Colossal Pokémon" }
+  },
+  {
+    "id": 487,
+    "fr": { "name": "Giratina", "genus": "Pokémon Renégat" },
+    "en": { "name": "Giratina", "genus": "Renegade Pokémon" }
+  },
+  {
+    "id": 488,
+    "fr": { "name": "Cresselia", "genus": "Pokémon Lunaire" },
+    "en": { "name": "Cresselia", "genus": "Lunar Pokémon" }
+  },
+  {
+    "id": 489,
+    "fr": { "name": "Phione", "genus": "Pokémon Dérivenmer" },
+    "en": { "name": "Phione", "genus": "Sea Drifter Pokémon" }
+  },
+  {
+    "id": 490,
+    "fr": { "name": "Manaphy", "genus": "Pokémon Voyagenmer" },
+    "en": { "name": "Manaphy", "genus": "Seafaring Pokémon" }
+  },
+  {
+    "id": 491,
+    "fr": { "name": "Darkrai", "genus": "Pokémon Noirtotal" },
+    "en": { "name": "Darkrai", "genus": "Pitch-Black Pokémon" }
+  },
+  {
+    "id": 492,
+    "fr": { "name": "Shaymin", "genus": "Pokémon Gratitude" },
+    "en": { "name": "Shaymin", "genus": "Gratitude Pokémon" }
+  },
+  {
+    "id": 493,
+    "fr": { "name": "Arceus", "genus": "Pokémon Alpha" },
+    "en": { "name": "Arceus", "genus": "Alpha Pokémon" }
+  },
+  {
+    "id": 494,
+    "fr": { "name": "Victini", "genus": "Pokémon Victoire" },
+    "en": { "name": "Victini", "genus": "Victory Pokémon" }
+  },
+  {
+    "id": 495,
+    "fr": { "name": "Vipélierre", "genus": "Pokémon Serpenterbe" },
+    "en": { "name": "Snivy", "genus": "Grass Snake Pokémon" }
+  },
+  {
+    "id": 496,
+    "fr": { "name": "Lianaja", "genus": "Pokémon Serpenterbe" },
+    "en": { "name": "Servine", "genus": "Grass Snake Pokémon" }
+  },
+  {
+    "id": 497,
+    "fr": { "name": "Majaspic", "genus": "Pokémon Majestueux" },
+    "en": { "name": "Serperior", "genus": "Regal Pokémon" }
+  },
+  {
+    "id": 498,
+    "fr": { "name": "Gruikui", "genus": "Pokémon Cochon Feu" },
+    "en": { "name": "Tepig", "genus": "Fire Pig Pokémon" }
+  },
+  {
+    "id": 499,
+    "fr": { "name": "Grotichon", "genus": "Pokémon Cochon Feu" },
+    "en": { "name": "Pignite", "genus": "Fire Pig Pokémon" }
+  },
+  {
+    "id": 500,
+    "fr": { "name": "Roitiflam", "genus": "Pokémon Grochon Feu" },
+    "en": { "name": "Emboar", "genus": "Mega Fire Pig Pokémon" }
+  },
+  {
+    "id": 501,
+    "fr": { "name": "Moustillon", "genus": "Pokémon Loutre" },
+    "en": { "name": "Oshawott", "genus": "Sea Otter Pokémon" }
+  },
+  {
+    "id": 502,
+    "fr": { "name": "Mateloutre", "genus": "Pokémon Entraînement" },
+    "en": { "name": "Dewott", "genus": "Discipline Pokémon" }
+  },
+  {
+    "id": 503,
+    "fr": { "name": "Clamiral", "genus": "Pokémon Dignitaire" },
+    "en": { "name": "Samurott", "genus": "Formidable Pokémon" }
+  },
+  {
+    "id": 504,
+    "fr": { "name": "Ratentif", "genus": "Pokémon Espion" },
+    "en": { "name": "Patrat", "genus": "Scout Pokémon" }
+  },
+  {
+    "id": 505,
+    "fr": { "name": "Miradar", "genus": "Pokémon Vigilant" },
+    "en": { "name": "Watchog", "genus": "Lookout Pokémon" }
+  },
+  {
+    "id": 506,
+    "fr": { "name": "Ponchiot", "genus": "Pokémon Chiot" },
+    "en": { "name": "Lillipup", "genus": "Puppy Pokémon" }
+  },
+  {
+    "id": 507,
+    "fr": { "name": "Ponchien", "genus": "Pokémon Chien Fidèle" },
+    "en": { "name": "Herdier", "genus": "Loyal Dog Pokémon" }
+  },
+  {
+    "id": 508,
+    "fr": { "name": "Mastouffe", "genus": "Pokémon Magnanime" },
+    "en": { "name": "Stoutland", "genus": "Big-Hearted Pokémon" }
+  },
+  {
+    "id": 509,
+    "fr": { "name": "Chacripan", "genus": "Pokémon Scélérat" },
+    "en": { "name": "Purrloin", "genus": "Devious Pokémon" }
+  },
+  {
+    "id": 510,
+    "fr": { "name": "Léopardus", "genus": "Pokémon Implacable" },
+    "en": { "name": "Liepard", "genus": "Cruel Pokémon" }
+  },
+  {
+    "id": 511,
+    "fr": { "name": "Feuillajou", "genus": "Pokémon Singe Herbe" },
+    "en": { "name": "Pansage", "genus": "Grass Monkey Pokémon" }
+  },
+  {
+    "id": 512,
+    "fr": { "name": "Feuiloutan", "genus": "Pokémon Singépine" },
+    "en": { "name": "Simisage", "genus": "Thorn Monkey Pokémon" }
+  },
+  {
+    "id": 513,
+    "fr": { "name": "Flamajou", "genus": "Pokémon Brûlant" },
+    "en": { "name": "Pansear", "genus": "High Temp Pokémon" }
+  },
+  {
+    "id": 514,
+    "fr": { "name": "Flamoutan", "genus": "Pokémon Braise" },
+    "en": { "name": "Simisear", "genus": "Ember Pokémon" }
+  },
+  {
+    "id": 515,
+    "fr": { "name": "Flotajou", "genus": "Pokémon Jet d’Eau" },
+    "en": { "name": "Panpour", "genus": "Spray Pokémon" }
+  },
+  {
+    "id": 516,
+    "fr": { "name": "Flotoutan", "genus": "Pokémon Drainage" },
+    "en": { "name": "Simipour", "genus": "Geyser Pokémon" }
+  },
+  {
+    "id": 517,
+    "fr": { "name": "Munna", "genus": "Pokémon Mangerêve" },
+    "en": { "name": "Munna", "genus": "Dream Eater Pokémon" }
+  },
+  {
+    "id": 518,
+    "fr": { "name": "Mushana", "genus": "Pokémon Rêveur" },
+    "en": { "name": "Musharna", "genus": "Drowsing Pokémon" }
+  },
+  {
+    "id": 519,
+    "fr": { "name": "Poichigeon", "genus": "Pokémon Tipigeon" },
+    "en": { "name": "Pidove", "genus": "Tiny Pigeon Pokémon" }
+  },
+  {
+    "id": 520,
+    "fr": { "name": "Colombeau", "genus": "Pokémon Sauvapigeon" },
+    "en": { "name": "Tranquill", "genus": "Wild Pigeon Pokémon" }
+  },
+  {
+    "id": 521,
+    "fr": { "name": "Déflaisan", "genus": "Pokémon Fier" },
+    "en": { "name": "Unfezant", "genus": "Proud Pokémon" }
+  },
+  {
+    "id": 522,
+    "fr": { "name": "Zébibron", "genus": "Pokémon Étincélec" },
+    "en": { "name": "Blitzle", "genus": "Electrified Pokémon" }
+  },
+  {
+    "id": 523,
+    "fr": { "name": "Zéblitz", "genus": "Pokémon Foudrélec" },
+    "en": { "name": "Zebstrika", "genus": "Thunderbolt Pokémon" }
+  },
+  {
+    "id": 524,
+    "fr": { "name": "Nodulithe", "genus": "Pokémon Manteau" },
+    "en": { "name": "Roggenrola", "genus": "Mantle Pokémon" }
+  },
+  {
+    "id": 525,
+    "fr": { "name": "Géolithe", "genus": "Pokémon Minerai" },
+    "en": { "name": "Boldore", "genus": "Ore Pokémon" }
+  },
+  {
+    "id": 526,
+    "fr": { "name": "Gigalithe", "genus": "Pokémon Surpression" },
+    "en": { "name": "Gigalith", "genus": "Compressed Pokémon" }
+  },
+  {
+    "id": 527,
+    "fr": { "name": "Chovsourir", "genus": "Pokémon Chovsouris" },
+    "en": { "name": "Woobat", "genus": "Bat Pokémon" }
+  },
+  {
+    "id": 528,
+    "fr": { "name": "Rhinolove", "genus": "Pokémon Cupidon" },
+    "en": { "name": "Swoobat", "genus": "Courting Pokémon" }
+  },
+  {
+    "id": 529,
+    "fr": { "name": "Rototaupe", "genus": "Pokémon Taupe" },
+    "en": { "name": "Drilbur", "genus": "Mole Pokémon" }
+  },
+  {
+    "id": 530,
+    "fr": { "name": "Minotaupe", "genus": "Pokémon Souterrain" },
+    "en": { "name": "Excadrill", "genus": "Subterrene Pokémon" }
+  },
+  {
+    "id": 531,
+    "fr": { "name": "Nanméouïe", "genus": "Pokémon Audition" },
+    "en": { "name": "Audino", "genus": "Hearing Pokémon" }
+  },
+  {
+    "id": 532,
+    "fr": { "name": "Charpenti", "genus": "Pokémon Costaud" },
+    "en": { "name": "Timburr", "genus": "Muscular Pokémon" }
+  },
+  {
+    "id": 533,
+    "fr": { "name": "Ouvrifier", "genus": "Pokémon Costaud" },
+    "en": { "name": "Gurdurr", "genus": "Muscular Pokémon" }
+  },
+  {
+    "id": 534,
+    "fr": { "name": "Bétochef", "genus": "Pokémon Costaud" },
+    "en": { "name": "Conkeldurr", "genus": "Muscular Pokémon" }
+  },
+  {
+    "id": 535,
+    "fr": { "name": "Tritonde", "genus": "Pokémon Têtard" },
+    "en": { "name": "Tympole", "genus": "Tadpole Pokémon" }
+  },
+  {
+    "id": 536,
+    "fr": { "name": "Batracné", "genus": "Pokémon Vibration" },
+    "en": { "name": "Palpitoad", "genus": "Vibration Pokémon" }
+  },
+  {
+    "id": 537,
+    "fr": { "name": "Crapustule", "genus": "Pokémon Vibration" },
+    "en": { "name": "Seismitoad", "genus": "Vibration Pokémon" }
+  },
+  {
+    "id": 538,
+    "fr": { "name": "Judokrak", "genus": "Pokémon Judo" },
+    "en": { "name": "Throh", "genus": "Judo Pokémon" }
+  },
+  {
+    "id": 539,
+    "fr": { "name": "Karaclée", "genus": "Pokémon Karaté" },
+    "en": { "name": "Sawk", "genus": "Karate Pokémon" }
+  },
+  {
+    "id": 540,
+    "fr": { "name": "Larveyette", "genus": "Pokémon Couture" },
+    "en": { "name": "Sewaddle", "genus": "Sewing Pokémon" }
+  },
+  {
+    "id": 541,
+    "fr": { "name": "Couverdure", "genus": "Pokémon Capefeuille" },
+    "en": { "name": "Swadloon", "genus": "Leaf-Wrapped Pokémon" }
+  },
+  {
+    "id": 542,
+    "fr": { "name": "Manternel", "genus": "Pokémon Précepteur" },
+    "en": { "name": "Leavanny", "genus": "Nurturing Pokémon" }
+  },
+  {
+    "id": 543,
+    "fr": { "name": "Venipatte", "genus": "Pokémon Chilopode" },
+    "en": { "name": "Venipede", "genus": "Centipede Pokémon" }
+  },
+  {
+    "id": 544,
+    "fr": { "name": "Scobolide", "genus": "Pokémon Coconplopode" },
+    "en": { "name": "Whirlipede", "genus": "Curlipede Pokémon" }
+  },
+  {
+    "id": 545,
+    "fr": { "name": "Brutapode", "genus": "Pokémon Mégaplopode" },
+    "en": { "name": "Scolipede", "genus": "Megapede Pokémon" }
+  },
+  {
+    "id": 546,
+    "fr": { "name": "Doudouvet", "genus": "Pokémon Boule Coton" },
+    "en": { "name": "Cottonee", "genus": "Cotton Puff Pokémon" }
+  },
+  {
+    "id": 547,
+    "fr": { "name": "Farfaduvet", "genus": "Pokémon Vole Vent" },
+    "en": { "name": "Whimsicott", "genus": "Windveiled Pokémon" }
+  },
+  {
+    "id": 548,
+    "fr": { "name": "Chlorobule", "genus": "Pokémon Racine" },
+    "en": { "name": "Petilil", "genus": "Bulb Pokémon" }
+  },
+  {
+    "id": 549,
+    "fr": { "name": "Fragilady", "genus": "Pokémon Chef-Fleur" },
+    "en": { "name": "Lilligant", "genus": "Flowering Pokémon" }
+  },
+  {
+    "id": 550,
+    "fr": { "name": "Bargantua", "genus": "Pokémon Violent" },
+    "en": { "name": "Basculin", "genus": "Hostile Pokémon" }
+  },
+  {
+    "id": 551,
+    "fr": { "name": "Mascaïman", "genus": "Pokémon Croco Sable" },
+    "en": { "name": "Sandile", "genus": "Desert Croc Pokémon" }
+  },
+  {
+    "id": 552,
+    "fr": { "name": "Escroco", "genus": "Pokémon Croco Sable" },
+    "en": { "name": "Krokorok", "genus": "Desert Croc Pokémon" }
+  },
+  {
+    "id": 553,
+    "fr": { "name": "Crocorible", "genus": "Pokémon Intimidation" },
+    "en": { "name": "Krookodile", "genus": "Intimidation Pokémon" }
+  },
+  {
+    "id": 554,
+    "fr": { "name": "Darumarond", "genus": "Pokémon Daruma" },
+    "en": { "name": "Darumaka", "genus": "Zen Charm Pokémon" }
+  },
+  {
+    "id": 555,
+    "fr": { "name": "Darumacho", "genus": "Pokémon Enflammé" },
+    "en": { "name": "Darmanitan", "genus": "Blazing Pokémon" }
+  },
+  {
+    "id": 556,
+    "fr": { "name": "Maracachi", "genus": "Pokémon Cactus" },
+    "en": { "name": "Maractus", "genus": "Cactus Pokémon" }
+  },
+  {
+    "id": 557,
+    "fr": { "name": "Crabicoque", "genus": "Pokémon Lithicole" },
+    "en": { "name": "Dwebble", "genus": "Rock Inn Pokémon" }
+  },
+  {
+    "id": 558,
+    "fr": { "name": "Crabaraque", "genus": "Pokémon Lapidicole" },
+    "en": { "name": "Crustle", "genus": "Stone Home Pokémon" }
+  },
+  {
+    "id": 559,
+    "fr": { "name": "Baggiguane", "genus": "Pokémon Mue" },
+    "en": { "name": "Scraggy", "genus": "Shedding Pokémon" }
+  },
+  {
+    "id": 560,
+    "fr": { "name": "Baggaïd", "genus": "Pokémon Gang" },
+    "en": { "name": "Scrafty", "genus": "Hoodlum Pokémon" }
+  },
+  {
+    "id": 561,
+    "fr": { "name": "Cryptéro", "genus": "Pokémon Similoiseau" },
+    "en": { "name": "Sigilyph", "genus": "Avianoid Pokémon" }
+  },
+  {
+    "id": 562,
+    "fr": { "name": "Tutafeh", "genus": "Pokémon Âme" },
+    "en": { "name": "Yamask", "genus": "Spirit Pokémon" }
+  },
+  {
+    "id": 563,
+    "fr": { "name": "Tutankafer", "genus": "Pokémon Cercueil" },
+    "en": { "name": "Cofagrigus", "genus": "Coffin Pokémon" }
+  },
+  {
+    "id": 564,
+    "fr": { "name": "Carapagos", "genus": "Pokémon Tortantique" },
+    "en": { "name": "Tirtouga", "genus": "Prototurtle Pokémon" }
+  },
+  {
+    "id": 565,
+    "fr": { "name": "Mégapagos", "genus": "Pokémon Tortantique" },
+    "en": { "name": "Carracosta", "genus": "Prototurtle Pokémon" }
+  },
+  {
+    "id": 566,
+    "fr": { "name": "Arkéapti", "genus": "Pokémon Oisancien" },
+    "en": { "name": "Archen", "genus": "First Bird Pokémon" }
+  },
+  {
+    "id": 567,
+    "fr": { "name": "Aéroptéryx", "genus": "Pokémon Oisancien" },
+    "en": { "name": "Archeops", "genus": "First Bird Pokémon" }
+  },
+  {
+    "id": 568,
+    "fr": { "name": "Miamiasme", "genus": "Pokémon Sac Poubelle" },
+    "en": { "name": "Trubbish", "genus": "Trash Bag Pokémon" }
+  },
+  {
+    "id": 569,
+    "fr": { "name": "Miasmax", "genus": "Pokémon Dépotoir" },
+    "en": { "name": "Garbodor", "genus": "Trash Heap Pokémon" }
+  },
+  {
+    "id": 570,
+    "fr": { "name": "Zorua", "genus": "Pokémon Sombrenard" },
+    "en": { "name": "Zorua", "genus": "Tricky Fox Pokémon" }
+  },
+  {
+    "id": 571,
+    "fr": { "name": "Zoroark", "genus": "Pokémon Polymorfox" },
+    "en": { "name": "Zoroark", "genus": "Illusion Fox Pokémon" }
+  },
+  {
+    "id": 572,
+    "fr": { "name": "Chinchidou", "genus": "Pokémon Chinchilla" },
+    "en": { "name": "Minccino", "genus": "Chinchilla Pokémon" }
+  },
+  {
+    "id": 573,
+    "fr": { "name": "Pashmilla", "genus": "Pokémon Écharpe" },
+    "en": { "name": "Cinccino", "genus": "Scarf Pokémon" }
+  },
+  {
+    "id": 574,
+    "fr": { "name": "Scrutella", "genus": "Pokémon Dévisageur" },
+    "en": { "name": "Gothita", "genus": "Fixation Pokémon" }
+  },
+  {
+    "id": 575,
+    "fr": { "name": "Mesmérella", "genus": "Pokémon Magouilleur" },
+    "en": { "name": "Gothorita", "genus": "Manipulate Pokémon" }
+  },
+  {
+    "id": 576,
+    "fr": { "name": "Sidérella", "genus": "Pokémon Cosmique" },
+    "en": { "name": "Gothitelle", "genus": "Astral Body Pokémon" }
+  },
+  {
+    "id": 577,
+    "fr": { "name": "Nucléos", "genus": "Pokémon Cellule" },
+    "en": { "name": "Solosis", "genus": "Cell Pokémon" }
+  },
+  {
+    "id": 578,
+    "fr": { "name": "Méios", "genus": "Pokémon Divisé" },
+    "en": { "name": "Duosion", "genus": "Mitosis Pokémon" }
+  },
+  {
+    "id": 579,
+    "fr": { "name": "Symbios", "genus": "Pokémon Multiplié" },
+    "en": { "name": "Reuniclus", "genus": "Multiplying Pokémon" }
+  },
+  {
+    "id": 580,
+    "fr": { "name": "Couaneton", "genus": "Pokémon Oiseaudo" },
+    "en": { "name": "Ducklett", "genus": "Water Bird Pokémon" }
+  },
+  {
+    "id": 581,
+    "fr": { "name": "Lakmécygne", "genus": "Pokémon Cygne" },
+    "en": { "name": "Swanna", "genus": "White Bird Pokémon" }
+  },
+  {
+    "id": 582,
+    "fr": { "name": "Sorbébé", "genus": "Pokémon Poudreuse" },
+    "en": { "name": "Vanillite", "genus": "Fresh Snow Pokémon" }
+  },
+  {
+    "id": 583,
+    "fr": { "name": "Sorboul", "genus": "Pokémon Grêle" },
+    "en": { "name": "Vanillish", "genus": "Icy Snow Pokémon" }
+  },
+  {
+    "id": 584,
+    "fr": { "name": "Sorbouboul", "genus": "Pokémon Congère" },
+    "en": { "name": "Vanilluxe", "genus": "Snowstorm Pokémon" }
+  },
+  {
+    "id": 585,
+    "fr": { "name": "Vivaldaim", "genus": "Pokémon Saison" },
+    "en": { "name": "Deerling", "genus": "Season Pokémon" }
+  },
+  {
+    "id": 586,
+    "fr": { "name": "Haydaim", "genus": "Pokémon Saison" },
+    "en": { "name": "Sawsbuck", "genus": "Season Pokémon" }
+  },
+  {
+    "id": 587,
+    "fr": { "name": "Emolga", "genus": "Pokémon Pteromys" },
+    "en": { "name": "Emolga", "genus": "Sky Squirrel Pokémon" }
+  },
+  {
+    "id": 588,
+    "fr": { "name": "Carabing", "genus": "Pokémon Carabe" },
+    "en": { "name": "Karrablast", "genus": "Clamping Pokémon" }
+  },
+  {
+    "id": 589,
+    "fr": { "name": "Lançargot", "genus": "Pokémon Chevalier" },
+    "en": { "name": "Escavalier", "genus": "Cavalry Pokémon" }
+  },
+  {
+    "id": 590,
+    "fr": { "name": "Trompignon", "genus": "Pokémon Champignon" },
+    "en": { "name": "Foongus", "genus": "Mushroom Pokémon" }
+  },
+  {
+    "id": 591,
+    "fr": { "name": "Gaulet", "genus": "Pokémon Champignon" },
+    "en": { "name": "Amoonguss", "genus": "Mushroom Pokémon" }
+  },
+  {
+    "id": 592,
+    "fr": { "name": "Viskuse", "genus": "Pokémon Flottaison" },
+    "en": { "name": "Frillish", "genus": "Floating Pokémon" }
+  },
+  {
+    "id": 593,
+    "fr": { "name": "Moyade", "genus": "Pokémon Flottaison" },
+    "en": { "name": "Jellicent", "genus": "Floating Pokémon" }
+  },
+  {
+    "id": 594,
+    "fr": { "name": "Mamanbo", "genus": "Pokémon Soigneur" },
+    "en": { "name": "Alomomola", "genus": "Caring Pokémon" }
+  },
+  {
+    "id": 595,
+    "fr": { "name": "Statitik", "genus": "Pokémon Crampon" },
+    "en": { "name": "Joltik", "genus": "Attaching Pokémon" }
+  },
+  {
+    "id": 596,
+    "fr": { "name": "Mygavolt", "genus": "Pokémon Araclectrik" },
+    "en": { "name": "Galvantula", "genus": "EleSpider Pokémon" }
+  },
+  {
+    "id": 597,
+    "fr": { "name": "Grindur", "genus": "Pokémon Graine Épine" },
+    "en": { "name": "Ferroseed", "genus": "Thorn Seed Pokémon" }
+  },
+  {
+    "id": 598,
+    "fr": { "name": "Noacier", "genus": "Pokémon Boule Épine" },
+    "en": { "name": "Ferrothorn", "genus": "Thorn Pod Pokémon" }
+  },
+  {
+    "id": 599,
+    "fr": { "name": "Tic", "genus": "Pokémon Engrenage" },
+    "en": { "name": "Klink", "genus": "Gear Pokémon" }
+  },
+  {
+    "id": 600,
+    "fr": { "name": "Clic", "genus": "Pokémon Engrenage" },
+    "en": { "name": "Klang", "genus": "Gear Pokémon" }
+  },
+  {
+    "id": 601,
+    "fr": { "name": "Cliticlic", "genus": "Pokémon Engrenage" },
+    "en": { "name": "Klinklang", "genus": "Gear Pokémon" }
+  },
+  {
+    "id": 602,
+    "fr": { "name": "Anchwatt", "genus": "Pokémon Électrophore" },
+    "en": { "name": "Tynamo", "genus": "EleFish Pokémon" }
+  },
+  {
+    "id": 603,
+    "fr": { "name": "Lampéroie", "genus": "Pokémon Électrophore" },
+    "en": { "name": "Eelektrik", "genus": "EleFish Pokémon" }
+  },
+  {
+    "id": 604,
+    "fr": { "name": "Ohmassacre", "genus": "Pokémon Électrophore" },
+    "en": { "name": "Eelektross", "genus": "EleFish Pokémon" }
+  },
+  {
+    "id": 605,
+    "fr": { "name": "Lewsor", "genus": "Pokémon Cerveau" },
+    "en": { "name": "Elgyem", "genus": "Cerebral Pokémon" }
+  },
+  {
+    "id": 606,
+    "fr": { "name": "Neitram", "genus": "Pokémon Cerveau" },
+    "en": { "name": "Beheeyem", "genus": "Cerebral Pokémon" }
+  },
+  {
+    "id": 607,
+    "fr": { "name": "Funécire", "genus": "Pokémon Chandelle" },
+    "en": { "name": "Litwick", "genus": "Candle Pokémon" }
+  },
+  {
+    "id": 608,
+    "fr": { "name": "Mélancolux", "genus": "Pokémon Lampe" },
+    "en": { "name": "Lampent", "genus": "Lamp Pokémon" }
+  },
+  {
+    "id": 609,
+    "fr": { "name": "Lugulabre", "genus": "Pokémon Invitation" },
+    "en": { "name": "Chandelure", "genus": "Luring Pokémon" }
+  },
+  {
+    "id": 610,
+    "fr": { "name": "Coupenotte", "genus": "Pokémon Crocs" },
+    "en": { "name": "Axew", "genus": "Tusk Pokémon" }
+  },
+  {
+    "id": 611,
+    "fr": { "name": "Incisache", "genus": "Pokémon Hachomenton" },
+    "en": { "name": "Fraxure", "genus": "Axe Jaw Pokémon" }
+  },
+  {
+    "id": 612,
+    "fr": { "name": "Tranchodon", "genus": "Pokémon Hachomenton" },
+    "en": { "name": "Haxorus", "genus": "Axe Jaw Pokémon" }
+  },
+  {
+    "id": 613,
+    "fr": { "name": "Polarhume", "genus": "Pokémon Gelé" },
+    "en": { "name": "Cubchoo", "genus": "Chill Pokémon" }
+  },
+  {
+    "id": 614,
+    "fr": { "name": "Polagriffe", "genus": "Pokémon Congelé" },
+    "en": { "name": "Beartic", "genus": "Freezing Pokémon" }
+  },
+  {
+    "id": 615,
+    "fr": { "name": "Hexagel", "genus": "Pokémon Cristal" },
+    "en": { "name": "Cryogonal", "genus": "Crystallizing Pokémon" }
+  },
+  {
+    "id": 616,
+    "fr": { "name": "Escargaume", "genus": "Pokémon Escargot" },
+    "en": { "name": "Shelmet", "genus": "Snail Pokémon" }
+  },
+  {
+    "id": 617,
+    "fr": { "name": "Limaspeed", "genus": "Pokémon Exuviateur" },
+    "en": { "name": "Accelgor", "genus": "Shell Out Pokémon" }
+  },
+  {
+    "id": 618,
+    "fr": { "name": "Limonde", "genus": "Pokémon Piège" },
+    "en": { "name": "Stunfisk", "genus": "Trap Pokémon" }
+  },
+  {
+    "id": 619,
+    "fr": { "name": "Kungfouine", "genus": "Pokémon Art Martial" },
+    "en": { "name": "Mienfoo", "genus": "Martial Arts Pokémon" }
+  },
+  {
+    "id": 620,
+    "fr": { "name": "Shaofouine", "genus": "Pokémon Art Martial" },
+    "en": { "name": "Mienshao", "genus": "Martial Arts Pokémon" }
+  },
+  {
+    "id": 621,
+    "fr": { "name": "Drakkarmin", "genus": "Pokémon Caverne" },
+    "en": { "name": "Druddigon", "genus": "Cave Pokémon" }
+  },
+  {
+    "id": 622,
+    "fr": { "name": "Gringolem", "genus": "Pokémon Golem Ancien" },
+    "en": { "name": "Golett", "genus": "Automaton Pokémon" }
+  },
+  {
+    "id": 623,
+    "fr": { "name": "Golemastoc", "genus": "Pokémon Golem Ancien" },
+    "en": { "name": "Golurk", "genus": "Automaton Pokémon" }
+  },
+  {
+    "id": 624,
+    "fr": { "name": "Scalpion", "genus": "Pokémon Coupant" },
+    "en": { "name": "Pawniard", "genus": "Sharp Blade Pokémon" }
+  },
+  {
+    "id": 625,
+    "fr": { "name": "Scalproie", "genus": "Pokémon Tranchant" },
+    "en": { "name": "Bisharp", "genus": "Sword Blade Pokémon" }
+  },
+  {
+    "id": 626,
+    "fr": { "name": "Frison", "genus": "Pokémon Coup d’Bœuf" },
+    "en": { "name": "Bouffalant", "genus": "Bash Buffalo Pokémon" }
+  },
+  {
+    "id": 627,
+    "fr": { "name": "Furaiglon", "genus": "Pokémon Aiglon" },
+    "en": { "name": "Rufflet", "genus": "Eaglet Pokémon" }
+  },
+  {
+    "id": 628,
+    "fr": { "name": "Gueriaigle", "genus": "Pokémon Vaillant" },
+    "en": { "name": "Braviary", "genus": "Valiant Pokémon" }
+  },
+  {
+    "id": 629,
+    "fr": { "name": "Vostourno", "genus": "Pokémon Couche" },
+    "en": { "name": "Vullaby", "genus": "Diapered Pokémon" }
+  },
+  {
+    "id": 630,
+    "fr": { "name": "Vaututrice", "genus": "Pokémon Vostour" },
+    "en": { "name": "Mandibuzz", "genus": "Bone Vulture Pokémon" }
+  },
+  {
+    "id": 631,
+    "fr": { "name": "Aflamanoir", "genus": "Pokémon Tamanoir" },
+    "en": { "name": "Heatmor", "genus": "Anteater Pokémon" }
+  },
+  {
+    "id": 632,
+    "fr": { "name": "Fermite", "genus": "Pokémon Fourmi Dure" },
+    "en": { "name": "Durant", "genus": "Iron Ant Pokémon" }
+  },
+  {
+    "id": 633,
+    "fr": { "name": "Solochi", "genus": "Pokémon Rude" },
+    "en": { "name": "Deino", "genus": "Irate Pokémon" }
+  },
+  {
+    "id": 634,
+    "fr": { "name": "Diamat", "genus": "Pokémon Violent" },
+    "en": { "name": "Zweilous", "genus": "Hostile Pokémon" }
+  },
+  {
+    "id": 635,
+    "fr": { "name": "Trioxhydre", "genus": "Pokémon Brutal" },
+    "en": { "name": "Hydreigon", "genus": "Brutal Pokémon" }
+  },
+  {
+    "id": 636,
+    "fr": { "name": "Pyronille", "genus": "Pokémon Torche" },
+    "en": { "name": "Larvesta", "genus": "Torch Pokémon" }
+  },
+  {
+    "id": 637,
+    "fr": { "name": "Pyrax", "genus": "Pokémon Soleil" },
+    "en": { "name": "Volcarona", "genus": "Sun Pokémon" }
+  },
+  {
+    "id": 638,
+    "fr": { "name": "Cobaltium", "genus": "Pokémon Cœur de Fer" },
+    "en": { "name": "Cobalion", "genus": "Iron Will Pokémon" }
+  },
+  {
+    "id": 639,
+    "fr": { "name": "Terrakium", "genus": "Pokémon Grotte" },
+    "en": { "name": "Terrakion", "genus": "Cavern Pokémon" }
+  },
+  {
+    "id": 640,
+    "fr": { "name": "Viridium", "genus": "Pokémon Plaine Verte" },
+    "en": { "name": "Virizion", "genus": "Grassland Pokémon" }
+  },
+  {
+    "id": 641,
+    "fr": { "name": "Boréas", "genus": "Pokémon Tornade" },
+    "en": { "name": "Tornadus", "genus": "Cyclone Pokémon" }
+  },
+  {
+    "id": 642,
+    "fr": { "name": "Fulguris", "genus": "Pokémon Foudroyeur" },
+    "en": { "name": "Thundurus", "genus": "Bolt Strike Pokémon" }
+  },
+  {
+    "id": 643,
+    "fr": { "name": "Reshiram", "genus": "Pokémon Blanc Réel" },
+    "en": { "name": "Reshiram", "genus": "Vast White Pokémon" }
+  },
+  {
+    "id": 644,
+    "fr": { "name": "Zekrom", "genus": "Pokémon Noir Idéal" },
+    "en": { "name": "Zekrom", "genus": "Deep Black Pokémon" }
+  },
+  {
+    "id": 645,
+    "fr": { "name": "Démétéros", "genus": "Pokémon Fertilité" },
+    "en": { "name": "Landorus", "genus": "Abundance Pokémon" }
+  },
+  {
+    "id": 646,
+    "fr": { "name": "Kyurem", "genus": "Pokémon Frontière" },
+    "en": { "name": "Kyurem", "genus": "Boundary Pokémon" }
+  },
+  {
+    "id": 647,
+    "fr": { "name": "Keldeo", "genus": "Pokémon Poulain" },
+    "en": { "name": "Keldeo", "genus": "Colt Pokémon" }
+  },
+  {
+    "id": 648,
+    "fr": { "name": "Meloetta", "genus": "Pokémon Mélodie" },
+    "en": { "name": "Meloetta", "genus": "Melody Pokémon" }
+  },
+  {
+    "id": 649,
+    "fr": { "name": "Genesect", "genus": "Pokémon Paléozoïque" },
+    "en": { "name": "Genesect", "genus": "Paleozoic Pokémon" }
+  },
+  {
+    "id": 650,
+    "fr": { "name": "Marisson", "genus": "Pokémon Bogue" },
+    "en": { "name": "Chespin", "genus": "Spiny Nut Pokémon" }
+  },
+  {
+    "id": 651,
+    "fr": { "name": "Boguérisse", "genus": "Pokémon Épinarmure" },
+    "en": { "name": "Quilladin", "genus": "Spiny Armor Pokémon" }
+  },
+  {
+    "id": 652,
+    "fr": { "name": "Blindépique", "genus": "Pokémon Épinarmure" },
+    "en": { "name": "Chesnaught", "genus": "Spiny Armor Pokémon" }
+  },
+  {
+    "id": 653,
+    "fr": { "name": "Feunnec", "genus": "Pokémon Renard" },
+    "en": { "name": "Fennekin", "genus": "Fox Pokémon" }
+  },
+  {
+    "id": 654,
+    "fr": { "name": "Roussil", "genus": "Pokémon Renard" },
+    "en": { "name": "Braixen", "genus": "Fox Pokémon" }
+  },
+  {
+    "id": 655,
+    "fr": { "name": "Goupelin", "genus": "Pokémon Renard" },
+    "en": { "name": "Delphox", "genus": "Fox Pokémon" }
+  },
+  {
+    "id": 656,
+    "fr": { "name": "Grenousse", "genus": "Pokémon Crapobulle" },
+    "en": { "name": "Froakie", "genus": "Bubble Frog Pokémon" }
+  },
+  {
+    "id": 657,
+    "fr": { "name": "Croâporal", "genus": "Pokémon Crapobulle" },
+    "en": { "name": "Frogadier", "genus": "Bubble Frog Pokémon" }
+  },
+  {
+    "id": 658,
+    "fr": { "name": "Amphinobi", "genus": "Pokémon Ninja" },
+    "en": { "name": "Greninja", "genus": "Ninja Pokémon" }
+  },
+  {
+    "id": 659,
+    "fr": { "name": "Sapereau", "genus": "Pokémon Fouisseur" },
+    "en": { "name": "Bunnelby", "genus": "Digging Pokémon" }
+  },
+  {
+    "id": 660,
+    "fr": { "name": "Excavarenne", "genus": "Pokémon Fouisseur" },
+    "en": { "name": "Diggersby", "genus": "Digging Pokémon" }
+  },
+  {
+    "id": 661,
+    "fr": { "name": "Passerouge", "genus": "Pokémon Rougegorge" },
+    "en": { "name": "Fletchling", "genus": "Tiny Robin Pokémon" }
+  },
+  {
+    "id": 662,
+    "fr": { "name": "Braisillon", "genus": "Pokémon Braise" },
+    "en": { "name": "Fletchinder", "genus": "Ember Pokémon" }
+  },
+  {
+    "id": 663,
+    "fr": { "name": "Flambusard", "genus": "Pokémon Fournaise" },
+    "en": { "name": "Talonflame", "genus": "Scorching Pokémon" }
+  },
+  {
+    "id": 664,
+    "fr": { "name": "Lépidonille", "genus": "Pokémon Exhalécaille" },
+    "en": { "name": "Scatterbug", "genus": "Scatterdust Pokémon" }
+  },
+  {
+    "id": 665,
+    "fr": { "name": "Pérégrain", "genus": "Pokémon Exhalécaille" },
+    "en": { "name": "Spewpa", "genus": "Scatterdust Pokémon" }
+  },
+  {
+    "id": 666,
+    "fr": { "name": "Prismillon", "genus": "Pokémon Lépidécaille" },
+    "en": { "name": "Vivillon", "genus": "Scale Pokémon" }
+  },
+  {
+    "id": 667,
+    "fr": { "name": "Hélionceau", "genus": "Pokémon Lionceau" },
+    "en": { "name": "Litleo", "genus": "Lion Cub Pokémon" }
+  },
+  {
+    "id": 668,
+    "fr": { "name": "Némélios", "genus": "Pokémon Royal" },
+    "en": { "name": "Pyroar", "genus": "Royal Pokémon" }
+  },
+  {
+    "id": 669,
+    "fr": { "name": "Flabébé", "genus": "Pokémon Uniflore" },
+    "en": { "name": "Flabébé", "genus": "Single Bloom Pokémon" }
+  },
+  {
+    "id": 670,
+    "fr": { "name": "Floette", "genus": "Pokémon Uniflore" },
+    "en": { "name": "Floette", "genus": "Single Bloom Pokémon" }
+  },
+  {
+    "id": 671,
+    "fr": { "name": "Florges", "genus": "Pokémon Jardin" },
+    "en": { "name": "Florges", "genus": "Garden Pokémon" }
+  },
+  {
+    "id": 672,
+    "fr": { "name": "Cabriolaine", "genus": "Pokémon Monture" },
+    "en": { "name": "Skiddo", "genus": "Mount Pokémon" }
+  },
+  {
+    "id": 673,
+    "fr": { "name": "Chevroum", "genus": "Pokémon Monture" },
+    "en": { "name": "Gogoat", "genus": "Mount Pokémon" }
+  },
+  {
+    "id": 674,
+    "fr": { "name": "Pandespiègle", "genus": "Pokémon Garnement" },
+    "en": { "name": "Pancham", "genus": "Playful Pokémon" }
+  },
+  {
+    "id": 675,
+    "fr": { "name": "Pandarbare", "genus": "Pokémon Patibulaire" },
+    "en": { "name": "Pangoro", "genus": "Daunting Pokémon" }
+  },
+  {
+    "id": 676,
+    "fr": { "name": "Couafarel", "genus": "Pokémon Caniche" },
+    "en": { "name": "Furfrou", "genus": "Poodle Pokémon" }
+  },
+  {
+    "id": 677,
+    "fr": { "name": "Psystigri", "genus": "Pokémon Retenue" },
+    "en": { "name": "Espurr", "genus": "Restraint Pokémon" }
+  },
+  {
+    "id": 678,
+    "fr": { "name": "Mistigrix", "genus": "Pokémon SelfContrôle" },
+    "en": { "name": "Meowstic", "genus": "Constraint Pokémon" }
+  },
+  {
+    "id": 679,
+    "fr": { "name": "Monorpale", "genus": "Pokémon Glaive" },
+    "en": { "name": "Honedge", "genus": "Sword Pokémon" }
+  },
+  {
+    "id": 680,
+    "fr": { "name": "Dimoclès", "genus": "Pokémon Glaive" },
+    "en": { "name": "Doublade", "genus": "Sword Pokémon" }
+  },
+  {
+    "id": 681,
+    "fr": { "name": "Exagide", "genus": "Pokémon Noble Lame" },
+    "en": { "name": "Aegislash", "genus": "Royal Sword Pokémon" }
+  },
+  {
+    "id": 682,
+    "fr": { "name": "Fluvetin", "genus": "Pokémon Fragrance" },
+    "en": { "name": "Spritzee", "genus": "Perfume Pokémon" }
+  },
+  {
+    "id": 683,
+    "fr": { "name": "Cocotine", "genus": "Pokémon Parfum" },
+    "en": { "name": "Aromatisse", "genus": "Fragrance Pokémon" }
+  },
+  {
+    "id": 684,
+    "fr": { "name": "Sucroquin", "genus": "Pokémon Confiserie" },
+    "en": { "name": "Swirlix", "genus": "Cotton Candy Pokémon" }
+  },
+  {
+    "id": 685,
+    "fr": { "name": "Cupcanaille", "genus": "Pokémon Mousseline" },
+    "en": { "name": "Slurpuff", "genus": "Meringue Pokémon" }
+  },
+  {
+    "id": 686,
+    "fr": { "name": "Sepiatop", "genus": "Pokémon Rotation" },
+    "en": { "name": "Inkay", "genus": "Revolving Pokémon" }
+  },
+  {
+    "id": 687,
+    "fr": { "name": "Sepiatroce", "genus": "Pokémon Révolution" },
+    "en": { "name": "Malamar", "genus": "Overturning Pokémon" }
+  },
+  {
+    "id": 688,
+    "fr": { "name": "Opermine", "genus": "Pokémon Bimane" },
+    "en": { "name": "Binacle", "genus": "Two-Handed Pokémon" }
+  },
+  {
+    "id": 689,
+    "fr": { "name": "Golgopathe", "genus": "Pokémon Assemblage" },
+    "en": { "name": "Barbaracle", "genus": "Collective Pokémon" }
+  },
+  {
+    "id": 690,
+    "fr": { "name": "Venalgue", "genus": "Pokémon Simulalgue" },
+    "en": { "name": "Skrelp", "genus": "Mock Kelp Pokémon" }
+  },
+  {
+    "id": 691,
+    "fr": { "name": "Kravarech", "genus": "Pokémon Simulalgue" },
+    "en": { "name": "Dragalge", "genus": "Mock Kelp Pokémon" }
+  },
+  {
+    "id": 692,
+    "fr": { "name": "Flingouste", "genus": "Pokémon Lance à Eau" },
+    "en": { "name": "Clauncher", "genus": "Water Gun Pokémon" }
+  },
+  {
+    "id": 693,
+    "fr": { "name": "Gamblast", "genus": "Pokémon Blaster" },
+    "en": { "name": "Clawitzer", "genus": "Howitzer Pokémon" }
+  },
+  {
+    "id": 694,
+    "fr": { "name": "Galvaran", "genus": "Pokémon Générateur" },
+    "en": { "name": "Helioptile", "genus": "Generator Pokémon" }
+  },
+  {
+    "id": 695,
+    "fr": { "name": "Iguolta", "genus": "Pokémon Générateur" },
+    "en": { "name": "Heliolisk", "genus": "Generator Pokémon" }
+  },
+  {
+    "id": 696,
+    "fr": { "name": "Ptyranidur", "genus": "Pokémon Prince" },
+    "en": { "name": "Tyrunt", "genus": "Royal Heir Pokémon" }
+  },
+  {
+    "id": 697,
+    "fr": { "name": "Rexillius", "genus": "Pokémon Tyran" },
+    "en": { "name": "Tyrantrum", "genus": "Despot Pokémon" }
+  },
+  {
+    "id": 698,
+    "fr": { "name": "Amagara", "genus": "Pokémon Toundra" },
+    "en": { "name": "Amaura", "genus": "Tundra Pokémon" }
+  },
+  {
+    "id": 699,
+    "fr": { "name": "Dragmara", "genus": "Pokémon Toundra" },
+    "en": { "name": "Aurorus", "genus": "Tundra Pokémon" }
+  },
+  {
+    "id": 700,
+    "fr": { "name": "Nymphali", "genus": "Pokémon Attachant" },
+    "en": { "name": "Sylveon", "genus": "Intertwining Pokémon" }
+  },
+  {
+    "id": 701,
+    "fr": { "name": "Brutalibré", "genus": "Pokémon Catcheur" },
+    "en": { "name": "Hawlucha", "genus": "Wrestling Pokémon" }
+  },
+  {
+    "id": 702,
+    "fr": { "name": "Dedenne", "genus": "Pokémon Antenne" },
+    "en": { "name": "Dedenne", "genus": "Antenna Pokémon" }
+  },
+  {
+    "id": 703,
+    "fr": { "name": "Strassie", "genus": "Pokémon Joyau" },
+    "en": { "name": "Carbink", "genus": "Jewel Pokémon" }
+  },
+  {
+    "id": 704,
+    "fr": { "name": "Mucuscule", "genus": "Pokémon Mollusque" },
+    "en": { "name": "Goomy", "genus": "Soft Tissue Pokémon" }
+  },
+  {
+    "id": 705,
+    "fr": { "name": "Colimucus", "genus": "Pokémon Mollusque" },
+    "en": { "name": "Sliggoo", "genus": "Soft Tissue Pokémon" }
+  },
+  {
+    "id": 706,
+    "fr": { "name": "Muplodocus", "genus": "Pokémon Dragon" },
+    "en": { "name": "Goodra", "genus": "Dragon Pokémon" }
+  },
+  {
+    "id": 707,
+    "fr": { "name": "Trousselin", "genus": "Pokémon Trousseau" },
+    "en": { "name": "Klefki", "genus": "Key Ring Pokémon" }
+  },
+  {
+    "id": 708,
+    "fr": { "name": "Brocélôme", "genus": "Pokémon Souche" },
+    "en": { "name": "Phantump", "genus": "Stump Pokémon" }
+  },
+  {
+    "id": 709,
+    "fr": { "name": "Desséliande", "genus": "Pokémon Vieillarbre" },
+    "en": { "name": "Trevenant", "genus": "Elder Tree Pokémon" }
+  },
+  {
+    "id": 710,
+    "fr": { "name": "Pitrouille", "genus": "Pokémon Citrouille" },
+    "en": { "name": "Pumpkaboo", "genus": "Pumpkin Pokémon" }
+  },
+  {
+    "id": 711,
+    "fr": { "name": "Banshitrouye", "genus": "Pokémon Citrouille" },
+    "en": { "name": "Gourgeist", "genus": "Pumpkin Pokémon" }
+  },
+  {
+    "id": 712,
+    "fr": { "name": "Grelaçon", "genus": "Pokémon Glaçon" },
+    "en": { "name": "Bergmite", "genus": "Ice Chunk Pokémon" }
+  },
+  {
+    "id": 713,
+    "fr": { "name": "Séracrawl", "genus": "Pokémon Iceberg" },
+    "en": { "name": "Avalugg", "genus": "Iceberg Pokémon" }
+  },
+  {
+    "id": 714,
+    "fr": { "name": "Sonistrelle", "genus": "Pokémon Ondes" },
+    "en": { "name": "Noibat", "genus": "Sound Wave Pokémon" }
+  },
+  {
+    "id": 715,
+    "fr": { "name": "Bruyverne", "genus": "Pokémon Ondes" },
+    "en": { "name": "Noivern", "genus": "Sound Wave Pokémon" }
+  },
+  {
+    "id": 716,
+    "fr": { "name": "Xerneas", "genus": "Pokémon Existence" },
+    "en": { "name": "Xerneas", "genus": "Life Pokémon" }
+  },
+  {
+    "id": 717,
+    "fr": { "name": "Yveltal", "genus": "Pokémon Annihilation" },
+    "en": { "name": "Yveltal", "genus": "Destruction Pokémon" }
+  },
+  {
+    "id": 718,
+    "fr": { "name": "Zygarde", "genus": "Pokémon Équilibre" },
+    "en": { "name": "Zygarde", "genus": "Order Pokémon" }
+  },
+  {
+    "id": 719,
+    "fr": { "name": "Diancie", "genus": "Pokémon Joyau" },
+    "en": { "name": "Diancie", "genus": "Jewel Pokémon" }
+  },
+  {
+    "id": 720,
+    "fr": { "name": "Hoopa", "genus": "Pokémon Chenapan" },
+    "en": { "name": "Hoopa", "genus": "Mischief Pokémon" }
+  },
+  {
+    "id": 721,
+    "fr": { "name": "Volcanion", "genus": "Pokémon Vapeur" },
+    "en": { "name": "Volcanion", "genus": "Steam Pokémon" }
+  },
+  {
+    "id": 722,
+    "fr": { "name": "Brindibou", "genus": "Pokémon Plumefeuille" },
+    "en": { "name": "Rowlet", "genus": "Grass Quill Pokémon" }
+  },
+  {
+    "id": 723,
+    "fr": { "name": "Efflèche", "genus": "Pokémon Plum’acérée" },
+    "en": { "name": "Dartrix", "genus": "Blade Quill Pokémon" }
+  },
+  {
+    "id": 724,
+    "fr": { "name": "Archéduc", "genus": "Pokémon Plumeflèche" },
+    "en": { "name": "Decidueye", "genus": "Arrow Quill Pokémon" }
+  },
+  {
+    "id": 725,
+    "fr": { "name": "Flamiaou", "genus": "Pokémon Chat Feu" },
+    "en": { "name": "Litten", "genus": "Fire Cat Pokémon" }
+  },
+  {
+    "id": 726,
+    "fr": { "name": "Matoufeu", "genus": "Pokémon Chat Feu" },
+    "en": { "name": "Torracat", "genus": "Fire Cat Pokémon" }
+  },
+  {
+    "id": 727,
+    "fr": { "name": "Félinferno", "genus": "Pokémon Vil Catcheur" },
+    "en": { "name": "Incineroar", "genus": "Heel Pokémon" }
+  },
+  {
+    "id": 728,
+    "fr": { "name": "Otaquin", "genus": "Pokémon Otarie" },
+    "en": { "name": "Popplio", "genus": "Sea Lion Pokémon" }
+  },
+  {
+    "id": 729,
+    "fr": { "name": "Otarlette", "genus": "Pokémon Starlette" },
+    "en": { "name": "Brionne", "genus": "Pop Star Pokémon" }
+  },
+  {
+    "id": 730,
+    "fr": { "name": "Oratoria", "genus": "Pokémon Soliste" },
+    "en": { "name": "Primarina", "genus": "Soloist Pokémon" }
+  },
+  {
+    "id": 731,
+    "fr": { "name": "Picassaut", "genus": "Pokémon Pivert" },
+    "en": { "name": "Pikipek", "genus": "Woodpecker Pokémon" }
+  },
+  {
+    "id": 732,
+    "fr": { "name": "Piclairon", "genus": "Pokémon Bec Clairon" },
+    "en": { "name": "Trumbeak", "genus": "Bugle Beak Pokémon" }
+  },
+  {
+    "id": 733,
+    "fr": { "name": "Bazoucan", "genus": "Pokémon Canon" },
+    "en": { "name": "Toucannon", "genus": "Cannon Pokémon" }
+  },
+  {
+    "id": 734,
+    "fr": { "name": "Manglouton", "genus": "Pokémon Patrouille" },
+    "en": { "name": "Yungoos", "genus": "Loitering Pokémon" }
+  },
+  {
+    "id": 735,
+    "fr": { "name": "Argouste", "genus": "Pokémon Filature" },
+    "en": { "name": "Gumshoos", "genus": "Stakeout Pokémon" }
+  },
+  {
+    "id": 736,
+    "fr": { "name": "Larvibule", "genus": "Pokémon Larve" },
+    "en": { "name": "Grubbin", "genus": "Larva Pokémon" }
+  },
+  {
+    "id": 737,
+    "fr": { "name": "Chrysapile", "genus": "Pokémon Batterie" },
+    "en": { "name": "Charjabug", "genus": "Battery Pokémon" }
+  },
+  {
+    "id": 738,
+    "fr": { "name": "Lucanon", "genus": "Pokémon Scarabée" },
+    "en": { "name": "Vikavolt", "genus": "Stag Beetle Pokémon" }
+  },
+  {
+    "id": 739,
+    "fr": { "name": "Crabagarre", "genus": "Pokémon Boxeur" },
+    "en": { "name": "Crabrawler", "genus": "Boxing Pokémon" }
+  },
+  {
+    "id": 740,
+    "fr": { "name": "Crabominable", "genus": "Pokémon Crabe Velu" },
+    "en": { "name": "Crabominable", "genus": "Woolly Crab Pokémon" }
+  },
+  {
+    "id": 741,
+    "fr": { "name": "Plumeline", "genus": "Pokémon Danse" },
+    "en": { "name": "Oricorio", "genus": "Dancing Pokémon" }
+  },
+  {
+    "id": 742,
+    "fr": { "name": "Bombydou", "genus": "Pokémon Bombyle" },
+    "en": { "name": "Cutiefly", "genus": "Bee Fly Pokémon" }
+  },
+  {
+    "id": 743,
+    "fr": { "name": "Rubombelle", "genus": "Pokémon Bombyle" },
+    "en": { "name": "Ribombee", "genus": "Bee Fly Pokémon" }
+  },
+  {
+    "id": 744,
+    "fr": { "name": "Rocabot", "genus": "Pokémon Chiot" },
+    "en": { "name": "Rockruff", "genus": "Puppy Pokémon" }
+  },
+  {
+    "id": 745,
+    "fr": { "name": "Lougaroc", "genus": "Pokémon Loup" },
+    "en": { "name": "Lycanroc", "genus": "Wolf Pokémon" }
+  },
+  {
+    "id": 746,
+    "fr": { "name": "Froussardine", "genus": "Pokémon Minipoisson" },
+    "en": { "name": "Wishiwashi", "genus": "Small Fry Pokémon" }
+  },
+  {
+    "id": 747,
+    "fr": { "name": "Vorastérie", "genus": "Pokémon Cruel" },
+    "en": { "name": "Mareanie", "genus": "Brutal Star Pokémon" }
+  },
+  {
+    "id": 748,
+    "fr": { "name": "Prédastérie", "genus": "Pokémon Cruel" },
+    "en": { "name": "Toxapex", "genus": "Brutal Star Pokémon" }
+  },
+  {
+    "id": 749,
+    "fr": { "name": "Tiboudet", "genus": "Pokémon Âne" },
+    "en": { "name": "Mudbray", "genus": "Donkey Pokémon" }
+  },
+  {
+    "id": 750,
+    "fr": { "name": "Bourrinos", "genus": "Pokémon Cheval Trait" },
+    "en": { "name": "Mudsdale", "genus": "Draft Horse Pokémon" }
+  },
+  {
+    "id": 751,
+    "fr": { "name": "Araqua", "genus": "Pokémon Aquabulle" },
+    "en": { "name": "Dewpider", "genus": "Water Bubble Pokémon" }
+  },
+  {
+    "id": 752,
+    "fr": { "name": "Tarenbulle", "genus": "Pokémon Aquabulle" },
+    "en": { "name": "Araquanid", "genus": "Water Bubble Pokémon" }
+  },
+  {
+    "id": 753,
+    "fr": { "name": "Mimantis", "genus": "Pokémon Fauch’Herbe" },
+    "en": { "name": "Fomantis", "genus": "Sickle Grass Pokémon" }
+  },
+  {
+    "id": 754,
+    "fr": { "name": "Floramantis", "genus": "Pokémon Fauch’Fleur" },
+    "en": { "name": "Lurantis", "genus": "Bloom Sickle Pokémon" }
+  },
+  {
+    "id": 755,
+    "fr": { "name": "Spododo", "genus": "Pokémon Luminescent" },
+    "en": { "name": "Morelull", "genus": "Illuminating Pokémon" }
+  },
+  {
+    "id": 756,
+    "fr": { "name": "Lampignon", "genus": "Pokémon Luminescent" },
+    "en": { "name": "Shiinotic", "genus": "Illuminating Pokémon" }
+  },
+  {
+    "id": 757,
+    "fr": { "name": "Tritox", "genus": "Pokémon Toxilézard" },
+    "en": { "name": "Salandit", "genus": "Toxic Lizard Pokémon" }
+  },
+  {
+    "id": 758,
+    "fr": { "name": "Malamandre", "genus": "Pokémon Toxilézard" },
+    "en": { "name": "Salazzle", "genus": "Toxic Lizard Pokémon" }
+  },
+  {
+    "id": 759,
+    "fr": { "name": "Nounourson", "genus": "Pokémon Gigoteur" },
+    "en": { "name": "Stufful", "genus": "Flailing Pokémon" }
+  },
+  {
+    "id": 760,
+    "fr": { "name": "Chelours", "genus": "Pokémon Biscoteaux" },
+    "en": { "name": "Bewear", "genus": "Strong Arm Pokémon" }
+  },
+  {
+    "id": 761,
+    "fr": { "name": "Croquine", "genus": "Pokémon Fruit" },
+    "en": { "name": "Bounsweet", "genus": "Fruit Pokémon" }
+  },
+  {
+    "id": 762,
+    "fr": { "name": "Candine", "genus": "Pokémon Fruit" },
+    "en": { "name": "Steenee", "genus": "Fruit Pokémon" }
+  },
+  {
+    "id": 763,
+    "fr": { "name": "Sucreine", "genus": "Pokémon Fruit" },
+    "en": { "name": "Tsareena", "genus": "Fruit Pokémon" }
+  },
+  {
+    "id": 764,
+    "fr": { "name": "Guérilande", "genus": "Pokémon Tressefleur" },
+    "en": { "name": "Comfey", "genus": "Posy Picker Pokémon" }
+  },
+  {
+    "id": 765,
+    "fr": { "name": "Gouroutan", "genus": "Pokémon Grand Sage" },
+    "en": { "name": "Oranguru", "genus": "Sage Pokémon" }
+  },
+  {
+    "id": 766,
+    "fr": { "name": "Quartermac", "genus": "Pokémon Coopération" },
+    "en": { "name": "Passimian", "genus": "Teamwork Pokémon" }
+  },
+  {
+    "id": 767,
+    "fr": { "name": "Sovkipou", "genus": "Pokémon Cavaleur" },
+    "en": { "name": "Wimpod", "genus": "Turn Tail Pokémon" }
+  },
+  {
+    "id": 768,
+    "fr": { "name": "Sarmuraï", "genus": "Pokémon Blindé" },
+    "en": { "name": "Golisopod", "genus": "Hard Scale Pokémon" }
+  },
+  {
+    "id": 769,
+    "fr": { "name": "Bacabouh", "genus": "Pokémon Pâtéd’Sable" },
+    "en": { "name": "Sandygast", "genus": "Sand Heap Pokémon" }
+  },
+  {
+    "id": 770,
+    "fr": { "name": "Trépassable", "genus": "Pokémon Châtod’Sable" },
+    "en": { "name": "Palossand", "genus": "Sand Castle Pokémon" }
+  },
+  {
+    "id": 771,
+    "fr": { "name": "Concombaffe", "genus": "Pokémon Holothurie" },
+    "en": { "name": "Pyukumuku", "genus": "Sea Cucumber Pokémon" }
+  },
+  {
+    "id": 772,
+    "fr": { "name": "Type:0", "genus": "Pokémon Multigénome" },
+    "en": { "name": "Type: Null", "genus": "Synthetic Pokémon" }
+  },
+  {
+    "id": 773,
+    "fr": { "name": "Silvallié", "genus": "Pokémon Multigénome" },
+    "en": { "name": "Silvally", "genus": "Synthetic Pokémon" }
+  },
+  {
+    "id": 774,
+    "fr": { "name": "Météno", "genus": "Pokémon Météore" },
+    "en": { "name": "Minior", "genus": "Meteor Pokémon" }
+  },
+  {
+    "id": 775,
+    "fr": { "name": "Dodoala", "genus": "Pokémon Rêveur" },
+    "en": { "name": "Komala", "genus": "Drowsing Pokémon" }
+  },
+  {
+    "id": 776,
+    "fr": { "name": "Boumata", "genus": "Pokémon Tortue Boum" },
+    "en": { "name": "Turtonator", "genus": "Blast Turtle Pokémon" }
+  },
+  {
+    "id": 777,
+    "fr": { "name": "Togedemaru", "genus": "Pokémon Roulenboule" },
+    "en": { "name": "Togedemaru", "genus": "Roly-Poly Pokémon" }
+  },
+  {
+    "id": 778,
+    "fr": { "name": "Mimiqui", "genus": "Pokémon Fantômasque" },
+    "en": { "name": "Mimikyu", "genus": "Disguise Pokémon" }
+  },
+  {
+    "id": 779,
+    "fr": { "name": "Denticrisse", "genus": "Pokémon Grincedent" },
+    "en": { "name": "Bruxish", "genus": "Gnash Teeth Pokémon" }
+  },
+  {
+    "id": 780,
+    "fr": { "name": "Draïeul", "genus": "Pokémon Nonchalant" },
+    "en": { "name": "Drampa", "genus": "Placid Pokémon" }
+  },
+  {
+    "id": 781,
+    "fr": { "name": "Sinistrail", "genus": "Pokémon Varech" },
+    "en": { "name": "Dhelmise", "genus": "Sea Creeper Pokémon" }
+  },
+  {
+    "id": 782,
+    "fr": { "name": "Bébécaille", "genus": "Pokémon Écailles" },
+    "en": { "name": "Jangmo-o", "genus": "Scaly Pokémon" }
+  },
+  {
+    "id": 783,
+    "fr": { "name": "Écaïd", "genus": "Pokémon Écailles" },
+    "en": { "name": "Hakamo-o", "genus": "Scaly Pokémon" }
+  },
+  {
+    "id": 784,
+    "fr": { "name": "Ékaïser", "genus": "Pokémon Écailles" },
+    "en": { "name": "Kommo-o", "genus": "Scaly Pokémon" }
+  },
+  {
+    "id": 785,
+    "fr": { "name": "Tokorico", "genus": "Pokémon Tutélaire" },
+    "en": { "name": "Tapu Koko", "genus": "Land Spirit Pokémon" }
+  },
+  {
+    "id": 786,
+    "fr": { "name": "Tokopiyon", "genus": "Pokémon Tutélaire" },
+    "en": { "name": "Tapu Lele", "genus": "Land Spirit Pokémon" }
+  },
+  {
+    "id": 787,
+    "fr": { "name": "Tokotoro", "genus": "Pokémon Tutélaire" },
+    "en": { "name": "Tapu Bulu", "genus": "Land Spirit Pokémon" }
+  },
+  {
+    "id": 788,
+    "fr": { "name": "Tokopisco", "genus": "Pokémon Tutélaire" },
+    "en": { "name": "Tapu Fini", "genus": "Land Spirit Pokémon" }
+  },
+  {
+    "id": 789,
+    "fr": { "name": "Cosmog", "genus": "Pokémon Nébuleuse" },
+    "en": { "name": "Cosmog", "genus": "Nebula Pokémon" }
+  },
+  {
+    "id": 790,
+    "fr": { "name": "Cosmovum", "genus": "Pokémon Proto-Étoile" },
+    "en": { "name": "Cosmoem", "genus": "Protostar Pokémon" }
+  },
+  {
+    "id": 791,
+    "fr": { "name": "Solgaleo", "genus": "Pokémon Halo Solaire" },
+    "en": { "name": "Solgaleo", "genus": "Sunne Pokémon" }
+  },
+  {
+    "id": 792,
+    "fr": { "name": "Lunala", "genus": "Pokémon Halo Lunaire" },
+    "en": { "name": "Lunala", "genus": "Moone Pokémon" }
+  },
+  {
+    "id": 793,
+    "fr": { "name": "Zéroïd", "genus": "Pokémon Parasite" },
+    "en": { "name": "Nihilego", "genus": "Parasite Pokémon" }
+  },
+  {
+    "id": 794,
+    "fr": { "name": "Mouscoto", "genus": "Pokémon Enflé" },
+    "en": { "name": "Buzzwole", "genus": "Swollen Pokémon" }
+  },
+  {
+    "id": 795,
+    "fr": { "name": "Cancrelove", "genus": "Pokémon Gracile" },
+    "en": { "name": "Pheromosa", "genus": "Lissome Pokémon" }
+  },
+  {
+    "id": 796,
+    "fr": { "name": "Câblifère", "genus": "Pokémon Luminaire" },
+    "en": { "name": "Xurkitree", "genus": "Glowing Pokémon" }
+  },
+  {
+    "id": 797,
+    "fr": { "name": "Bamboiselle", "genus": "Pokémon Décollage" },
+    "en": { "name": "Celesteela", "genus": "Launch Pokémon" }
+  },
+  {
+    "id": 798,
+    "fr": { "name": "Katagami", "genus": "Pokémon Battô" },
+    "en": { "name": "Kartana", "genus": "Drawn Sword Pokémon" }
+  },
+  {
+    "id": 799,
+    "fr": { "name": "Engloutyran", "genus": "Pokémon Bizarrovore" },
+    "en": { "name": "Guzzlord", "genus": "Junkivore Pokémon" }
+  },
+  {
+    "id": 800,
+    "fr": { "name": "Necrozma", "genus": "Pokémon Prisme" },
+    "en": { "name": "Necrozma", "genus": "Prism Pokémon" }
+  },
+  {
+    "id": 801,
+    "fr": { "name": "Magearna", "genus": "Pokémon Artificiel" },
+    "en": { "name": "Magearna", "genus": "Artificial Pokémon" }
+  },
+  {
+    "id": 802,
+    "fr": { "name": "Marshadow", "genus": "Pokémon Ombrefuge" },
+    "en": { "name": "Marshadow", "genus": "Gloomdweller Pokémon" }
+  },
+  {
+    "id": 803,
+    "fr": { "name": "Vémini", "genus": "Pokémon Vénépic" },
+    "en": { "name": "Poipole", "genus": "Poison Pin Pokémon" }
+  },
+  {
+    "id": 804,
+    "fr": { "name": "Mandrillon", "genus": "Pokémon Vénépic" },
+    "en": { "name": "Naganadel", "genus": "Poison Pin Pokémon" }
+  },
+  {
+    "id": 805,
+    "fr": { "name": "Ama-Ama", "genus": "Pokémon Muraille" },
+    "en": { "name": "Stakataka", "genus": "Rampart Pokémon" }
+  },
+  {
+    "id": 806,
+    "fr": { "name": "Pierroteknik", "genus": "Pokémon Artificier" },
+    "en": { "name": "Blacephalon", "genus": "Fireworks Pokémon" }
+  },
+  {
+    "id": 807,
+    "fr": { "name": "Zeraora", "genus": "Pokémon Vif Éclair" },
+    "en": { "name": "Zeraora", "genus": "Thunderclap Pokémon" }
+  },
+  {
+    "id": 808,
+    "fr": { "name": "Meltan", "genus": "Pokémon Écrou" },
+    "en": { "name": "Meltan", "genus": "Hex Nut Pokémon" }
+  },
+  {
+    "id": 809,
+    "fr": { "name": "Melmetal", "genus": "Pokémon Écrou" },
+    "en": { "name": "Melmetal", "genus": "Hex Nut Pokémon" }
+  },
+  {
+    "id": 810,
+    "fr": { "name": "Ouistempo", "genus": "Pokémon Chimpanzé" },
+    "en": { "name": "Grookey", "genus": "Chimp Pokémon" }
+  },
+  {
+    "id": 811,
+    "fr": { "name": "Badabouin", "genus": "Pokémon Percussions" },
+    "en": { "name": "Thwackey", "genus": "Beat Pokémon" }
+  },
+  {
+    "id": 812,
+    "fr": { "name": "Gorythmic", "genus": "Pokémon Batteur" },
+    "en": { "name": "Rillaboom", "genus": "Drummer Pokémon" }
+  },
+  {
+    "id": 813,
+    "fr": { "name": "Flambino", "genus": "Pokémon Lapin" },
+    "en": { "name": "Scorbunny", "genus": "Rabbit Pokémon" }
+  },
+  {
+    "id": 814,
+    "fr": { "name": "Lapyro", "genus": "Pokémon Lapin" },
+    "en": { "name": "Raboot", "genus": "Rabbit Pokémon" }
+  },
+  {
+    "id": 815,
+    "fr": { "name": "Pyrobut", "genus": "Pokémon Buteur" },
+    "en": { "name": "Cinderace", "genus": "Striker Pokémon" }
+  },
+  {
+    "id": 816,
+    "fr": { "name": "Larméléon", "genus": "Pokémon Lézard’Eau" },
+    "en": { "name": "Sobble", "genus": "Water Lizard Pokémon" }
+  },
+  {
+    "id": 817,
+    "fr": { "name": "Arrozard", "genus": "Pokémon Lézard’Eau" },
+    "en": { "name": "Drizzile", "genus": "Water Lizard Pokémon" }
+  },
+  {
+    "id": 818,
+    "fr": { "name": "Lézargus", "genus": "Pokémon Agent Secret" },
+    "en": { "name": "Inteleon", "genus": "Secret Agent Pokémon" }
+  },
+  {
+    "id": 819,
+    "fr": { "name": "Rongourmand", "genus": "Pokémon Joufflu" },
+    "en": { "name": "Skwovet", "genus": "Cheeky Pokémon" }
+  },
+  {
+    "id": 820,
+    "fr": { "name": "Rongrigou", "genus": "Pokémon Goulu" },
+    "en": { "name": "Greedent", "genus": "Greedy Pokémon" }
+  },
+  {
+    "id": 821,
+    "fr": { "name": "Minisange", "genus": "Pokémon Minoiseau" },
+    "en": { "name": "Rookidee", "genus": "Tiny Bird Pokémon" }
+  },
+  {
+    "id": 822,
+    "fr": { "name": "Bleuseille", "genus": "Pokémon Corbeau" },
+    "en": { "name": "Corvisquire", "genus": "Raven Pokémon" }
+  },
+  {
+    "id": 823,
+    "fr": { "name": "Corvaillus", "genus": "Pokémon Corbeau" },
+    "en": { "name": "Corviknight", "genus": "Raven Pokémon" }
+  },
+  {
+    "id": 824,
+    "fr": { "name": "Larvadar", "genus": "Pokémon Larve" },
+    "en": { "name": "Blipbug", "genus": "Larva Pokémon" }
+  },
+  {
+    "id": 825,
+    "fr": { "name": "Coléodôme", "genus": "Pokémon Radôme" },
+    "en": { "name": "Dottler", "genus": "Radome Pokémon" }
+  },
+  {
+    "id": 826,
+    "fr": { "name": "Astronelle", "genus": "Pokémon Sept Points" },
+    "en": { "name": "Orbeetle", "genus": "Seven Spot Pokémon" }
+  },
+  {
+    "id": 827,
+    "fr": { "name": "Goupilou", "genus": "Pokémon Renard" },
+    "en": { "name": "Nickit", "genus": "Fox Pokémon" }
+  },
+  {
+    "id": 828,
+    "fr": { "name": "Roublenard", "genus": "Pokémon Renard" },
+    "en": { "name": "Thievul", "genus": "Fox Pokémon" }
+  },
+  {
+    "id": 829,
+    "fr": { "name": "Tournicoton", "genus": "Pokémon Chef-Fleur" },
+    "en": { "name": "Gossifleur", "genus": "Flowering Pokémon" }
+  },
+  {
+    "id": 830,
+    "fr": { "name": "Blancoton", "genus": "Pokémon Chef-Coton" },
+    "en": { "name": "Eldegoss", "genus": "Cotton Bloom Pokémon" }
+  },
+  {
+    "id": 831,
+    "fr": { "name": "Moumouton", "genus": "Pokémon Mouton" },
+    "en": { "name": "Wooloo", "genus": "Sheep Pokémon" }
+  },
+  {
+    "id": 832,
+    "fr": { "name": "Moumouflon", "genus": "Pokémon Mouton" },
+    "en": { "name": "Dubwool", "genus": "Sheep Pokémon" }
+  },
+  {
+    "id": 833,
+    "fr": { "name": "Khélocrok", "genus": "Pokémon Mordillage" },
+    "en": { "name": "Chewtle", "genus": "Snapping Pokémon" }
+  },
+  {
+    "id": 834,
+    "fr": { "name": "Torgamord", "genus": "Pokémon Morsure" },
+    "en": { "name": "Drednaw", "genus": "Bite Pokémon" }
+  },
+  {
+    "id": 835,
+    "fr": { "name": "Voltoutou", "genus": "Pokémon Chiot" },
+    "en": { "name": "Yamper", "genus": "Puppy Pokémon" }
+  },
+  {
+    "id": 836,
+    "fr": { "name": "Fulgudog", "genus": "Pokémon Chien" },
+    "en": { "name": "Boltund", "genus": "Dog Pokémon" }
+  },
+  {
+    "id": 837,
+    "fr": { "name": "Charbi", "genus": "Pokémon Charbon" },
+    "en": { "name": "Rolycoly", "genus": "Coal Pokémon" }
+  },
+  {
+    "id": 838,
+    "fr": { "name": "Wagomine", "genus": "Pokémon Charbon" },
+    "en": { "name": "Carkol", "genus": "Coal Pokémon" }
+  },
+  {
+    "id": 839,
+    "fr": { "name": "Monthracite", "genus": "Pokémon Charbon" },
+    "en": { "name": "Coalossal", "genus": "Coal Pokémon" }
+  },
+  {
+    "id": 840,
+    "fr": { "name": "Verpom", "genus": "Pokémon Nid Pomme" },
+    "en": { "name": "Applin", "genus": "Apple Core Pokémon" }
+  },
+  {
+    "id": 841,
+    "fr": { "name": "Pomdrapi", "genus": "Pokémon Ailes Pomme" },
+    "en": { "name": "Flapple", "genus": "Apple Wing Pokémon" }
+  },
+  {
+    "id": 842,
+    "fr": { "name": "Dratatin", "genus": "Pokémon Jus Pomme" },
+    "en": { "name": "Appletun", "genus": "Apple Nectar Pokémon" }
+  },
+  {
+    "id": 843,
+    "fr": { "name": "Dunaja", "genus": "Pokémon Serpensable" },
+    "en": { "name": "Silicobra", "genus": "Sand Snake Pokémon" }
+  },
+  {
+    "id": 844,
+    "fr": { "name": "Dunaconda", "genus": "Pokémon Serpensable" },
+    "en": { "name": "Sandaconda", "genus": "Sand Snake Pokémon" }
+  },
+  {
+    "id": 845,
+    "fr": { "name": "Nigosier", "genus": "Pokémon Avaltouron" },
+    "en": { "name": "Cramorant", "genus": "Gulp Pokémon" }
+  },
+  {
+    "id": 846,
+    "fr": { "name": "Embrochet", "genus": "Pokémon Fonceur" },
+    "en": { "name": "Arrokuda", "genus": "Rush Pokémon" }
+  },
+  {
+    "id": 847,
+    "fr": { "name": "Hastacuda", "genus": "Pokémon Transperceur" },
+    "en": { "name": "Barraskewda", "genus": "Skewer Pokémon" }
+  },
+  {
+    "id": 848,
+    "fr": { "name": "Toxizap", "genus": "Pokémon Poupon" },
+    "en": { "name": "Toxel", "genus": "Baby Pokémon" }
+  },
+  {
+    "id": 849,
+    "fr": { "name": "Salarsen", "genus": "Pokémon Punk" },
+    "en": { "name": "Toxtricity", "genus": "Punk Pokémon" }
+  },
+  {
+    "id": 850,
+    "fr": { "name": "Grillepattes", "genus": "Pokémon Calorifère" },
+    "en": { "name": "Sizzlipede", "genus": "Radiator Pokémon" }
+  },
+  {
+    "id": 851,
+    "fr": { "name": "Scolocendre", "genus": "Pokémon Calorifère" },
+    "en": { "name": "Centiskorch", "genus": "Radiator Pokémon" }
+  },
+  {
+    "id": 852,
+    "fr": { "name": "Poulpaf", "genus": "Pokémon Caprice" },
+    "en": { "name": "Clobbopus", "genus": "Tantrum Pokémon" }
+  },
+  {
+    "id": 853,
+    "fr": { "name": "Krakos", "genus": "Pokémon Jujitsu" },
+    "en": { "name": "Grapploct", "genus": "Jujitsu Pokémon" }
+  },
+  {
+    "id": 854,
+    "fr": { "name": "Théffroi", "genus": "Pokémon Thé Noir" },
+    "en": { "name": "Sinistea", "genus": "Black Tea Pokémon" }
+  },
+  {
+    "id": 855,
+    "fr": { "name": "Polthégeist", "genus": "Pokémon Thé Noir" },
+    "en": { "name": "Polteageist", "genus": "Black Tea Pokémon" }
+  },
+  {
+    "id": 856,
+    "fr": { "name": "Bibichut", "genus": "Pokémon Calme" },
+    "en": { "name": "Hatenna", "genus": "Calm Pokémon" }
+  },
+  {
+    "id": 857,
+    "fr": { "name": "Chapotus", "genus": "Pokémon Serein" },
+    "en": { "name": "Hattrem", "genus": "Serene Pokémon" }
+  },
+  {
+    "id": 858,
+    "fr": { "name": "Sorcilence", "genus": "Pokémon Silencieux" },
+    "en": { "name": "Hatterene", "genus": "Silent Pokémon" }
+  },
+  {
+    "id": 859,
+    "fr": { "name": "Grimalin", "genus": "Pokémon Malin" },
+    "en": { "name": "Impidimp", "genus": "Wily Pokémon" }
+  },
+  {
+    "id": 860,
+    "fr": { "name": "Fourbelin", "genus": "Pokémon Scélérat" },
+    "en": { "name": "Morgrem", "genus": "Devious Pokémon" }
+  },
+  {
+    "id": 861,
+    "fr": { "name": "Angoliath", "genus": "Pokémon Gonflette" },
+    "en": { "name": "Grimmsnarl", "genus": "Bulk Up Pokémon" }
+  },
+  {
+    "id": 862,
+    "fr": { "name": "Ixon", "genus": "Pokémon Barrage" },
+    "en": { "name": "Obstagoon", "genus": "Blocking Pokémon" }
+  },
+  {
+    "id": 863,
+    "fr": { "name": "Berserkatt", "genus": "Pokémon Viking" },
+    "en": { "name": "Perrserker", "genus": "Viking Pokémon" }
+  },
+  {
+    "id": 864,
+    "fr": { "name": "Corayôme", "genus": "Pokémon Corail" },
+    "en": { "name": "Cursola", "genus": "Coral Pokémon" }
+  },
+  {
+    "id": 865,
+    "fr": { "name": "Palarticho", "genus": "Pokémon Canard Fou" },
+    "en": { "name": "Sirfetch’d", "genus": "Wild Duck Pokémon" }
+  },
+  {
+    "id": 866,
+    "fr": { "name": "M. Glaquette", "genus": "Pokémon Comédien" },
+    "en": { "name": "Mr. Rime", "genus": "Comedian Pokémon" }
+  },
+  {
+    "id": 867,
+    "fr": { "name": "Tutétékri", "genus": "Pokémon Rancune" },
+    "en": { "name": "Runerigus", "genus": "Grudge Pokémon" }
+  },
+  {
+    "id": 868,
+    "fr": { "name": "Crèmy", "genus": "Pokémon Crème" },
+    "en": { "name": "Milcery", "genus": "Cream Pokémon" }
+  },
+  {
+    "id": 869,
+    "fr": { "name": "Charmilly", "genus": "Pokémon Crème" },
+    "en": { "name": "Alcremie", "genus": "Cream Pokémon" }
+  },
+  {
+    "id": 870,
+    "fr": { "name": "Hexadron", "genus": "Pokémon Escadron" },
+    "en": { "name": "Falinks", "genus": "Formation Pokémon" }
+  },
+  {
+    "id": 871,
+    "fr": { "name": "Wattapik", "genus": "Pokémon Oursin" },
+    "en": { "name": "Pincurchin", "genus": "Sea Urchin Pokémon" }
+  },
+  {
+    "id": 872,
+    "fr": { "name": "Frissonille", "genus": "Pokémon Ver" },
+    "en": { "name": "Snom", "genus": "Worm Pokémon" }
+  },
+  {
+    "id": 873,
+    "fr": { "name": "Beldeneige", "genus": "Pokémon Mite Givre" },
+    "en": { "name": "Frosmoth", "genus": "Frost Moth Pokémon" }
+  },
+  {
+    "id": 874,
+    "fr": { "name": "Dolman", "genus": "Pokémon Mégalithe" },
+    "en": { "name": "Stonjourner", "genus": "Big Rock Pokémon" }
+  },
+  {
+    "id": 875,
+    "fr": { "name": "Bekaglaçon", "genus": "Pokémon Pingouin" },
+    "en": { "name": "Eiscue", "genus": "Penguin Pokémon" }
+  },
+  {
+    "id": 876,
+    "fr": { "name": "Wimessir", "genus": "Pokémon Émotion" },
+    "en": { "name": "Indeedee", "genus": "Emotion Pokémon" }
+  },
+  {
+    "id": 877,
+    "fr": { "name": "Morpeko", "genus": "Pokémon Volt Face" },
+    "en": { "name": "Morpeko", "genus": "Two-Sided Pokémon" }
+  },
+  {
+    "id": 878,
+    "fr": { "name": "Charibari", "genus": "Pokémon Pachycuivre" },
+    "en": { "name": "Cufant", "genus": "Copperderm Pokémon" }
+  },
+  {
+    "id": 879,
+    "fr": { "name": "Pachyradjah", "genus": "Pokémon Pachycuivre" },
+    "en": { "name": "Copperajah", "genus": "Copperderm Pokémon" }
+  },
+  {
+    "id": 880,
+    "fr": { "name": "Galvagon", "genus": "Pokémon Fossile" },
+    "en": { "name": "Dracozolt", "genus": "Fossil Pokémon" }
+  },
+  {
+    "id": 881,
+    "fr": { "name": "Galvagla", "genus": "Pokémon Fossile" },
+    "en": { "name": "Arctozolt", "genus": "Fossil Pokémon" }
+  },
+  {
+    "id": 882,
+    "fr": { "name": "Hydragon", "genus": "Pokémon Fossile" },
+    "en": { "name": "Dracovish", "genus": "Fossil Pokémon" }
+  },
+  {
+    "id": 883,
+    "fr": { "name": "Hydragla", "genus": "Pokémon Fossile" },
+    "en": { "name": "Arctovish", "genus": "Fossil Pokémon" }
+  },
+  {
+    "id": 884,
+    "fr": { "name": "Duralugon", "genus": "Pokémon Alliage" },
+    "en": { "name": "Duraludon", "genus": "Alloy Pokémon" }
+  },
+  {
+    "id": 885,
+    "fr": { "name": "Fantyrm", "genus": "Pokémon Âme Errante" },
+    "en": { "name": "Dreepy", "genus": "Lingering Pokémon" }
+  },
+  {
+    "id": 886,
+    "fr": { "name": "Dispareptil", "genus": "Pokémon Baby-sitter" },
+    "en": { "name": "Drakloak", "genus": "Caretaker Pokémon" }
+  },
+  {
+    "id": 887,
+    "fr": { "name": "Lanssorien", "genus": "Pokémon Furtif" },
+    "en": { "name": "Dragapult", "genus": "Stealth Pokémon" }
+  },
+  {
+    "id": 888,
+    "fr": { "name": "Zacian", "genus": "Pokémon Valeureux" },
+    "en": { "name": "Zacian", "genus": "Warrior Pokémon" }
+  },
+  {
+    "id": 889,
+    "fr": { "name": "Zamazenta", "genus": "Pokémon Valeureux" },
+    "en": { "name": "Zamazenta", "genus": "Warrior Pokémon" }
+  },
+  {
+    "id": 890,
+    "fr": { "name": "Éthernatos", "genus": "Pokémon Giga" },
+    "en": { "name": "Eternatus", "genus": "Gigantic Pokémon" }
+  },
+  {
+    "id": 891,
+    "fr": { "name": "Wushours", "genus": "Pokémon Kung-fu" },
+    "en": { "name": "Kubfu", "genus": "Wushu Pokémon" }
+  },
+  {
+    "id": 892,
+    "fr": { "name": "Shifours", "genus": "Pokémon Kung-fu" },
+    "en": { "name": "Urshifu", "genus": "Wushu Pokémon" }
+  },
+  {
+    "id": 893,
+    "fr": { "name": "Zarude", "genus": "Pokémon Vilain Singe" },
+    "en": { "name": "Zarude", "genus": "Rogue Monkey Pokémon" }
+  },
+  {
+    "id": 894,
+    "fr": { "name": "Regieleki", "genus": "Pokémon Électron" },
+    "en": { "name": "Regieleki", "genus": "Electron Pokémon" }
+  },
+  {
+    "id": 895,
+    "fr": { "name": "Regidrago", "genus": "Pokémon Boule Dragon" },
+    "en": { "name": "Regidrago", "genus": "Dragon Orb Pokémon" }
+  },
+  {
+    "id": 896,
+    "fr": { "name": "Blizzeval", "genus": "Pokémon Cheval Rétif" },
+    "en": { "name": "Glastrier", "genus": "Wild Horse Pokémon" }
+  },
+  {
+    "id": 897,
+    "fr": { "name": "Spectreval", "genus": "Pokémon Cheval Vif" },
+    "en": { "name": "Spectrier", "genus": "Swift Horse Pokémon" }
+  },
+  {
+    "id": 898,
+    "fr": { "name": "Sylveroy", "genus": "Pokémon Roi" },
+    "en": { "name": "Calyrex", "genus": "King Pokémon" }
+  },
+  {
+    "id": 899,
+    "fr": { "name": "Cerbyllin", "genus": "Pokémon Maxi Corne" },
+    "en": { "name": "Wyrdeer", "genus": "Big Horn Pokémon" }
+  },
+  {
+    "id": 900,
+    "fr": { "name": "Hachécateur", "genus": "Pokémon Hache" },
+    "en": { "name": "Kleavor", "genus": "Axe Pokémon" }
+  },
+  {
+    "id": 901,
+    "fr": { "name": "Ursaking", "genus": "Pokémon Tourbe" },
+    "en": { "name": "Ursaluna", "genus": "Peat Pokémon" }
+  },
+  {
+    "id": 902,
+    "fr": { "name": "Paragruel", "genus": "Pokémon Poissigrand" },
+    "en": { "name": "Basculegion", "genus": "Big Fish Pokémon" }
+  },
+  {
+    "id": 903,
+    "fr": { "name": "Farfurex", "genus": "Pokémon Grimpeur" },
+    "en": { "name": "Sneasler", "genus": "Free Climb Pokémon" }
+  },
+  {
+    "id": 904,
+    "fr": { "name": "Qwilpik", "genus": "Pokémon Épineux" },
+    "en": { "name": "Overqwil", "genus": "Pin Cluster Pokémon" }
+  },
+  {
+    "id": 905,
+    "fr": { "name": "Amovénus", "genus": "Pokémon Hainamour" },
+    "en": { "name": "Enamorus", "genus": "Love-Hate Pokémon" }
+  },
+  {
+    "id": 906,
+    "fr": { "name": "Poussacha", "genus": "Chat Plante" },
+    "en": { "name": "Sprigatito", "genus": "Grass Cat Pokémon" }
+  },
+  {
+    "id": 907,
+    "fr": { "name": "Matourgeon", "genus": "Chat Plante" },
+    "en": { "name": "Floragato", "genus": "Grass Cat Pokémon" }
+  },
+  {
+    "id": 908,
+    "fr": { "name": "Miascarade", "genus": "Magicien" },
+    "en": { "name": "Meowscarada", "genus": "Magician Pokémon" }
+  },
+  {
+    "id": 909,
+    "fr": { "name": "Chochodile", "genus": "Croco Feu" },
+    "en": { "name": "Fuecoco", "genus": "Fire Croc Pokémon" }
+  },
+  {
+    "id": 910,
+    "fr": { "name": "Crocogril", "genus": "Croco Feu" },
+    "en": { "name": "Crocalor", "genus": "Fire Croc Pokémon" }
+  },
+  {
+    "id": 911,
+    "fr": { "name": "Flâmigator", "genus": "Chanteur" },
+    "en": { "name": "Skeledirge", "genus": "Singer Pokémon" }
+  },
+  {
+    "id": 912,
+    "fr": { "name": "Coiffeton", "genus": "Caneton" },
+    "en": { "name": "Quaxly", "genus": "Duckling Pokémon" }
+  },
+  {
+    "id": 913,
+    "fr": { "name": "Canarbello", "genus": "Leçon" },
+    "en": { "name": "Quaxwell", "genus": "Practicing Pokémon" }
+  },
+  {
+    "id": 914,
+    "fr": { "name": "Palmaval", "genus": "Danseur" },
+    "en": { "name": "Quaquaval", "genus": "Dancer Pokémon" }
+  },
+  {
+    "id": 915,
+    "fr": { "name": "Gourmelet", "genus": "Pourceau" },
+    "en": { "name": "Lechonk", "genus": "Hog Pokémon" }
+  },
+  {
+    "id": 916,
+    "fr": { "name": "Fragroin", "genus": "Pourceau" },
+    "en": { "name": "Oinkologne", "genus": "Hog Pokémon" }
+  },
+  {
+    "id": 917,
+    "fr": { "name": "Tissenboule", "genus": "Boule de Fil" },
+    "en": { "name": "Tarountula", "genus": "String Ball Pokémon" }
+  },
+  {
+    "id": 918,
+    "fr": { "name": "Filentrappe", "genus": "Piège" },
+    "en": { "name": "Spidops", "genus": "Trap Pokémon" }
+  },
+  {
+    "id": 919,
+    "fr": { "name": "Lilliterelle", "genus": "Sauterelle" },
+    "en": { "name": "Nymble", "genus": "Grasshopper Pokémon" }
+  },
+  {
+    "id": 920,
+    "fr": { "name": "Gambex", "genus": "Sauterelle" },
+    "en": { "name": "Lokix", "genus": "Grasshopper Pokémon" }
+  },
+  {
+    "id": 921,
+    "fr": { "name": "Pohm", "genus": "Souris" },
+    "en": { "name": "Pawmi", "genus": "Mouse Pokémon" }
+  },
+  {
+    "id": 922,
+    "fr": { "name": "Pohmotte", "genus": "Souris" },
+    "en": { "name": "Pawmo", "genus": "Mouse Pokémon" }
+  },
+  {
+    "id": 923,
+    "fr": { "name": "Pohmarmotte", "genus": "Pose Paume" },
+    "en": { "name": "Pawmot", "genus": "Hands-On Pokémon" }
+  },
+  {
+    "id": 924,
+    "fr": { "name": "Compagnol", "genus": "Couple" },
+    "en": { "name": "Tandemaus", "genus": "Couple Pokémon" }
+  },
+  {
+    "id": 925,
+    "fr": { "name": "Famignol", "genus": "Famille" },
+    "en": { "name": "Maushold", "genus": "Family Pokémon" }
+  },
+  {
+    "id": 926,
+    "fr": { "name": "Pâtachiot", "genus": "Chiot" },
+    "en": { "name": "Fidough", "genus": "Puppy Pokémon" }
+  },
+  {
+    "id": 927,
+    "fr": { "name": "Briochien", "genus": "Chien" },
+    "en": { "name": "Dachsbun", "genus": "Dog Pokémon" }
+  },
+  {
+    "id": 928,
+    "fr": { "name": "Olivini", "genus": "Olive" },
+    "en": { "name": "Smoliv", "genus": "Olive Pokémon" }
+  },
+  {
+    "id": 929,
+    "fr": { "name": "Olivado", "genus": "Olive" },
+    "en": { "name": "Dolliv", "genus": "Olive Pokémon" }
+  },
+  {
+    "id": 930,
+    "fr": { "name": "Arboliva", "genus": "Olive" },
+    "en": { "name": "Arboliva", "genus": "Olive Pokémon" }
+  },
+  {
+    "id": 931,
+    "fr": { "name": "Tapatoès", "genus": "Perroquet" },
+    "en": { "name": "Squawkabilly", "genus": "Parrot Pokémon" }
+  },
+  {
+    "id": 932,
+    "fr": { "name": "Selutin", "genus": "Halite" },
+    "en": { "name": "Nacli", "genus": "Rock Salt Pokémon" }
+  },
+  {
+    "id": 933,
+    "fr": { "name": "Amassel", "genus": "Halite" },
+    "en": { "name": "Naclstack", "genus": "Rock Salt Pokémon" }
+  },
+  {
+    "id": 934,
+    "fr": { "name": "Gigansel", "genus": "Halite" },
+    "en": { "name": "Garganacl", "genus": "Rock Salt Pokémon" }
+  },
+  {
+    "id": 935,
+    "fr": { "name": "Charbambin", "genus": "Enfant Feu" },
+    "en": { "name": "Charcadet", "genus": "Fire Child Pokémon" }
+  },
+  {
+    "id": 936,
+    "fr": { "name": "Carmadura", "genus": "Feu Guerrier" },
+    "en": { "name": "Armarouge", "genus": "Fire Warrior Pokémon" }
+  },
+  {
+    "id": 937,
+    "fr": { "name": "Malvalame", "genus": "Feu Bretteur" },
+    "en": { "name": "Ceruledge", "genus": "Fire Blades Pokémon" }
+  },
+  {
+    "id": 938,
+    "fr": { "name": "Têtampoule", "genus": "Électêtard" },
+    "en": { "name": "Tadbulb", "genus": "EleTadpole Pokémon" }
+  },
+  {
+    "id": 939,
+    "fr": { "name": "Ampibidou", "genus": "Élecrapaud" },
+    "en": { "name": "Bellibolt", "genus": "EleFrog Pokémon" }
+  },
+  {
+    "id": 940,
+    "fr": { "name": "Zapétrel", "genus": "Océanite" },
+    "en": { "name": "Wattrel", "genus": "Storm Petrel Pokémon" }
+  },
+  {
+    "id": 941,
+    "fr": { "name": "Fulgulairo", "genus": "Frégate" },
+    "en": { "name": "Kilowattrel", "genus": "Frigatebird Pokémon" }
+  },
+  {
+    "id": 942,
+    "fr": { "name": "Grondogue", "genus": "Jeunot" },
+    "en": { "name": "Maschiff", "genus": "Rascal Pokémon" }
+  },
+  {
+    "id": 943,
+    "fr": { "name": "Dogrino", "genus": "Parrain" },
+    "en": { "name": "Mabosstiff", "genus": "Boss Pokémon" }
+  },
+  {
+    "id": 944,
+    "fr": { "name": "Gribouraigne", "genus": "Souris Venin" },
+    "en": { "name": "Shroodle", "genus": "Toxic Mouse Pokémon" }
+  },
+  {
+    "id": 945,
+    "fr": { "name": "Tag-Tag", "genus": "Singe Venin" },
+    "en": { "name": "Grafaiai", "genus": "Toxic Monkey Pokémon" }
+  },
+  {
+    "id": 946,
+    "fr": { "name": "Virovent", "genus": "Virevoltant" },
+    "en": { "name": "Bramblin", "genus": "Tumbleweed Pokémon" }
+  },
+  {
+    "id": 947,
+    "fr": { "name": "Virevorreur", "genus": "Virevoltant" },
+    "en": { "name": "Brambleghast", "genus": "Tumbleweed Pokémon" }
+  },
+  {
+    "id": 948,
+    "fr": { "name": "Terracool", "genus": "Champiméduse" },
+    "en": { "name": "Toedscool", "genus": "Woodear Pokémon" }
+  },
+  {
+    "id": 949,
+    "fr": { "name": "Terracruel", "genus": "Champiméduse" },
+    "en": { "name": "Toedscruel", "genus": "Woodear Pokémon" }
+  },
+  {
+    "id": 950,
+    "fr": { "name": "Craparoi", "genus": "Embuscade" },
+    "en": { "name": "Klawf", "genus": "Ambush Pokémon" }
+  },
+  {
+    "id": 951,
+    "fr": { "name": "Pimito", "genus": "Habanero" },
+    "en": { "name": "Capsakid", "genus": "Spicy Pepper Pokémon" }
+  },
+  {
+    "id": 952,
+    "fr": { "name": "Scovilain", "genus": "Habanero" },
+    "en": { "name": "Scovillain", "genus": "Spicy Pepper Pokémon" }
+  },
+  {
+    "id": 953,
+    "fr": { "name": "Léboulérou", "genus": "Rouleur" },
+    "en": { "name": "Rellor", "genus": "Rolling Pokémon" }
+  },
+  {
+    "id": 954,
+    "fr": { "name": "Bérasca", "genus": "Rouleur" },
+    "en": { "name": "Rabsca", "genus": "Rolling Pokémon" }
+  },
+  {
+    "id": 955,
+    "fr": { "name": "Flotillon", "genus": "Froufrou" },
+    "en": { "name": "Flittle", "genus": "Frill Pokémon" }
+  },
+  {
+    "id": 956,
+    "fr": { "name": "Cléopsytra", "genus": "Autruche" },
+    "en": { "name": "Espathra", "genus": "Ostrich Pokémon" }
+  },
+  {
+    "id": 957,
+    "fr": { "name": "Forgerette", "genus": "Forge" },
+    "en": { "name": "Tinkatink", "genus": "Metalsmith Pokémon" }
+  },
+  {
+    "id": 958,
+    "fr": { "name": "Forgella", "genus": "Marteau" },
+    "en": { "name": "Tinkatuff", "genus": "Hammer Pokémon" }
+  },
+  {
+    "id": 959,
+    "fr": { "name": "Forgelina", "genus": "Marteau" },
+    "en": { "name": "Tinkaton", "genus": "Hammer Pokémon" }
+  },
+  {
+    "id": 960,
+    "fr": { "name": "Taupikeau", "genus": "Congre" },
+    "en": { "name": "Wiglett", "genus": "Garden Eel Pokémon" }
+  },
+  {
+    "id": 961,
+    "fr": { "name": "Triopikeau", "genus": "Congre" },
+    "en": { "name": "Wugtrio", "genus": "Garden Eel Pokémon" }
+  },
+  {
+    "id": 962,
+    "fr": { "name": "Lestombaile", "genus": "Délesteur" },
+    "en": { "name": "Bombirdier", "genus": "Item Drop Pokémon" }
+  },
+  {
+    "id": 963,
+    "fr": { "name": "Dofin", "genus": "Dauphin" },
+    "en": { "name": "Finizen", "genus": "Dolphin Pokémon" }
+  },
+  {
+    "id": 964,
+    "fr": { "name": "Superdofin", "genus": "Dauphin/Super Héros" },
+    "en": { "name": "Palafin", "genus": "Dolphin Pokémon" }
+  },
+  {
+    "id": 965,
+    "fr": { "name": "Vrombi", "genus": "Monocylindre" },
+    "en": { "name": "Varoom", "genus": "Single-Cyl Pokémon" }
+  },
+  {
+    "id": 966,
+    "fr": { "name": "Vrombotor", "genus": "Polycylindre" },
+    "en": { "name": "Revavroom", "genus": "Multi-Cyl Pokémon" }
+  },
+  {
+    "id": 967,
+    "fr": { "name": "Motorizard", "genus": "Monture" },
+    "en": { "name": "Cyclizar", "genus": "Mount Pokémon" }
+  },
+  {
+    "id": 968,
+    "fr": { "name": "Ferdeter", "genus": "Ver de Terre" },
+    "en": { "name": "Orthworm", "genus": "Earthworm Pokémon" }
+  },
+  {
+    "id": 969,
+    "fr": { "name": "Germéclat", "genus": "Minerai" },
+    "en": { "name": "Glimmet", "genus": "Ore Pokémon" }
+  },
+  {
+    "id": 970,
+    "fr": { "name": "Floréclat", "genus": "Minerai" },
+    "en": { "name": "Glimmora", "genus": "Ore Pokémon" }
+  },
+  {
+    "id": 971,
+    "fr": { "name": "Toutombe", "genus": "Fantôchien" },
+    "en": { "name": "Greavard", "genus": "Ghost Dog Pokémon" }
+  },
+  {
+    "id": 972,
+    "fr": { "name": "Tomberro", "genus": "Fantôchien" },
+    "en": { "name": "Houndstone", "genus": "Ghost Dog Pokémon" }
+  },
+  {
+    "id": 973,
+    "fr": { "name": "Flamenroule", "genus": "Synchro" },
+    "en": { "name": "Flamigo", "genus": "Synchronize Pokémon" }
+  },
+  {
+    "id": 974,
+    "fr": { "name": "Piétacé", "genus": "Baleinapied" },
+    "en": { "name": "Cetoddle", "genus": "Terra Whale Pokémon" }
+  },
+  {
+    "id": 975,
+    "fr": { "name": "Balbalèze", "genus": "Baleinapied" },
+    "en": { "name": "Cetitan", "genus": "Terra Whale Pokémon" }
+  },
+  {
+    "id": 976,
+    "fr": { "name": "Délestin", "genus": "Décharné" },
+    "en": { "name": "Veluza", "genus": "Jettison Pokémon" }
+  },
+  {
+    "id": 977,
+    "fr": { "name": "Oyacata", "genus": "Grand Silure" },
+    "en": { "name": "Dondozo", "genus": "Big Catfish Pokémon" }
+  },
+  {
+    "id": 978,
+    "fr": { "name": "Nigirigon", "genus": "Mimétisme" },
+    "en": { "name": "Tatsugiri", "genus": "Mimicry Pokémon" }
+  },
+  {
+    "id": 979,
+    "fr": { "name": "Courrousinge", "genus": "Singe Furax" },
+    "en": { "name": "Annihilape", "genus": "Rage Monkey Pokémon" }
+  },
+  {
+    "id": 980,
+    "fr": { "name": "Terraiste", "genus": "Poissépine" },
+    "en": { "name": "Clodsire", "genus": "Spiny Fish Pokémon" }
+  },
+  {
+    "id": 981,
+    "fr": { "name": "Farigiraf", "genus": "Long-Cou" },
+    "en": { "name": "Farigiraf", "genus": "Long Neck Pokémon" }
+  },
+  {
+    "id": 982,
+    "fr": { "name": "Deusolourdo", "genus": "Serpent" },
+    "en": { "name": "Dudunsparce", "genus": "Land Snake Pokémon" }
+  },
+  {
+    "id": 983,
+    "fr": { "name": "Scalpereur", "genus": "Pourfendant" },
+    "en": { "name": "Kingambit", "genus": "Big Blade Pokémon" }
+  },
+  {
+    "id": 984,
+    "fr": { "name": "Fort-Ivoire", "genus": "Paradoxe" },
+    "en": { "name": "Great Tusk", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 985,
+    "fr": { "name": "Hurle-Queue", "genus": "Paradoxe" },
+    "en": { "name": "Scream Tail", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 986,
+    "fr": { "name": "Fongus-Furie", "genus": "Paradoxe" },
+    "en": { "name": "Brute Bonnet", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 987,
+    "fr": { "name": "Flotte-Mèche", "genus": "Paradoxe" },
+    "en": { "name": "Flutter Mane", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 988,
+    "fr": { "name": "Rampe-Ailes", "genus": "Paradoxe" },
+    "en": { "name": "Slither Wing", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 989,
+    "fr": { "name": "Pelage-Sablé", "genus": "Paradoxe" },
+    "en": { "name": "Sandy Shocks", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 990,
+    "fr": { "name": "Roue-de-Fer", "genus": "Paradoxe" },
+    "en": { "name": "Iron Treads", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 991,
+    "fr": { "name": "Hotte-de-Fer", "genus": "Paradoxe" },
+    "en": { "name": "Iron Bundle", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 992,
+    "fr": { "name": "Paume-de-Fer", "genus": "Paradoxe" },
+    "en": { "name": "Iron Hands", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 993,
+    "fr": { "name": "Têtes-de-Fer", "genus": "Paradoxe" },
+    "en": { "name": "Iron Jugulis", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 994,
+    "fr": { "name": "Mite-de-Fer", "genus": "Paradoxe" },
+    "en": { "name": "Iron Moth", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 995,
+    "fr": { "name": "Épine-de-Fer", "genus": "Paradoxe" },
+    "en": { "name": "Iron Thorns", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 996,
+    "fr": { "name": "Frigodo", "genus": "Glaçaileron" },
+    "en": { "name": "Frigibax", "genus": "Ice Fin Pokémon" }
+  },
+  {
+    "id": 997,
+    "fr": { "name": "Cryodo", "genus": "Glaçaileron" },
+    "en": { "name": "Arctibax", "genus": "Ice Fin Pokémon" }
+  },
+  {
+    "id": 998,
+    "fr": { "name": "Glaivodo", "genus": "Dragon Glace" },
+    "en": { "name": "Baxcalibur", "genus": "Ice Dragon Pokémon" }
+  },
+  {
+    "id": 999,
+    "fr": { "name": "Mordudor", "genus": "Coffrotrésor/Chassotrésor" },
+    "en": { "name": "Gimmighoul", "genus": "Coin Chest Pokémon" }
+  },
+  {
+    "id": 1000,
+    "fr": { "name": "Gromago", "genus": "Trésor Animé" },
+    "en": { "name": "Gholdengo", "genus": "Coin Entity Pokémon" }
+  },
+  {
+    "id": 1001,
+    "fr": { "name": "Chongjian", "genus": "Fléau" },
+    "en": { "name": "Wo-Chien", "genus": "Ruinous Pokémon" }
+  },
+  {
+    "id": 1002,
+    "fr": { "name": "Baojian", "genus": "Fléau" },
+    "en": { "name": "Chien-Pao", "genus": "Ruinous Pokémon" }
+  },
+  {
+    "id": 1003,
+    "fr": { "name": "Dinglu", "genus": "Fléau" },
+    "en": { "name": "Ting-Lu", "genus": "Ruinous Pokémon" }
+  },
+  {
+    "id": 1004,
+    "fr": { "name": "Yuyu", "genus": "Fléau" },
+    "en": { "name": "Chi-Yu", "genus": "Ruinous Pokémon" }
+  },
+  {
+    "id": 1005,
+    "fr": { "name": "Rugit-Lune", "genus": "Paradoxe" },
+    "en": { "name": "Roaring Moon", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 1006,
+    "fr": { "name": "Garde-de-Fer", "genus": "Paradoxe" },
+    "en": { "name": "Iron Valiant", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 1007,
+    "fr": { "name": "Koraidon", "genus": "Paradoxe" },
+    "en": { "name": "Koraidon", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 1008,
+    "fr": { "name": "Miraidon", "genus": "Paradoxe" },
+    "en": { "name": "Miraidon", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 1009,
+    "fr": { "name": "Serpente-Eau", "genus": "Paradoxe" },
+    "en": { "name": "Walking Wake", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 1010,
+    "fr": { "name": "Vert-de-Fer", "genus": "Paradoxe" },
+    "en": { "name": "Iron Leaves", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 1011,
+    "fr": { "name": "Pomdramour", "genus": "Sirop Pomme" },
+    "en": { "name": "Dipplin", "genus": "Candy Apple Pokémon" }
+  },
+  {
+    "id": 1012,
+    "fr": { "name": "Poltchageist", "genus": "Matcha" },
+    "en": { "name": "Poltchageist", "genus": "Matcha Pokémon" }
+  },
+  {
+    "id": 1013,
+    "fr": { "name": "Théffroyable", "genus": "Matcha" },
+    "en": { "name": "Sinistcha", "genus": "Matcha Pokémon" }
+  },
+  {
+    "id": 1014,
+    "fr": { "name": "Félicanis", "genus": "Serviteur" },
+    "en": { "name": "Okidogi", "genus": "Retainer Pokémon" }
+  },
+  {
+    "id": 1015,
+    "fr": { "name": "Fortusimia", "genus": "Serviteur" },
+    "en": { "name": "Munkidori", "genus": "Retainer Pokémon" }
+  },
+  {
+    "id": 1016,
+    "fr": { "name": "Favianos", "genus": "Serviteur" },
+    "en": { "name": "Fezandipiti", "genus": "Retainer Pokémon" }
+  },
+  {
+    "id": 1017,
+    "fr": { "name": "Ogerpon", "genus": "Masque" },
+    "en": { "name": "Ogerpon", "genus": "Mask Pokémon" }
+  },
+  {
+    "id": 1018,
+    "fr": { "name": "Pondralugon", "genus": "Alliage" },
+    "en": { "name": "Archaludon", "genus": "Alloy Pokémon" }
+  },
+  {
+    "id": 1019,
+    "fr": { "name": "Pomdorochi", "genus": "Hydre Pomme" },
+    "en": { "name": "Hydrapple", "genus": "Apple Hydra Pokémon" }
+  },
+  {
+    "id": 1020,
+    "fr": { "name": "Feu-Perçant", "genus": "Paradoxe" },
+    "en": { "name": "Gouging Fire", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 1021,
+    "fr": { "name": "Ire-Foudre", "genus": "Paradoxe" },
+    "en": { "name": "Raging Bolt", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 1022,
+    "fr": { "name": "Roc-de-Fer", "genus": "Paradoxe" },
+    "en": { "name": "Iron Boulder", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 1023,
+    "fr": { "name": "Chef-de-Fer", "genus": "Paradoxe" },
+    "en": { "name": "Iron Crown", "genus": "Paradox Pokémon" }
+  },
+  {
+    "id": 1024,
+    "fr": { "name": "Terapagos", "genus": "Téracristal" },
+    "en": { "name": "Terapagos", "genus": "Tera Pokémon" }
+  },
+  {
+    "id": 1025,
+    "fr": { "name": "Pêchaminus", "genus": "Emprise" },
+    "en": { "name": "Pecharunt", "genus": "Subjugation Pokémon" }
+  }
+]
