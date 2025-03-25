@@ -5,9 +5,8 @@
 /**
  * @brief Function that display information about a pokémon.
  *
- * This function displays information about the given pokemon, it search for the sprite using
- * a gitlab repo at 'https://gitlab.com/phoneybadger/pokemon-colorscripts' and displays it on
- * the left and its infomation in the right.
+ * This function displays information about the given pokemon, it takes ASCII sprite of the
+ * pokemon in 'assets/icons/' and displays it on the left and its infomation in the right.
  *
  * @param pokemon struct Pokemon where are the information about him
  * @param shiny char representing "shiny" if the pokemon is shiny, otherwise "regular"
