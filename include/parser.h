@@ -37,7 +37,7 @@ size_t write_callback(void *contents, size_t size, size_t nmemb, void *userp);
  * @see write_callback()
  * @see Memory
  */
-char *fetch_pokemon(char *data, int id);
+char *fetch_pokemon(const char *link, const char *data, int id);
 
 /**
  * @brief Retrieve the total number of pokémon in PokéAPI.
@@ -54,6 +54,16 @@ char *fetch_pokemon(char *data, int id);
  * @see fetch_pokemon()
  */
 int pokemon_count(void);
+
+/**
+ * @brief Function that translate types.
+ * 
+ * This function translates an array of string representing a type each into another language.
+ *
+ * @param types Array of twe string representing types
+ * @param lang Language of the translation
+ */
+void convert_types(char *types[2], char *lang);
 
 /**
  * @brief Parse the pokemon from two JSON data.

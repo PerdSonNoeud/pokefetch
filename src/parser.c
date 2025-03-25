@@ -63,7 +63,7 @@ size_t write_callback(void *contents, size_t size, size_t nmemb, void *userp) {
  * @see write_callback()
  * @see Memory
  */
-char *fetch_pokemon(char *data, int id) {
+char *fetch_pokemon(const char *link, const char *data, int id) {
   curl_global_init(CURL_GLOBAL_DEFAULT);
   // Curl variables
   CURL *curl;
@@ -79,12 +79,14 @@ char *fetch_pokemon(char *data, int id) {
   }
 
   // Build API URL
-  char url[100];
+  char url[strlen(link) + strlen(data) + 9];
   if (id == 0) {
-    snprintf(url, sizeof(url), "https://pokeapi.co/api/v2/%s", data);
+    snprintf(url, sizeof(url), "%s/%s", link, data);
   } else {
-    snprintf(url, sizeof(url), "https://pokeapi.co/api/v2/%s/%d", data, id);
+    snprintf(url, sizeof(url), "%s/%s/%d/", link, data, id);
   }
+
+  printf("%s\n", url);
 
   // Setup curl_easy_setopt() options
   curl_easy_setopt(curl, CURLOPT_URL, url);
@@ -125,7 +127,7 @@ char *fetch_pokemon(char *data, int id) {
  * @see fetch_pokemon()
  */
 int pokemon_count() {
-  cJSON *json = cJSON_Parse(fetch_pokemon("pokemon-species", 0));
+  cJSON *json = cJSON_Parse(fetch_pokemon(POKEAPI, "pokemon-species", 0));
   if (!json) {
     fprintf(stderr, "pokemon JSON parsing failed\n");
     return 0;
@@ -150,12 +152,26 @@ int pokemon_count() {
  * @param name The key name to search for in the cJSON object
  * @return The corresponding string value if found, otherwise "Not Found"
  */
-char *get_str(cJSON *json, char *name) {
+char *get_str(cJSON *json, char *name, char *lang) {
   cJSON *data = cJSON_GetObjectItem(json, name);
-  if (cJSON_IsString(data)) {
-    return strdup(data->valuestring);
+  if (lang == NULL) {
+    if (cJSON_IsString(data)) {
+      return strdup(data->valuestring);
+    }
+    return strdup(NOT_FOUND);
+  } else {
+    // TODO: Gather data from pokemon_spe names list.
+    int size = cJSON_GetArraySize(data);
+    for (int i = 0; i < size; i++) {
+      cJSON *name_data = cJSON_GetArrayItem(data, i);
+      cJSON *lang_data = cJSON_GetObjectItem(name_data, "language");
+      char *lang_str = cJSON_GetObjectItem(lang_data, "name")->valuestring;
+      if (strcmp(lang, lang_str) == 0) {
+        return strdup(cJSON_GetObjectItem(name_data, "name")->valuestring);
+      }
+    }
+    return strdup(NOT_FOUND);
   }
-  return strdup(NOT_FOUND);
 }
 
 /**
@@ -227,7 +243,8 @@ char *read_json_file(const char *filename) {
   return json_data;
 }
 
-void convert_types(char *types[2]) {
+
+void convert_types(char *types[2], char *lang) {
   char *json_str = read_json_file("assets/types.json");
 
   cJSON *json = cJSON_Parse(json_str);
@@ -240,13 +257,11 @@ void convert_types(char *types[2]) {
     int size = cJSON_GetArraySize(json);
     for (int i = 0; i < size; i++) {
       cJSON *types_json = cJSON_GetArrayItem(json, i);
-      cJSON *en_lang = cJSON_GetObjectItem(types_json, "en");
-
-      char *type = en_lang->valuestring;
+      char *type = cJSON_GetObjectItem(types_json, "en")->valuestring;
       if (strcmp(types[0], type) == 0) {
-        types[0] = strdup(type);
+        types[0] = strdup(cJSON_GetObjectItem(types_json, lang)->valuestring);
       } else if (strcmp(types[1], type) == 0) {
-        types[1] = strdup(type);
+        types[1] = strdup(cJSON_GetObjectItem(types_json, lang)->valuestring);
       }
     }
   }
@@ -364,13 +379,13 @@ int parse_pokemon_json(struct Pokemon *pokemon, const char *json_str,
     return 1;
   }
 
-  // Extract "name" field
-  pokemon->name = get_str(json, "name");
+  // Extract "name" field in english
+  pokemon->alias = get_str(json, "name", NULL);
   // Extract "id" field
   pokemon->id = get_int(json, "id");
   // Extract "types" field
   get_types(json, pokemon->types);
-  convert_types(pokemon->types);
+  // convert_types(pokemon->types);
   // Extract "height" field
   pokemon->height = get_int(json, "height");
   // Extract "weight" field
@@ -384,6 +399,8 @@ int parse_pokemon_json(struct Pokemon *pokemon, const char *json_str,
     return 1;
   }
 
+  // Extract "name" field
+  pokemon->name = get_str(json_spe, "names", "fr");
   // Extract "desc" field
   pokemon->desc = get_desc(json_spe, version, lang);
   // Extract "genus" field
