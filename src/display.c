@@ -6,8 +6,6 @@
 #include "../include/display.h"
 #include "../include/parser.h"
 
-#define URL_SIZE 1000
-
 char *format_title(int id, char *name, char *genus, char *shiny) {
   char *result = strdup(NOT_FOUND);
 
@@ -58,13 +56,14 @@ int format_types(char *types[2]);
 int format_desc(char *desc);
 
 int display(struct Pokemon *pokemon, char *shiny) {
-  char imageURL[URL_SIZE];
-  snprintf(imageURL, URL_SIZE, "%s/%s", POKEMON_IMG, shiny);
+  char imagePath[512];
+  snprintf(imagePath, sizeof(imagePath), "%s/%s/%s", "assets/icons", shiny, pokemon->alias);
 
   // Image of the pokémon
-  char *image = fetch_pokemon(imageURL, pokemon->alias, 0);
+  // char *image = fetch_icon(imagePath, pokemon->alias, 0);
   
-  // char *title = format_title(pokemon->id, pokemon->name, pokemon->genus, shiny);
+  char *title = format_title(pokemon->id, pokemon->name, pokemon->genus, shiny);
+  printf("%s\n", imagePath);
 
   return 0;
 }

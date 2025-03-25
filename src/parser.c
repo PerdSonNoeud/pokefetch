@@ -86,8 +86,6 @@ char *fetch_pokemon(const char *link, const char *data, int id) {
     snprintf(url, sizeof(url), "%s/%s/%d/", link, data, id);
   }
 
-  printf("%s\n", url);
-
   // Setup curl_easy_setopt() options
   curl_easy_setopt(curl, CURLOPT_URL, url);
   curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_callback);
@@ -127,19 +125,22 @@ char *fetch_pokemon(const char *link, const char *data, int id) {
  * @see fetch_pokemon()
  */
 int pokemon_count() {
-  cJSON *json = cJSON_Parse(fetch_pokemon(POKEAPI, "pokemon-species", 0));
+  char *json_str = fetch_pokemon(POKEAPI, "pokemon-species", 0);
+  cJSON *json = cJSON_Parse(json_str);
+  int result = 0;
   if (!json) {
     fprintf(stderr, "pokemon JSON parsing failed\n");
+    free(json_str);
     return 0;
   }
+  free(json_str);
 
   cJSON *data = cJSON_GetObjectItem(json, "count");
   if (cJSON_IsNumber(data)) {
-    return data->valueint;
-  } else {
-    return 0;
+    result = data->valueint;
   }
   cJSON_Delete(json);
+  return result;
 }
 
 /**
@@ -154,24 +155,23 @@ int pokemon_count() {
  */
 char *get_str(cJSON *json, char *name, char *lang) {
   cJSON *data = cJSON_GetObjectItem(json, name);
+  char *result = NOT_FOUND;
   if (lang == NULL) {
     if (cJSON_IsString(data)) {
-      return strdup(data->valuestring);
+      result = strdup(data->valuestring);
     }
-    return strdup(NOT_FOUND);
   } else {
-    // TODO: Gather data from pokemon_spe names list.
     int size = cJSON_GetArraySize(data);
     for (int i = 0; i < size; i++) {
       cJSON *name_data = cJSON_GetArrayItem(data, i);
       cJSON *lang_data = cJSON_GetObjectItem(name_data, "language");
       char *lang_str = cJSON_GetObjectItem(lang_data, "name")->valuestring;
       if (strcmp(lang, lang_str) == 0) {
-        return strdup(cJSON_GetObjectItem(name_data, "name")->valuestring);
+        result = strdup(cJSON_GetObjectItem(name_data, "name")->valuestring);
       }
     }
-    return strdup(NOT_FOUND);
   }
+  return result;
 }
 
 /**
@@ -310,7 +310,7 @@ char *get_desc(cJSON *json, char *version, char *lang) {
       }
     }
   }
-  return strdup(NOT_FOUND);
+  return NOT_FOUND;
 }
 
 /**
@@ -340,14 +340,13 @@ char *get_genus(cJSON *json, char *lang) {
         // Check if the language and the version is the one we ask for
         if (cJSON_IsString(lang_name)) {
           if (strcmp(lang_name->valuestring, lang) == 0) {
-            return strdup(
-                cJSON_GetObjectItem(genus_json, "genus")->valuestring);
+            return strdup(cJSON_GetObjectItem(genus_json, "genus")->valuestring);
           }
         }
       }
     }
   }
-  return strdup(NOT_FOUND);
+  return NOT_FOUND;
 }
 
 /**
@@ -411,11 +410,18 @@ int parse_pokemon_json(struct Pokemon *pokemon, const char *json_str,
 }
 
 void free_pokemon(struct Pokemon *pokemon) {
-  free(pokemon->name);
-  free(pokemon->desc);
-  free(pokemon->genus);
+  if (strcmp(pokemon->name, NOT_FOUND) != 0)
+    free(pokemon->name);
+  if (strcmp(pokemon->alias, NOT_FOUND) != 0)
+    free(pokemon->alias);
+  if (strcmp(pokemon->desc, NOT_FOUND) != 0)
+    free(pokemon->desc);
+  if (strcmp(pokemon->genus, NOT_FOUND) != 0)
+    free(pokemon->genus);
   if (pokemon->types[0])
-    free(pokemon->types[0]);
+    if (strcmp(pokemon->types[0], NOT_FOUND) != 0)
+      free(pokemon->types[0]);
   if (pokemon->types[1])
-    free(pokemon->types[1]);
+    if (strcmp(pokemon->types[1], NOT_FOUND) != 0)
+      free(pokemon->types[1]);
 }

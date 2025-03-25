@@ -4,7 +4,7 @@
 #include <stddef.h>
 
 #define POKEAPI "https://pokeapi.co/api/v2"
-#define POKEMON_IMG "https://gitlab.com/phoneybadger/pokemon-colorscripts/-/raw/main/colorscripts/small"
+#define POKEMON_IMG "assets/icons/"
 #define NOT_FOUND "Not Found"
 
 // Colors

@@ -60,15 +60,19 @@ int main(int argc, char **argv) {
 
   printf("ID: %d\n", id);
 
-  const char *json_str = fetch_pokemon(POKEAPI, "pokemon", id);
-  const char *json_spe_str = fetch_pokemon(POKEAPI, "pokemon-species", id);
-  struct Pokemon pokemon = {strdup(NOT_FOUND), strdup(NOT_FOUND), 0, {strdup(NOT_FOUND), strdup(NOT_FOUND)}, 
-    0, 0, strdup(NOT_FOUND), strdup(NOT_FOUND)};
+  char *json_str = fetch_pokemon(POKEAPI, "pokemon", id);
+  char *json_spe_str = fetch_pokemon(POKEAPI, "pokemon-species", id);
+  struct Pokemon pokemon = {NOT_FOUND, NOT_FOUND, 0, {NOT_FOUND, NOT_FOUND}, 
+    0, 0, NOT_FOUND, NOT_FOUND};
 
   if (parse_pokemon_json(&pokemon, json_str, json_spe_str, version, lang)) {
     fprintf(stderr, "parse_pokemon_json() failed.\n");
+    free(json_str);
+    free(json_spe_str);
     return EXIT_FAILURE;
   }
+  free(json_str);
+  free(json_spe_str);
 
   char *shiny;
   if (is_shiny(shiny_rate)) {
