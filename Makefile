@@ -24,16 +24,16 @@ build/%.o: src/%.c | build
 # Ensure the build directory exists
 build:
 	mkdir -p build
-	mkdir -p icons
-	mkdir -p icons/regular
-	mkdir -p icons/shiny
-	python3 get_icons.py
+	mkdir -p assets/icons
+	mkdir -p assets/icons/regular
+	mkdir -p assets/icons/shiny
+	# python3 get_icons.py
 
 # Clean target (removes object files and executable)
 clean:
 	rm -f $(OBJS) $(TARGET)
 	rm -rf build
-	rm -rf assets/icons
+	# rm -rf assets/icons
 
 # Phony targets (always run, even if a file with the same name exists)
 .PHONY: all clean build

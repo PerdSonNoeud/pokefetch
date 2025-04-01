@@ -12,19 +12,23 @@ def getImage(url):
 
 
 def get_colors(img):
+    size = img.getbbox()
     colors = []
-    for y in range(img.size[1]):
+    for y in range(size[1], size[3] + 1):
         colors.append([])
-        for x in range(img.size[0]):
-            pixel = img.getpixel((x, y))
-            r = pixel[0]
-            g = pixel[1]
-            b = pixel[2]
-            a = pixel[3]
-            if a == 0:
-                colors[y].append("\x1b[0m")
+        for x in range(size[0], size[2] + 6):
+            if x < img.size[0] and y < img.size[1]:
+                pixel = img.getpixel((x, y))
+                r = pixel[0]
+                g = pixel[1]
+                b = pixel[2]
+                a = pixel[3]
+                if a == 0:
+                    colors[y - size[1]].append("\x1b[0m")
+                else:
+                    colors[y - size[1]].append(f"2;{r};{g};{b}m")
             else:
-                colors[y].append(f"2;{r};{g};{b}m")
+                colors[y - size[1]].append("\x1b[0m")
     return colors
 
 

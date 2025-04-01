@@ -4,32 +4,33 @@
 
 #include "../include/pokemon.h"
 #include "../include/display.h"
-#include "../include/parser.h"
 
 char *format_title(int id, char *name, char *genus, char *shiny) {
-  char *result = strdup(NOT_FOUND);
+  char *result = NOT_FOUND;
 
   char *bg;
   char *color;
-  char p_id[5];
+  char p_id[7];
   char *text;
 
   int size;
    
   // Background color for ID
-  size = strlen(BG) + strlen(WHITE) + 1;
+  size = strlen(BG) + strlen(WHITE) + strlen(FG) + strlen(BLACK) + 1;
   bg = malloc(sizeof(char) * size);
-  snprintf(bg, size, "%s%s", BG, WHITE);
+  snprintf(bg, size, "%s%s%s%s", BG, WHITE, FG, BLACK);
 
   // Color for shiny
   if (strcmp(shiny, "shiny") == 0) {
     size = strlen(FG) + strlen(ELECTRIC) + 1;
     color = malloc(sizeof(char) * size);
     snprintf(color, size, "%s%s", FG, ELECTRIC);
+  } else {
+    color = "\0";
   }
 
   // Create text for ID
-  snprintf(p_id, sizeof(p_id), "%04d", id);
+  snprintf(p_id, sizeof(p_id), " %04d ", id);
 
   // Create text for name and genus
   size = 1 + strlen(name) + 3 + strlen(genus) + 1;  // +5 for the spaces and the '\0'
@@ -37,13 +38,13 @@ char *format_title(int id, char *name, char *genus, char *shiny) {
   snprintf(text, size, " %s - %s", name, genus);
 
   // Store result
-  size = strlen(p_id) + strlen(text) + strlen(bg) + 2 * (strlen(DEFAULT) + strlen(color)) + 1;
+  size = strlen(bg) + strlen(p_id) + 2 * strlen(DEFAULT) + strlen(color) + strlen(text) + 1;
   result = malloc(sizeof(char) * size);
-  snprintf(result, size, "%s%s%s%s%s%s%s", bg, color, p_id, DEFAULT, color, text, DEFAULT);
+  snprintf(result, size, "%s%s%s%s%s%s", bg, p_id, DEFAULT, color, text, DEFAULT);
 
   // Free everything
   free(bg);
-  free(color);
+  if (strcmp(shiny, "shiny") == 0) { free(color); }
   free(text);
   
   return result;
@@ -63,7 +64,9 @@ int display(struct Pokemon *pokemon, char *shiny) {
   // char *image = fetch_icon(imagePath, pokemon->alias, 0);
   
   char *title = format_title(pokemon->id, pokemon->name, pokemon->genus, shiny);
-  printf("%s\n", imagePath);
+  printf("%s\n", title);
+
+  free(title);
 
   return 0;
 }
