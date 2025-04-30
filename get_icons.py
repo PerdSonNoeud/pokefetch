@@ -1,7 +1,19 @@
+import sys
 from io import BytesIO
 
 import requests
 from PIL import Image
+
+
+def loading_bar(iteration, total, length=30):
+    """
+    function that create loading bar in the console.
+    Might need it later
+    """
+    percent = iteration / total
+    bar = "━" * int(length * percent) + "-" * (length - int(length * percent))
+    sys.stdout.write(f"\r[{bar}] {percent * 100:.1f}%")
+    sys.stdout.flush()
 
 
 def getImage(url):
@@ -59,7 +71,10 @@ if __name__ == "__main__":
     json_data = requests.get(
         "https://raw.githubusercontent.com/msikma/pokesprite/master/data/pokemon.json"
     ).json()
+    loading_bar(0, json_data.__len__())
+    n = 0
     for v in list(json_data.values())[:]:
+        n += 1
         name = (
             v["name"]["eng"]
             .lower()
@@ -71,7 +86,6 @@ if __name__ == "__main__":
             .replace("♂", "-m")
             .replace("é", "e")
         )
-        print("Getting data:", name)
         shiny = False
         for i in range(2):
             img = getImage(
@@ -81,3 +95,5 @@ if __name__ == "__main__":
             text = convert_to_text(colors)
             savefile(name, text, shiny)
             shiny = True
+
+        loading_bar(n, json_data.__len__())
