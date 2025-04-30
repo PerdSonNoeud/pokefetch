@@ -42,7 +42,7 @@
  */
 struct Pokemon {
   char *name;     /**< Name of the pokémon */
-  char *alias;  /**< Name of the pokémon in english, needed for the image URL */
+  char *alias;    /**< Name of the pokémon in english, needed for the image URL */
   int id;         /**< ID of the pokémon in the pokedex */
   char *types[2]; /**< Types of the pokémon */
   int height;     /**< Height of the pokémon */
