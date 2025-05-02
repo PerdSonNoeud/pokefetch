@@ -1,3 +1,6 @@
 .venv/
 .idea/
 
+assets/icons/
+build/
+pokefetch
