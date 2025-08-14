@@ -1,7 +1,6 @@
 #ifndef DISPLAY
 #define DISPLAY
 
-
 /**
  * @brief Function that display information about a pokémon.
  *
