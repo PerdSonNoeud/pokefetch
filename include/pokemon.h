@@ -49,6 +49,7 @@ struct Pokemon {
   int weight;     /**< Weight of the pokémon */
   char *desc;     /**< Description of the pokémon from the pokedex */
   char *genus;    /**< Genus/Category of the pokémon */
+  char *icon;     /**< Icon of the pokémon */
 };
 
 #endif // !POKEMON_H

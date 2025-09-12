@@ -63,16 +63,7 @@ int main(int argc, char **argv) {
   char *json_str = fetch_pokemon(POKEAPI, "pokemon", id);
   char *json_spe_str = fetch_pokemon(POKEAPI, "pokemon-species", id);
   struct Pokemon pokemon = {NOT_FOUND, NOT_FOUND, 0, {NOT_FOUND, NOT_FOUND}, 
-    0, 0, NOT_FOUND, NOT_FOUND};
-
-  if (parse_pokemon_json(&pokemon, json_str, json_spe_str, version, lang)) {
-    fprintf(stderr, "parse_pokemon_json() failed.\n");
-    free(json_str);
-    free(json_spe_str);
-    return EXIT_FAILURE;
-  }
-  free(json_str);
-  free(json_spe_str);
+    0, 0, NOT_FOUND, NOT_FOUND, NOT_FOUND};
 
   char *shiny;
   if (is_shiny(shiny_rate)) {
@@ -80,6 +71,15 @@ int main(int argc, char **argv) {
   } else {
     shiny = "regular";
   }
+
+  if (parse_pokemon_json(&pokemon, shiny, json_str, json_spe_str, version, lang)) {
+    fprintf(stderr, "parse_pokemon_json() failed.\n");
+    free(json_str);
+    free(json_spe_str);
+    return EXIT_FAILURE;
+  }
+  free(json_str);
+  free(json_spe_str);
 
   if (display(&pokemon, shiny) != 0) {
     fprintf(stderr, "Error displaying pokemon.\n");
