@@ -446,7 +446,13 @@ int parse_pokemon_json(struct Pokemon *pokemon, const char *shiny, const char *j
   // Extract "name" field
   pokemon->name = get_str(json_spe, "names", lang);
   // Extract "desc" field
-  pokemon->desc = get_desc(json_spe, version, lang);
+  char *tmp = get_desc(json_spe, version, lang);
+  int i = 0;
+  while (tmp[i] != '\0') {
+    if (tmp[i] == '\n') tmp[i] = ' ';
+    i++;
+  }
+  pokemon->desc = tmp;
   // Extract "genus" field
   pokemon->genus = get_genus(json_spe, lang);
   // Extract "icon" field
@@ -465,7 +471,6 @@ int parse_pokemon_json(struct Pokemon *pokemon, const char *shiny, const char *j
       fprintf(stderr, "Error in parser.c: Failed to fetch pokemon icon.\n");
       return 1;
     }
-    printf("test : %s\n%s", imagePath, image);
     pokemon->icon = image;
   }
   cJSON_Delete(json_spe);

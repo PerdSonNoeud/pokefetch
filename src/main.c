@@ -58,8 +58,6 @@ int main(int argc, char **argv) {
     }
   }
 
-  printf("ID: %d\n", id);
-
   char *json_str = fetch_pokemon(POKEAPI, "pokemon", id);
   char *json_spe_str = fetch_pokemon(POKEAPI, "pokemon-species", id);
   struct Pokemon pokemon = {NOT_FOUND, NOT_FOUND, 0, {NOT_FOUND, NOT_FOUND}, 
